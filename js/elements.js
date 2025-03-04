@@ -214,6 +214,10 @@ export function createCard(datum) {
                             ? "<span class='text-danger'><i class='bi bi-alarm'></i> Deadline Not Available</span>" 
                             : `<span id="${countdownId}"></span>`}
                         <br>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" title="Notes: ${datum.notes}">
+                            <i class="bi bi-stickies me-1"></i>${datum.notes.substring(0, 15)}...
+                        </span>
+                        <br>
                     </p>
                     <div class="d-flex flex-wrap gap-2">
                         ${datum.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
@@ -293,6 +297,10 @@ export function createModal(datum) {
                                 <i class="bi bi-calendar me-1"></i><strong>Dates</strong><br>
                                 Submission Deadline: ${deadlineFormatted}<br>
                                 Conference Dates: ${datum.event_dates}
+                            </p>
+                            <p>
+                                <i class="bi bi-stickies me-1"></i><strong>Notes</strong><br>
+                                ${datum.notes}
                             </p>
                             <p>
                                 <i class="bi bi-alarm me-1"></i><strong>Time remaining</strong><br>
