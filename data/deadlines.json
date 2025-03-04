@@ -10,7 +10,13 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://dl.acm.org/pb-assets/static_journal_pages/tist/pdf/TIST-CfP-Risks-Unintended-Harms-Generative-AI-Systems-1737060964027.pdf",
-        "topics": ["generative ai", "misinformation risks", "cybersecurity threats", "human ai interaction", "ethical implications"],
+        "topics": [
+            "generative ai",
+            "misinformation",
+            "cybersecurity",
+            "human-ai interaction",
+            "ethics"
+        ],
         "notes": "Special issue on generative AI risks in ACM TIST. Rolling review process with final publication in early 2026."
     },
     {
@@ -24,7 +30,13 @@
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
-        "topics": ["computational social science", "data analysis", "machine learning", "social networks", "big data"],
+        "topics": [
+            "computational social science",
+            "data analysis",
+            "machine learning",
+            "social networks",
+            "big data"
+        ],
         "notes": "Accepted tutorials will be held during the conference."
     },
     {
@@ -38,7 +50,13 @@
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
-        "topics": ["computational social science", "data analysis", "machine learning", "social networks", "big data"],
+        "topics": [
+            "computational social science",
+            "data analysis",
+            "machine learning",
+            "social networks",
+            "big data"
+        ],
         "notes": "Accepted abstracts will be presented at the conference."
     },
     {
@@ -52,7 +70,13 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": ["agent-based modeling", "social network analysis", "economic modeling", "policy analysis", "big data analytics"],
+        "topics": [
+            "agent-based modeling",
+            "social network analysis",
+            "economic modeling",
+            "policy analysis",
+            "big data"
+        ],
         "notes": "Papers should be 3,000-5,000 words including all content. ODD documentation can be attached without word count penalty."
     },
     {
@@ -66,7 +90,13 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": ["computational methods", "social systems", "css frameworks", "ethics in css", "real-world applications"],
+        "topics": [
+            "computational methods",
+            "social systems",
+            "css frameworks",
+            "ethics",
+            "real-world applications"
+        ],
         "notes": "Extended abstracts are 1,000-2,000 words excluding figures and tables. Not included in proceedings."
     },
     {
@@ -80,7 +110,13 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": ["social dynamics", "policy applications", "geospatial analysis", "cultural change", "simulation"],
+        "topics": [
+            "social dynamics",
+            "policy",
+            "geospatial analysis",
+            "cultural change",
+            "simulation"
+        ],
         "notes": "Poster submissions require an 800-word abstract. Accepted posters must include a one-slide summary for a two-minute presentation."
     },
     {
@@ -94,7 +130,12 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": ["workshops", "hackathons", "group discussions", "policy debates", "css frameworks"],
+        "topics": [
+            "social network analysis",
+            "agent-based modeling",
+            "economic modeling",
+            "big data"
+        ],
         "notes": "SIGs can include workshops, tutorials, or discussions. Proposals must describe event format and duration."
     },
     {
@@ -108,7 +149,13 @@
         "country": "United Kingdom",
         "archival": "Non-archival",
         "link": "https://edri.org/take-action/events/call-for-papers-cambridge-disinformation-summit-2025/",
-        "topics": ["disinformation", "policy", "fact-checking", "algorithmic", "human rights"],
+        "topics": [
+            "disinformation",
+            "policy",
+            "fact-checking",
+            "algorithmic accountability",
+            "human rights"
+        ],
         "notes": "10-12 papers will be selected. Priority for newer working papers. Interdisciplinary research encouraged."
     },
     {
@@ -122,7 +169,13 @@
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://unicri.org/Training/School-Hate-Speech-2025",
-        "topics": ["disinformation", "hate speech", "misinformation", "media literacy", "ai in disinfo"],
+        "topics": [
+            "disinformation",
+            "hate speech",
+            "misinformation",
+            "media literacy",
+            "ai in disinformation"
+        ],
         "notes": "Hybrid format. Rolling admissions. Certificate upon completion."
     },
     {
@@ -136,8 +189,13 @@
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/stanford/",
-        "topics": ["computational social science", "collaborative research", "open science", "data science", "social networks"],
+        "topics": [
+            "computational social science",
+            "collaborative research",
+            "open science",
+            "data science",
+            "social networks"
+        ],
         "notes": "Focus on computational social science. Requires CV and research statement. Collaborative projects included."
     }
-  ]
-
+]
