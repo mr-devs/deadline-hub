@@ -533,5 +533,47 @@
         "link": "https://sicss.io/2025/lake-como/",
         "topics": ["computational social science", "causal inference", "text analysis", "network analysis", "machine learning"],
         "notes": "Hosted by the Lake Como School of Advanced Studies. Open to advanced Ph.D. students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
+    },
+    {
+        "name_display": "CSCW 2026",
+        "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2026",
+        "venue_type": "Conference",
+        "submission_type": "New Paper Submissions",
+        "event_dates": "N/A",
+        "deadline": "2025-05-13T23:59:00Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://cscw.acm.org/",
+        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "notes": "CSCW 2026 will be the last cycle with a single deadline. Starting in 2026, the conference will transition to rolling deadlines for submissions."
+    },
+    {
+        "name_display": "CSCW 2025 (Round 1)",
+        "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2025",
+        "venue_type": "Conference",
+        "submission_type": "New Paper Submissions",
+        "event_dates": "October 18–22, 2025",
+        "deadline": "2024-07-02T23:59:00Z",
+        "city": "Bergen",
+        "country": "Norway",
+        "archival": "Archival",
+        "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
+        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "notes": "First submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
+    },
+    {
+        "name_display": "CSCW 2025 (Round 2)",
+        "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2025",
+        "venue_type": "Conference",
+        "submission_type": "New Paper Submissions",
+        "event_dates": "October 18–22, 2025",
+        "deadline": "2024-10-29T23:59:00Z",
+        "city": "Bergen",
+        "country": "Norway",
+        "archival": "Archival",
+        "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
+        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "notes": "Second and final submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
     }
 ]
