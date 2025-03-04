@@ -27,6 +27,21 @@ function renderTopicButtons() {
     try {
         const topicsContainer = document.getElementById('topicsContainer');
         topicsContainer.innerHTML = generateTopicButtons(deadlines);
+        // Toggle hidden topics when clicking the "Show More" link
+        const toggleLink = document.getElementById('toggleTopics');
+        if (toggleLink) {
+            toggleLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                const hiddenDiv = document.getElementById('topicsHidden');
+                if (hiddenDiv.style.display === "none") {
+                    hiddenDiv.style.display = "block";
+                    toggleLink.textContent = "Show Less";
+                } else {
+                    hiddenDiv.style.display = "none";
+                    toggleLink.textContent = "Show More";
+                }
+            });
+        }
         // Attach click listeners to topic buttons after rendering
         const topicButtons = topicsContainer.querySelectorAll('button');
         topicButtons.forEach(button => {

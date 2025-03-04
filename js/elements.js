@@ -324,18 +324,26 @@ export function createModal(datum) {
  */
 export function generateTopicButtons(datums) {
     const topicCounts = {};
-
     datums.forEach(datum => {
-        datum.topics.forEach(topic => {
-            if (topicCounts[topic]) {
-                topicCounts[topic]++;
-            } else {
-                topicCounts[topic] = 1;
-            }
-        });
+        datum.topics.forEach(topic => topicCounts[topic] = (topicCounts[topic] || 0) + 1);
     });
-
     const sortedTopics = Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]);
-
-    return `${sortedTopics.map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`).join('')}`;
+    const visibleTopics = sortedTopics.slice(0, 10)
+        .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
+        .join('');
+    const hiddenTopics = sortedTopics.slice(10)
+        .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
+        .join('');
+    if (hiddenTopics) {
+        return `
+            <div id="topicsVisible">
+                ${visibleTopics}
+            </div>
+            <div id="topicsHidden" style="display:none;">
+                ${hiddenTopics}
+            </div>
+            <a href="#" id="toggleTopics" class="btn btn-link btn-sm">Show More</a>
+        `;
+    }
+    return visibleTopics;
 }
