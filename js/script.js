@@ -10,7 +10,7 @@ let deadlines = [];
 let selectedTopics = []; // New global variable to store selected topics
 
 // Fetch deadlines data from JSON file
-fetchData('../data/deadlines.json')
+fetchData('https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json')
     .then(data => {
         deadlines = data;
         renderTopicButtons();
