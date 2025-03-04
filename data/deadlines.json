@@ -207,10 +207,10 @@
         "deadline": "2025-03-31T23:59:59Z",
         "city": "Copenhagen",
         "country": "Denmark",
-        "archival": "N/A",
-        "link": "N/A",
+        "archival": "Archival",
+        "link": "https://cy-soc.github.io/2025/",
         "topics": ["cyber threats", "misinformation", "social media analysis", "online harms", "generative AI"],
-        "notes": "Co-located with AAAI ICWSM 2025. Accepts research, position, short, and demo papers. Double-blind review. Page limits vary by submission type. Full papers are recommended to be 8 pages long and must be at most 11 pages long."
+        "notes": "Co-located with AAAI ICWSM 2025. Accepts research, position, short, and demo papers. Double-blind review. Page limits vary by submission type. Full papers are recommended to be 8 pages long and must be less than 11 pages."
     },
     {
         "name_display": "ICWSM 2025",
