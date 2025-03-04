@@ -23,7 +23,7 @@ function updateCountdownSecond(deadlineDate, elementId) {
         if (typeof deadlineDate === 'string' && 
             (deadlineDate.toLowerCase() === "rolling" || deadlineDate.toLowerCase() === "n/a")) {
             document.getElementById(elementId).innerHTML =
-                "<span class='text-info'><i class='bi bi-info-circle'></i> Deadline Not Available</span>";
+                "<span class='text-info'><i class='bi bi-alarm'></i> Deadline Not Available</span>";
             return;
         }
         const now = new Date();
@@ -78,7 +78,7 @@ function updateCountdownSecond(deadlineDate, elementId) {
         
         const output = `<span class='${colorClass}'><i class="bi bi-alarm"></i> in ${parts.join(' ')}</span>`;
         document.getElementById(elementId).innerHTML = output;
-        
+
         // Always update every second.
         setTimeout(update, 1000);
     }
@@ -104,7 +104,9 @@ function updateCountdown(deadlineDate, elementId) {
         if (typeof deadlineDate === 'string' && 
             (deadlineDate.toLowerCase() === "rolling" || deadlineDate.toLowerCase() === "n/a")) {
             document.getElementById(elementId).innerHTML =
-                "<span class='text-info'><i class='bi bi-alarm'></i> Deadline Not Available</span>";
+                "<span class='text-info'><i class='bi bi-alarm' data-bs-toggle='tooltip' data-bs-placement='left' title='Deadline Not Available'></i> Deadline Not Available</span>";
+            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            if (icon) new bootstrap.Tooltip(icon);
             return;
         }
         const now = new Date();
@@ -112,7 +114,9 @@ function updateCountdown(deadlineDate, elementId) {
 
         if (timeDiff <= 0) {
             document.getElementById(elementId).innerHTML =
-                `<span class='text-danger'><i class="bi bi-alarm"></i> Deadline Passed</span>`;
+                `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Deadline Passed"></i> Deadline Passed</span>`;
+            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            if (icon) new bootstrap.Tooltip(icon);
             return; // Stop further execution
         }
 
@@ -121,7 +125,9 @@ function updateCountdown(deadlineDate, elementId) {
             const months = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30));
             const monthLabel = months === 1 ? 'month' : 'months';
             document.getElementById(elementId).innerHTML =
-                `<span class='text-success'><i class="bi bi-alarm"></i> in ${months} ${monthLabel}</span>`;
+                `<span class='text-success'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${months} ${monthLabel}</span>`;
+            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60 * 60 * 24); // Update once per day
             return;
         }
@@ -131,7 +137,9 @@ function updateCountdown(deadlineDate, elementId) {
             const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
             const dayLabel = days === 1 ? 'day' : 'days';
             document.getElementById(elementId).innerHTML =
-                `<span class='text-warning'><i class="bi bi-alarm"></i> in ${days} ${dayLabel}</span>`;
+                `<span class='text-warning'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${days} ${dayLabel}</span>`;
+            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60 * 60); // Update once per hour
             return;
         }
@@ -141,7 +149,9 @@ function updateCountdown(deadlineDate, elementId) {
             const hours = Math.floor(timeDiff / (1000 * 60 * 60));
             const hourLabel = hours === 1 ? 'hour' : 'hours';
             document.getElementById(elementId).innerHTML =
-                `<span class='text-danger'><i class="bi bi-alarm"></i> in ${hours} ${hourLabel}</span>`;
+                `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${hours} ${hourLabel}</span>`;
+            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60); // Update once per minute
             return;
         }
@@ -152,7 +162,9 @@ function updateCountdown(deadlineDate, elementId) {
         const minuteLabel = minutes === 1 ? 'minute' : 'minutes';
         const secondLabel = seconds === 1 ? 'second' : 'seconds';
         document.getElementById(elementId).innerHTML =
-            `<span class='text-danger'><i class="bi bi-alarm"></i> in ${minutes} ${minuteLabel} ${seconds} ${secondLabel}</span>`;
+            `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${minutes} ${minuteLabel} ${seconds} ${secondLabel}</span>`;
+        const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+        if (icon) new bootstrap.Tooltip(icon);
         setTimeout(update, 1000); // Update every second
     }
 
@@ -211,11 +223,11 @@ export function createCard(datum) {
                         <i class="bi bi-calendar-x" data-bs-toggle="tooltip" data-bs-placement="left" title="Deadline"></i> ${deadlineFormatted}
                         <br>
                         ${typeof deadlineDate === 'string' 
-                            ? "<span class='text-danger'><i class='bi bi-alarm'></i> Deadline Not Available</span>" 
+                            ? "<span class='text-danger'><i class='bi bi-alarm' data-bs-toggle='tooltip' data-bs-placement='left' title='Time Remaining'></i> Deadline Not Available</span>" 
                             : `<span id="${countdownId}"></span>`}
                         <br>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" title="Notes: ${datum.notes}">
-                            <i class="bi bi-stickies me-1"></i>${datum.notes.substring(0, 15)}...
+                        <span data-bs-toggle="tooltip" data-bs-placement="left" title="${datum.notes}">
+                            <i class="bi bi-stickies me-1"></i>${datum.notes.substring(0, 60)}...
                         </span>
                         <br>
                     </p>
