@@ -195,7 +195,7 @@ export function createCard(datum) {
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
     
     // Create a unique identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,]+/g, '-')}-${datum.submission_type.replace(/[\s,]+/g, '-')}`;
+    const uniqueId = `${datum.name_display.replace(/[\s,&]+/g, '-')}-${datum.submission_type.replace(/[\s,&]+/g, '-')}`;
     const countdownId = `card-countdown-${uniqueId}`;
 
     setTimeout(() => {
@@ -267,7 +267,7 @@ export function createModal(datum) {
         ? deadlineDate
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
     // Create a unit identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,]+/g, '-')}-${datum.submission_type.replace(/[\s,]+/g, '-')}`;
+    const uniqueId = `${datum.name_display.replace(/[\s,&]+/g, '-')}-${datum.submission_type.replace(/[\s,&]+/g, '-')}`;
     const countdownId = `modal-countdown-${uniqueId}`;
     const modalId = `modal-${uniqueId}`;
 
