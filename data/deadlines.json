@@ -582,12 +582,12 @@
         "venue_type": "Conference",
         "submission_type": "Paper & Poster Proposals",
         "event_dates": "August 11-14, 2025",
-        "deadline": "2025-03-28T23:59:00Z",
+        "deadline": "2025-03-28T23:59:59Z",
         "city": "Boston",
         "country": "United States",
-        "archival": "N/A",
-        "link": "https://docs.google.com/forms/d/e/1FAIpQLSeaQI6tJV9KsKpL7zzQY4ZdIC5tPlP7PP33Trj4EzSfEZmaKg/viewform",
+        "archival": "Non-archival",
+        "link": "https://sites.google.com/view/confpolinetworks/",
         "topics": ["political networks", "computational social science", "social systems", "network analysis", "methodological approaches"],
-        "notes": "Joint conference hosted by Harvard and Northeastern. Accepting theoretical and empirical research proposals. Abstracts should not exceed 300 words. Workshops on Aug 11–12."
+        "notes": "Joint conference hosted by Harvard University and Northeastern University. Accepting theoretical and empirical research proposals. Abstracts should not exceed 300 words."
     }
 ]
