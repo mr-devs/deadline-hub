@@ -575,5 +575,19 @@
         "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
         "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
         "notes": "Second and final submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
+    },
+    {
+        "name_display": "PolNet-PaCSS 2025",
+        "name_full": "Political Networks and Computational Social Science Conference 2025",
+        "venue_type": "Conference",
+        "submission_type": "Paper & Poster Proposals",
+        "event_dates": "August 11-14, 2025",
+        "deadline": "2025-03-28T23:59:00Z",
+        "city": "Cambridge & Boston",
+        "country": "United States",
+        "archival": "Non-archival",
+        "link": "N/A",
+        "topics": ["political networks", "computational social science", "social systems", "network analysis", "methodological approaches"],
+        "notes": "Joint conference hosted by Harvard and Northeastern. Accepting theoretical and empirical research proposals. Abstracts should not exceed 300 words."
     }
 ]
