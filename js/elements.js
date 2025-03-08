@@ -7,6 +7,7 @@
  * - updateCountdown(deadlineDate, elementId): Updates the countdown timer with different formats based on the remaining time for a given deadline date and element ID.
  * - createCard(datum): Creates a card element with the provided data, including a countdown timer.
  * - createModal(datum): Creates a modal element with the provided data, including a countdown timer.
+ * - generateTopicButtons(datums): Generates HTML buttons for the unique set of topics across all deadline data.
  */
 
 import { downloadICS } from './calendar.js';
@@ -242,15 +243,19 @@ export function createCard(datum) {
                     <div class="d-flex flex-wrap gap-2">
                         ${datum.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
                     </div>
-                    <!-- Updated modal trigger to use dynamic modal ID -->
-                    <button type="button" class="btn btn-outline-dark btn-sm flex mt-3" data-bs-toggle="modal" data-bs-target="#modal-${uniqueId}">
-                        More Info
-                    </button>
+                    <!-- Button container -->
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#modal-${uniqueId}">
+                            More Info
+                        </button>
+                        <button type="button" class="btn btn-outline-dark btn-sm" onclick='downloadICS(${JSON.stringify(datum)})'>
+                            Add to iCal
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>`;
 }
-
 
 /**
  * Creates a modal HTML string for a given datum.
