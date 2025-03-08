@@ -9,6 +9,8 @@
  * - createModal(datum): Creates a modal element with the provided data, including a countdown timer.
  */
 
+import { downloadICS } from './calendar.js';
+
 /**
  * Updates the countdown timer every second and displays the full breakdown
  * of months, days, hours, minutes, and seconds—omitting any unit that is zero,
@@ -272,7 +274,7 @@ export function createModal(datum) {
     const deadlineFormatted = (typeof deadlineDate === 'string')
         ? deadlineDate
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
-    // Create a unit identifier for the countdown timer and modal
+    // Create a unique identifier for the countdown timer and modal
     const uniqueId = `${datum.name_display.replace(/[\s,&/]+/g, '-')}-${datum.submission_type.replace(/[\s,&/]+/g, '-')}`;
     const countdownId = `modal-countdown-${uniqueId}`;
     const modalId = `modal-${uniqueId}`;
@@ -333,6 +335,7 @@ export function createModal(datum) {
                     </div>
                     <div class="modal-footer">
                         <a href="${datum.link}" target="_blank" class="btn btn-secondary btn-sm">Visit Website</a>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick='downloadICS(${JSON.stringify(datum)})'>Add to iCal</button>
                         <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
