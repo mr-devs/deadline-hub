@@ -19,17 +19,20 @@
  */
 function updateCountdownSecond(deadlineDate, elementId) {
     function update() {
+        const el = document.getElementById(elementId);
+        if (!el) return; // Exit if element is not in the DOM
+        
         // Added check for "rolling" or "n/a" values (case-insensitive)
         if (typeof deadlineDate === 'string' && 
             (deadlineDate.toLowerCase() === "rolling" || deadlineDate.toLowerCase() === "n/a")) {
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 "<span class='text-info'><i class='bi bi-alarm'></i> Deadline Not Available</span>";
             return;
         }
         const now = new Date();
         const timeDiff = deadlineDate - now;
         if (timeDiff <= 0) {
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 "<span class='text-danger'><i class='bi bi-alarm'></i> Deadline Passed</span>";
             return;
         }
@@ -77,7 +80,7 @@ function updateCountdownSecond(deadlineDate, elementId) {
         parts.push(`${seconds} ${secondLabel}`);
         
         const output = `<span class='${colorClass}'><i class="bi bi-alarm"></i> in ${parts.join(' ')}</span>`;
-        document.getElementById(elementId).innerHTML = output;
+        el.innerHTML = output;
 
         // Always update every second.
         setTimeout(update, 1000);
@@ -100,12 +103,15 @@ function updateCountdownSecond(deadlineDate, elementId) {
  */
 function updateCountdown(deadlineDate, elementId) {
     function update() {
+        const el = document.getElementById(elementId);
+        if (!el) return; // Exit if element not found
+        
         // Added check for "rolling" or "n/a" values (case-insensitive)
         if (typeof deadlineDate === 'string' && 
             (deadlineDate.toLowerCase() === "rolling" || deadlineDate.toLowerCase() === "n/a")) {
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 "<span class='text-info'><i class='bi bi-alarm' data-bs-toggle='tooltip' data-bs-placement='left' title='Deadline Not Available'></i> Deadline Not Available</span>";
-            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            const icon = el.querySelector('[data-bs-toggle="tooltip"]');
             if (icon) new bootstrap.Tooltip(icon);
             return;
         }
@@ -113,9 +119,9 @@ function updateCountdown(deadlineDate, elementId) {
         const timeDiff = deadlineDate - now;
 
         if (timeDiff <= 0) {
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Deadline Passed"></i> Deadline Passed</span>`;
-            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            const icon = el.querySelector('[data-bs-toggle="tooltip"]');
             if (icon) new bootstrap.Tooltip(icon);
             return; // Stop further execution
         }
@@ -124,9 +130,9 @@ function updateCountdown(deadlineDate, elementId) {
             // More than 1 month → Show months
             const months = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30));
             const monthLabel = months === 1 ? 'month' : 'months';
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 `<span class='text-success'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${months} ${monthLabel}</span>`;
-            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            const icon = el.querySelector('[data-bs-toggle="tooltip"]');
             if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60 * 60 * 24); // Update once per day
             return;
@@ -136,9 +142,9 @@ function updateCountdown(deadlineDate, elementId) {
             // More than 1 day → Show days
             const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
             const dayLabel = days === 1 ? 'day' : 'days';
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 `<span class='text-warning'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${days} ${dayLabel}</span>`;
-            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            const icon = el.querySelector('[data-bs-toggle="tooltip"]');
             if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60 * 60); // Update once per hour
             return;
@@ -148,9 +154,9 @@ function updateCountdown(deadlineDate, elementId) {
             // More than 1 hour → Show hours
             const hours = Math.floor(timeDiff / (1000 * 60 * 60));
             const hourLabel = hours === 1 ? 'hour' : 'hours';
-            document.getElementById(elementId).innerHTML =
+            el.innerHTML =
                 `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${hours} ${hourLabel}</span>`;
-            const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+            const icon = el.querySelector('[data-bs-toggle="tooltip"]');
             if (icon) new bootstrap.Tooltip(icon);
             setTimeout(update, 1000 * 60); // Update once per minute
             return;
@@ -161,9 +167,9 @@ function updateCountdown(deadlineDate, elementId) {
         const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
         const minuteLabel = minutes === 1 ? 'minute' : 'minutes';
         const secondLabel = seconds === 1 ? 'second' : 'seconds';
-        document.getElementById(elementId).innerHTML =
+        el.innerHTML =
             `<span class='text-danger'><i class="bi bi-alarm" data-bs-toggle="tooltip" data-bs-placement="left" title="Time Remaining"></i> in ${minutes} ${minuteLabel} ${seconds} ${secondLabel}</span>`;
-        const icon = document.getElementById(elementId).querySelector('[data-bs-toggle="tooltip"]');
+        const icon = el.querySelector('[data-bs-toggle="tooltip"]');
         if (icon) new bootstrap.Tooltip(icon);
         setTimeout(update, 1000); // Update every second
     }
@@ -195,7 +201,7 @@ export function createCard(datum) {
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
     
     // Create a unique identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,&]+/g, '-')}-${datum.submission_type.replace(/[\s,&]+/g, '-')}`;
+    const uniqueId = `${datum.name_display.replace(/[\s,&/]+/g, '-')}-${datum.submission_type.replace(/[\s,&/]+/g, '-')}`;
     const countdownId = `card-countdown-${uniqueId}`;
 
     setTimeout(() => {
@@ -267,7 +273,7 @@ export function createModal(datum) {
         ? deadlineDate
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
     // Create a unit identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,&]+/g, '-')}-${datum.submission_type.replace(/[\s,&]+/g, '-')}`;
+    const uniqueId = `${datum.name_display.replace(/[\s,&/]+/g, '-')}-${datum.submission_type.replace(/[\s,&/]+/g, '-')}`;
     const countdownId = `modal-countdown-${uniqueId}`;
     const modalId = `modal-${uniqueId}`;
 

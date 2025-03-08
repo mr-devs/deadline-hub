@@ -589,5 +589,33 @@
         "link": "https://sites.google.com/view/confpolinetworks/",
         "topics": ["political networks", "computational social science", "social systems", "network analysis", "methodological approaches"],
         "notes": "Joint conference hosted by Harvard University and Northeastern University. Accepting theoretical and empirical research proposals. Abstracts should not exceed 300 words."
+    },
+    {
+        "name_display": "AIES 2024",
+        "name_full": "Seventh AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society",
+        "venue_type": "Conference",
+        "submission_type": "Papers",
+        "event_dates": "October 21-23, 2024",
+        "deadline": "2024-05-14T23:59:59Z",
+        "city": "San Jose",
+        "country": "USA",
+        "archival": "Optional",
+        "link": "https://www.aies-conference.com/2024/",
+        "topics": ["trustworthy AI", "AI governance", "AI ethics"],
+        "notes": "Submissions may be up to 10 pages in the AAAI-2024 2-column format, with unlimited pages for references. Authors can opt for non-archival publication to accommodate subsequent journal submissions. The conference will be held at the San Jose McEnery Convention Center."
+    },
+    {
+        "name_display": "ICA 2025",
+        "name_full": "International Communication Association Conference",
+        "venue_type": "Conference",
+        "submission_type": "Papers",
+        "event_dates": "June 12-16, 2025",
+        "deadline": "2024-11-01T16:00:00Z",
+        "city": "Denver",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://www.icahdq.org/mpage/annual-conference",
+        "topics": ["communication studies", "media research", "digital communication", "journalism", "public relations"],
+        "notes": "Major conference in communication studies. Submission system opened on September 3, 2024. Acceptance notifications were sent on January 15, 2025."
     }
 ]
