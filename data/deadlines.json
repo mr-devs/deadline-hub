@@ -617,5 +617,20 @@
         "link": "https://www.icahdq.org/mpage/annual-conference",
         "topics": ["communication studies", "media research", "digital communication", "journalism", "public relations"],
         "notes": "Major conference in communication studies. Submission system opened on September 3, 2024. Acceptance notifications were sent on January 15, 2025."
-    }
+    },
+    {
+        "name_display": "ICSSI 2025",
+        "name_full": "International Conference on the Science of Science and Innovation",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "June 16-18, 2025",
+        "deadline": "2025-03-21T23:59:59Z",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "archival": "Non-archival",
+        "link": "https://icssi.org/",
+        "topics": ["science of science", "innovation", "AI applications", "ethics", "diversity"],
+        "notes": "Submissions should be 2-page extended abstracts in PDF format, including figures, tables, and references. Accepted presentations may be assigned as lightning talks, oral presentations, or posters. At least one author must register by April 14, 2025."
+      }
+      
 ]
