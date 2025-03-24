@@ -13,8 +13,8 @@ let selectedVenueTypes = [];
 let selectedArchivalTypes = [];
 
 // Fetch deadlines data from JSON file
-fetchData('../data/deadlines.json') // for local testing!
-// fetchData('https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json')
+// fetchData('../data/deadlines.json') // for local testing!
+fetchData('https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json')
     .then(data => {
         // Add an "id" field equal to the index for each record.
         deadlines = data.map((item, index) => ({ ...item, id: index }));
