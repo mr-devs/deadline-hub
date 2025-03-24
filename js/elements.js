@@ -203,8 +203,8 @@ export function createCard(datum) {
         ? deadlineDate
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
     
-    // Create a unique identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,&/]+/g, '-')}-${datum.submission_type.replace(/[\s,&/]+/g, '-')}`;
+    // Use the new "id" field to create unique identifiers.
+    const uniqueId = `deadline-${datum.id}`;
     const countdownId = `card-countdown-${uniqueId}`;
 
     setTimeout(() => {
@@ -279,8 +279,9 @@ export function createModal(datum) {
     const deadlineFormatted = (typeof deadlineDate === 'string')
         ? deadlineDate
         : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
-    // Create a unique identifier for the countdown timer and modal
-    const uniqueId = `${datum.name_display.replace(/[\s,&/]+/g, '-')}-${datum.submission_type.replace(/[\s,&/]+/g, '-')}`;
+    
+    // Use the new "id" field to create unique identifiers.
+    const uniqueId = `deadline-${datum.id}`;
     const countdownId = `modal-countdown-${uniqueId}`;
     const modalId = `modal-${uniqueId}`;
 
@@ -365,7 +366,7 @@ export function generateTopicButtons(datums) {
     const visibleTopics = sortedTopics.slice(0, 10)
         .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
         .join(' ');
-    const hiddenTopics = sortedTopics.slice()
+    const hiddenTopics = sortedTopics.slice(10)
         .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
         .join(' ');
     if (hiddenTopics) {

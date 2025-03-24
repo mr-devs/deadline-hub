@@ -32,10 +32,9 @@
         "link": "https://ic2s2-2025.org/",
         "topics": [
             "computational social science",
-            "data analysis",
+            "data science",
             "machine learning",
-            "social networks",
-            "big data"
+            "network science"
         ],
         "notes": "Accepted tutorials will be held during the conference."
     },
@@ -52,10 +51,9 @@
         "link": "https://ic2s2-2025.org/",
         "topics": [
             "computational social science",
-            "data analysis",
+            "data science",
             "machine learning",
-            "social networks",
-            "big data"
+            "network science"
         ],
         "notes": "Accepted abstracts will be presented at the conference."
     },
@@ -63,7 +61,7 @@
         "name_display": "CSS 2025",
         "name_full": "Computational Social Science Society of the Americas Conference",
         "venue_type": "Conference",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "November 6-9, 2025",
         "deadline": "2025-06-30T23:59:59Z",
         "city": "Santa Fe",
@@ -72,10 +70,10 @@
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
         "topics": [
             "agent-based modeling",
-            "social network analysis",
+            "network science",
             "economic modeling",
             "policy analysis",
-            "big data"
+            "data science"
         ],
         "notes": "Papers should be 3,000-5,000 words including all content. ODD documentation can be attached without word count penalty."
     },
@@ -83,7 +81,7 @@
         "name_display": "CSS 2025",
         "name_full": "Computational Social Science Society of the Americas Conference",
         "venue_type": "Conference",
-        "submission_type": "Extended Abstracts",
+        "submission_type": "Extended abstracts",
         "event_dates": "November 6-9, 2025",
         "deadline": "2025-06-30T23:59:59Z",
         "city": "Santa Fe",
@@ -91,11 +89,11 @@
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
         "topics": [
-            "computational methods",
-            "social systems",
-            "css frameworks",
-            "ethics",
-            "real-world applications"
+            "agent-based modeling",
+            "network science",
+            "economic modeling",
+            "policy analysis",
+            "data science"
         ],
         "notes": "Extended abstracts are 1,000-2,000 words excluding figures and tables. Not included in proceedings."
     },
@@ -111,11 +109,11 @@
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
         "topics": [
-            "social dynamics",
-            "policy",
-            "geospatial analysis",
-            "cultural change",
-            "simulation"
+            "agent-based modeling",
+            "network science",
+            "economic modeling",
+            "policy analysis",
+            "data science"
         ],
         "notes": "Poster submissions require an 800-word abstract. Accepted posters must include a one-slide summary for a two-minute presentation."
     },
@@ -123,7 +121,7 @@
         "name_display": "CSS 2025",
         "name_full": "Computational Social Science Society of the Americas Conference",
         "venue_type": "Conference",
-        "submission_type": "Special Interest Groups",
+        "submission_type": "Miscellaneous",
         "event_dates": "November 6-9, 2025",
         "deadline": "2025-05-30T23:59:59Z",
         "city": "Santa Fe",
@@ -131,10 +129,11 @@
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
         "topics": [
-            "social network analysis",
             "agent-based modeling",
+            "network science",
             "economic modeling",
-            "big data"
+            "policy analysis",
+            "data science"
         ],
         "notes": "SIGs can include workshops, tutorials, or discussions. Proposals must describe event format and duration."
     },
@@ -142,7 +141,7 @@
         "name_display": "Cambridge Disinformation Summit 2025",
         "name_full": "Cambridge Disinformation Summit",
         "venue_type": "Conference",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "April 23-25, 2025",
         "deadline": "2024-10-25T22:59:59Z",
         "city": "Cambridge",
@@ -150,11 +149,11 @@
         "archival": "Non-archival",
         "link": "https://edri.org/take-action/events/call-for-papers-cambridge-disinformation-summit-2025/",
         "topics": [
-            "disinformation",
-            "policy",
-            "fact-checking",
-            "algorithmic accountability",
-            "human rights"
+            "misinformation",
+            "policy analysis",
+            "algorithms",
+            "computational social science",
+            "ai"
         ],
         "notes": "10-12 papers will be selected. Priority for newer working papers. Interdisciplinary research encouraged."
     },
@@ -162,7 +161,7 @@
         "name_display": "Summer School on Misinformation, Disinformation and Hate Speech 2025",
         "name_full": "Summer School on Misinformation, Disinformation and Hate Speech",
         "venue_type": "Summer School",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 30 - July 4, 2025",
         "deadline": "2025-06-16T23:59:59Z",
         "city": "Rome",
@@ -170,11 +169,10 @@
         "archival": "Non-archival",
         "link": "https://unicri.org/Training/School-Hate-Speech-2025",
         "topics": [
-            "disinformation",
-            "hate speech",
             "misinformation",
-            "media literacy",
-            "ai in disinformation"
+            "cyb social threats",
+            "ai",
+            "computational social science"
         ],
         "notes": "Hybrid format. Rolling admissions. Certificate upon completion."
     },
@@ -182,7 +180,7 @@
         "name_display": "SICSS-Stanford 2025",
         "name_full": "Summer Institute in Computational Social Science - Stanford",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "August 4-15, 2025",
         "deadline": "N/A",
         "city": "Stanford",
@@ -191,10 +189,10 @@
         "link": "https://sicss.io/2025/stanford/",
         "topics": [
             "computational social science",
-            "collaborative research",
-            "open science",
             "data science",
-            "social networks"
+            "network science",
+            "machine learning",
+            "text analysis"
         ],
         "notes": "Focus on computational social science. Requires CV and research statement. Collaborative projects included."
     },
@@ -202,434 +200,597 @@
         "name_display": "CySoc 2025",
         "name_full": "International Workshop on Cyber Social Threats",
         "venue_type": "Conference Workshop",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "June 23, 2025",
         "deadline": "2025-03-31T23:59:59Z",
         "city": "Copenhagen",
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://cy-soc.github.io/2025/",
-        "topics": ["cyber threats", "misinformation", "social media analysis", "online harms", "generative AI"],
+        "topics": [
+            "cyber social threats",
+            "misinformation",
+            "data science",
+            "social media analysis",
+            "generative AI"
+        ],
         "notes": "Co-located with AAAI ICWSM 2025. Accepts research, position, short, and demo papers. Double-blind review. Page limits vary by submission type. Full papers are recommended to be 8 pages long and must be less than 11 pages."
     },
     {
-        "name_display": "ICWSM 2025",
+        "name_display": "ICWSM 2025 (Round 1)",
         "name_full": "International AAAI Conference on Web and Social Media",
         "venue_type": "Conference",
-        "submission_type": "Full Papers (Round 1)",
+        "submission_type": "Research Papers",
         "event_dates": "June 23-26, 2025",
         "deadline": "2024-05-15T23:59:59Z",
         "city": "Copenhagen",
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": ["social media analysis", "misinformation", "online behavior", "machine learning", "computational social science"],
+        "topics": [
+            "social media analysis", 
+            "misinformation", 
+            "online behavior", 
+            "machine learning", 
+            "computational social science"
+        ],
         "notes": "First full-paper submission deadline. New submissions and revise-and-resubmit papers from Jan 2024 round."
     },
     {
-        "name_display": "ICWSM 2025",
+        "name_display": "ICWSM 2025 (Round 2)",
         "name_full": "International AAAI Conference on Web and Social Media",
         "venue_type": "Conference",
-        "submission_type": "Full Papers (Round 2)",
+        "submission_type": "Research Papers",
         "event_dates": "June 23-26, 2025",
         "deadline": "2024-09-15T23:59:59Z",
         "city": "Copenhagen",
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": ["social media analysis", "misinformation", "online behavior", "machine learning", "computational social science"],
+        "topics": [
+            "social media analysis",
+            "misinformation", 
+            "online behavior", 
+            "machine learning", 
+            "computational social science"
+        ],
         "notes": "Second full-paper submission deadline. New submissions and revise-and-resubmit papers from May 2024 round."
     },
     {
-        "name_display": "ICWSM 2025",
+        "name_display": "ICWSM 2025 (Round 3)",
         "name_full": "International AAAI Conference on Web and Social Media",
         "venue_type": "Conference",
-        "submission_type": "Full Papers (Round 3)",
+        "submission_type": "Research Papers",
         "event_dates": "June 23-26, 2025",
         "deadline": "2025-01-15T23:59:59Z",
         "city": "Copenhagen",
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": ["social media analysis", "misinformation", "online behavior", "machine learning", "computational social science"],
+        "topics": [
+            "social media analysis",
+            "misinformation", 
+            "online behavior", 
+            "machine learning", 
+            "computational social science"
+        ],
         "notes": "Third full-paper submission deadline. New submissions and revise-and-resubmit papers from September 2024 round."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2024-09-12T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Archival",
         "link": "https://chi2025.acm.org/for-authors/papers/",
-        "topics": ["hci", "interaction design", "usability", "social computing", "ubiquitous computing"],
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
         "notes": "Meta data must be submitted by the 5th! Peer-reviewed archival papers. Full and short formats available."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Case Studies",
+        "submission_type": "Miscellaneous",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2024-10-04T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Archival",
         "link": "https://chi2025.acm.org/for-authors/case-studies/",
-        "topics": ["applied hci", "design practices", "industry", "real-world applications"],
-        "notes": "Practical applications of HCI research in industry or field settings."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Call for Case Studies. Practical applications of HCI research in industry or field settings."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Late-Breaking Work",
+        "submission_type": "Miscellaneous",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/late-breaking-work/",
-        "topics": ["emerging research", "early findings", "prototypes", "new methodologies"],
-        "notes": "Up to 8 pages. Short papers presenting preliminary results."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Call for Late-Breaking Work. Up to 8 pages. Short papers presenting preliminary results."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Interactivity",
+        "submission_type": "Demonstrations",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/interactivity/",
-        "topics": ["interactive demos", "hci technology", "user experience"],
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
         "notes": "Up to 6 pages. Hands-on demonstration of interactive systems."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Doctoral Consortium",
+        "submission_type": "Student Event",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/in-person-doctoral-consortium/",
-        "topics": ["early-career research", "phd mentorship", "feedback"],
-        "notes": "PhD students receive guidance and feedback from senior researchers."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Doctoral Consortium. PhD students receive guidance and feedback from senior researchers."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Student Design Competition",
+        "submission_type": "Student Event",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-design-competition/",
-        "topics": ["design", "innovation", "hci solutions"],
-        "notes": "Students present novel design solutions to HCI challenges."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Student Design Competition. Students present novel design solutions to HCI challenges."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Student Game Competition",
+        "submission_type": "Student Event",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-game-competition/",
-        "topics": ["game design", "interactive media", "hci games"],
-        "notes": "Student teams submit original game designs."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Student Game Competition. Student teams submit original game designs."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Student Research Competition",
+        "submission_type": "Student Event",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-research-competition/",
-        "topics": ["hci research", "student projects", "early findings"],
-        "notes": "Undergraduate and graduate students present research projects."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Student Research Competition. Undergraduate and graduate students present research projects."
     },
     {
         "name_display": "CHI 2025",
         "name_full": "ACM CHI Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
-        "submission_type": "Video Showcase",
+        "submission_type": "Miscellaneous",
         "event_dates": "April 26 - May 1, 2025",
         "deadline": "2025-01-23T23:59:59Z",
         "city": "Yokohama",
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/video-showcase/",
-        "topics": ["visual storytelling", "hci innovation", "interactive media"],
-        "notes": "Creative videos demonstrating HCI concepts or projects."
+        "topics": [
+            "human-computer interaction", 
+            "social computing",
+            "computational social science"
+        ],
+        "notes": "Video Showcase. Creative videos demonstrating HCI concepts or projects."
     },
     {
         "name_display": "SICSS-CMU 2025",
         "name_full": "Summer Institute in Computational Social Science - Carnegie Mellon University",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "May 12-23, 2025",
         "deadline": "2025-03-07T23:59:59Z",
         "city": "Pittsburgh",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/cmu/",
-        "topics": ["computational social science", "digital humanities", "data science", "social networks", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Designed for graduate students, postdoctoral researchers, staff, and early-career faculty. Participants are expected to fully attend and participate in the entire program. Application requires a statement of interest and CV."
     },
     {
         "name_display": "SICSS-IAS 2025",
         "name_full": "Summer Institute in Computational Social Science - Institute for Analytical Sociology",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 9-19, 2025",
         "deadline": "2025-03-31T23:59:59Z",
         "city": "Norrköping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/ias/",
-        "topics": ["computational social science", "causal inference", "text analysis", "network analysis", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Open to Ph.D. students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Lodging expenses covered; limited travel funds available. Application requires a CV and statement of interest."
     },
     {
         "name_display": "SICSS-Paris 2025",
         "name_full": "Summer Institute in Computational Social Science - Paris",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 23 - July 3, 2025",
         "deadline": "2025-03-28T23:59:59Z",
         "city": "Palaiseau",
         "country": "France",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/paris/",
-        "topics": ["computational social science", "open science", "data science", "social networks", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Restricted to Ph.D. students, postdoctoral researchers, and early career-stage faculty from Europe and Africa. Housing provided for around 20 students during onsite days. Application requires a CV and statement of interest."
     },
     {
         "name_display": "SICSS-ODISSEI 2025",
         "name_full": "Summer Institute in Computational Social Science - ODISSEI",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 16-27, 2025",
         "deadline": "2025-02-28T23:59:59Z",
         "city": "Rotterdam",
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/odissei/",
-        "topics": ["computational social science", "sociology", "psychology", "economics", "political science"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Targeted at Ph.D. students, post-docs, and early career researchers, especially in sociology, psychology, economics, and political science. Participation is free; accommodation provided for those living more than 30 minutes away. Application requires a CV and short statement of motivation."
     },
     {
         "name_display": "SICSS-Lingnan 2025",
         "name_full": "Summer Institute in Computational Social Science - Lingnan University",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 16-27, 2025",
         "deadline": "2025-03-16T23:59:59Z",
         "city": "Hong Kong",
         "country": "China",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/lingnan/",
-        "topics": ["computational social science", "collaborative research", "open science", "data science", "social networks"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Invites advanced research postgraduate students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Participants expected to cover their own travel and lodging; on-campus accommodation available. Application requires a CV and statement of interest."
     },
     {
         "name_display": "SICSS-Singapore 2025",
         "name_full": "Summer Institute in Computational Social Science - National University of Singapore",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "July 7-14, 2025",
         "deadline": "2025-04-15T23:59:59Z",
         "city": "Singapore",
         "country": "Singapore",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/singapore/",
-        "topics": ["computational social science", "text analysis", "network analysis", "digital field experiments", "ethics"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Designed for graduate students, postdoctoral researchers, untenured faculty within 7 years of their Ph.D., and researchers in NGOs or government agencies. Application details to be announced; check the website for updates."
     },
     {
         "name_display": "SICSS-Indiana 2025",
         "name_full": "Summer Institute in Computational Social Science - Indiana",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "Dates TBD, 2025",
         "deadline": "N/A",
         "city": "West Lafayette",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/indiana/",
-        "topics": ["computational social science", "causal inference", "text analysis", "network analysis", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Hosted at Purdue University. Application deadline and event dates to be determined; check the website for updates."
     },
     {
         "name_display": "SICSS-Penn 2025",
         "name_full": "Summer Institute in Computational Social Science - University of Pennsylvania",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 30 - July 11, 2025",
         "deadline": "2025-03-07T23:59:59Z",
         "city": "Philadelphia",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/penn/",
-        "topics": ["computational social science", "causal inference", "text analysis", "network analysis", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Hosted by the University of Pennsylvania. Open to Ph.D. students, postdoctoral researchers, and junior faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "SICSS-Rochester 2025",
         "name_full": "Summer Institute in Computational Social Science - University of Rochester",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "May 12-23, 2025",
         "deadline": "2025-03-28T23:59:59Z",
         "city": "Rochester",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/rochester/",
-        "topics": ["image as data", "text as data", "generative AI", "social media APIs", "data visualization"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Hosted by the Goergen Institute for Data Science at the University of Rochester. Open to advanced undergraduates, Master’s students, Ph.D. students, postdoctoral researchers, and assistant professors within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "SICSS-UCLA 2025",
         "name_full": "Summer Institute in Computational Social Science - University of California, Los Angeles",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "August 18-29, 2025",
         "deadline": "2025-05-02T23:59:59Z",
         "city": "Los Angeles",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/ucla/",
-        "topics": ["computational social science", "causal inference", "survey experiments", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Hosted by the UCLA Division of Social Sciences and the California Center for Population Research. Open to advanced Ph.D. students, postdoctoral researchers, and junior faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "SICSS-Lake Como 2025",
         "name_full": "Summer Institute in Computational Social Science - Lake Como",
         "venue_type": "Training Program",
-        "submission_type": "Application",
+        "submission_type": "Applications",
         "event_dates": "June 29 - July 12, 2025",
         "deadline": "2025-03-31T23:59:59Z",
         "city": "Como",
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/lake-como/",
-        "topics": ["computational social science", "causal inference", "text analysis", "network analysis", "machine learning"],
+        "topics": [
+            "computational social science",
+            "data science",
+            "network science",
+            "machine learning",
+            "text analysis"
+        ],
         "notes": "Hosted by the Lake Como School of Advanced Studies. Open to advanced Ph.D. students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "CSCW 2026",
         "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2026",
         "venue_type": "Conference",
-        "submission_type": "New Paper Submissions",
+        "submission_type": "Research Papers",
         "event_dates": "N/A",
         "deadline": "2025-05-13T23:59:00Z",
         "city": "N/A",
         "country": "N/A",
         "archival": "Archival",
         "link": "https://cscw.acm.org/",
-        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "topics": [
+            "social computing",
+            "collaborative systems",
+            "human-computer interaction",
+            "human-ai interaction"
+        ],
         "notes": "CSCW 2026 will be the last cycle with a single deadline. Starting in 2026, the conference will transition to rolling deadlines for submissions."
     },
     {
         "name_display": "CSCW 2025 (Round 1)",
         "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2025",
         "venue_type": "Conference",
-        "submission_type": "New Paper Submissions",
+        "submission_type": "Research Papers",
         "event_dates": "October 18–22, 2025",
         "deadline": "2024-07-02T23:59:00Z",
         "city": "Bergen",
         "country": "Norway",
         "archival": "Archival",
         "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
-        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "topics": [
+            "social computing",
+            "collaborative systems",
+            "human-computer interaction",
+            "human-ai interaction"
+        ],
         "notes": "First submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
     },
     {
         "name_display": "CSCW 2025 (Round 2)",
         "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing 2025",
         "venue_type": "Conference",
-        "submission_type": "New Paper Submissions",
+        "submission_type": "Research Papers",
         "event_dates": "October 18–22, 2025",
         "deadline": "2024-10-29T23:59:00Z",
         "city": "Bergen",
         "country": "Norway",
         "archival": "Archival",
         "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
-        "topics": ["social computing", "collaborative systems", "human-computer interaction", "crowdsourcing", "human-ai interaction"],
+        "topics": [
+            "social computing",
+            "collaborative systems",
+            "human-computer interaction",
+            "human-ai interaction"
+        ],
         "notes": "Second and final submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
     },
     {
         "name_display": "PolNet-PaCSS 2025",
         "name_full": "Political Networks and Computational Social Science Conference 2025",
         "venue_type": "Conference",
-        "submission_type": "Paper & Poster Proposals",
+        "submission_type": "Abstracts",
         "event_dates": "August 11-14, 2025",
         "deadline": "2025-03-28T23:59:59Z",
         "city": "Boston",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://sites.google.com/view/confpolinetworks/",
-        "topics": ["political networks", "computational social science", "social systems", "network analysis", "methodological approaches"],
-        "notes": "Joint conference hosted by Harvard University and Northeastern University. Accepting theoretical and empirical research proposals. Abstracts should not exceed 300 words."
+        "topics": [
+            "political science",
+            "network analysis",
+            "political networks", 
+            "computational social science", 
+            "social systems"
+        ],
+        "notes": "Joint conference hosted by Harvard University and Northeastern University. Accepting theoretical and empirical research papers of posters. 300 word limit."
     },
     {
         "name_display": "AIES 2024",
         "name_full": "Seventh AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society",
         "venue_type": "Conference",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "October 21-23, 2024",
         "deadline": "2024-05-14T23:59:59Z",
         "city": "San Jose",
         "country": "USA",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2024/",
-        "topics": ["trustworthy AI", "AI governance", "AI ethics"],
+        "topics": [
+            "ai",
+            "ai governance",
+            "ai ethics",
+            "trustworthy ai"
+        ],
         "notes": "Submissions may be up to 10 pages in the AAAI-2024 2-column format, with unlimited pages for references. Authors can opt for non-archival publication to accommodate subsequent journal submissions. The conference will be held at the San Jose McEnery Convention Center."
     },
     {
         "name_display": "ICA 2025",
         "name_full": "International Communication Association Conference",
         "venue_type": "Conference",
-        "submission_type": "Papers",
+        "submission_type": "Research Papers",
         "event_dates": "June 12-16, 2025",
         "deadline": "2024-11-01T16:00:00Z",
         "city": "Denver",
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://www.icahdq.org/mpage/annual-conference",
-        "topics": ["communication studies", "media research", "digital communication", "journalism", "public relations"],
+        "topics": [
+            "communication studies",
+            "media studies",
+            "digital communication",
+            "journalism"
+        ],
         "notes": "Major conference in communication studies. Submission system opened on September 3, 2024. Acceptance notifications were sent on January 15, 2025."
     },
     {
         "name_display": "NetSci 2025",
         "name_full": "International School and Conference on Network Science",
         "venue_type": "Conference",
-        "submission_type": "Posters (Late Breaking Work)",
+        "submission_type": "Posters",
         "event_dates": "June 2-6, 2025",
         "deadline": "2025-04-02T23:59:00Z",
         "city": "Maastricht",
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://netsci2025.github.io/calls/",
-        "topics": ["network science", "graph ml", "temporal networks", "brain networks", "social networks"],
+        "topics": [
+            "network science", 
+            "graph ml",
+            "temporal networks", 
+            "brain networks", 
+            "social networks"
+        ],
         "notes": "Poster session on June 6. Priority for authors not already presenting. One-page abstract with figure and references."
     },
     {
@@ -643,7 +804,13 @@
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://netsci2025.github.io/calls/",
-        "topics": ["network science", "graph ml", "temporal networks", "brain networks", "social networks"],
+        "topics": [
+            "network science", 
+            "graph ml",
+            "temporal networks", 
+            "brain networks", 
+            "social networks"
+        ],
         "notes": "Submit one-page abstract with figure and references. Presentation formats include contributed talks, lightning talks, and posters."
     },
     {
@@ -657,8 +824,13 @@
         "country": "Denmark",
         "archival": "Non-archival",
         "link": "https://icssi.org/",
-        "topics": ["science of science", "innovation", "AI applications", "ethics", "diversity"],
-        "notes": "Submissions should be 2-page extended abstracts in PDF format, including figures, tables, and references. Accepted presentations may be assigned as lightning talks, oral presentations, or posters. At least one author must register by April 14, 2025."
+        "topics": [
+            "science of science",
+            "innovation",
+            "ai",
+            "ethics"
+        ],
+        "notes": "Submissions should be 2-page Extended abstracts in PDF format, including figures, tables, and references. Accepted presentations may be assigned as lightning talks, oral presentations, or posters. At least one author must register by April 14, 2025."
     },
     {
         "name_display": "CCS 2025",
@@ -671,91 +843,138 @@
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://ccs25.cssociety.org/abstract-2/",
-        "topics": ["complex systems", "network dynamics", "emergent behavior", "data science", "computational modeling"],
+        "topics": [
+            "complex systems",
+            "network dynamics",
+            "data science", 
+            "computational modeling"
+        ],
         "notes": "Max 2-page PDF including abstract, one figure, and references. Presentation preference may be indicated but not guaranteed. One author must register to present."
     },
     {
         "name_display": "ACM CI 2025",
         "name_full": "ACM Collective Intelligence 2025",
         "venue_type": "Conference",
-        "submission_type": "Full Papers",
+        "submission_type": "Research Papers",
         "event_dates": "August 4-6, 2025",
         "deadline": "2025-04-01T23:59:00Z",
         "city": "La Jolla",
         "country": "United States",
         "archival": "Archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
         "notes": "Archival paper track integrated with former HCOMP community. Emphasis on diverse intelligence systems including human, machine, and hybrid forms."
     },
     {
         "name_display": "ACM CI 2025",
         "name_full": "ACM Collective Intelligence 2025",
         "venue_type": "Conference",
-        "submission_type": "Extended Abstracts",
+        "submission_type": "Extended abstracts",
         "event_dates": "August 4-6, 2025",
         "deadline": "2025-04-01T23:59:00Z",
         "city": "La Jolla",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
         "notes": "Extended abstracts allow for flexible presentation formats and encourage interdisciplinary participation."
     },
     {
         "name_display": "ACM CI 2025",
         "name_full": "ACM Collective Intelligence 2025",
         "venue_type": "Conference",
-        "submission_type": "Workshop Proposals",
+        "submission_type": "Workshops",
         "event_dates": "August 4-6, 2025",
         "deadline": "2025-04-01T23:59:00Z",
         "city": "La Jolla",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
         "notes": "Workshops provide in-depth engagement on emerging research areas and community building."
     },
     {
         "name_display": "ACM CI 2025",
         "name_full": "ACM Collective Intelligence 2025",
         "venue_type": "Conference",
-        "submission_type": "Demos & Posters",
+        "submission_type": "Demonstrations",
         "event_dates": "August 4-6, 2025",
         "deadline": "2025-05-01T23:59:00Z",
         "city": "La Jolla",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
         "notes": "Poster and demo tracks showcase work-in-progress and interactive projects. Great venue for networking and early-stage feedback."
     },
     {
         "name_display": "ACM CI 2025",
         "name_full": "ACM Collective Intelligence 2025",
         "venue_type": "Conference",
-        "submission_type": "CrowdCamp",
+        "submission_type": "Posters",
         "event_dates": "August 4-6, 2025",
         "deadline": "2025-05-01T23:59:00Z",
         "city": "La Jolla",
         "country": "United States",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
-        "notes": "Hands-on collaborative workshop for developing new tools and approaches in human computation and crowdsourcing."
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
+        "notes": "Poster and demo tracks showcase work-in-progress and interactive projects. Great venue for networking and early-stage feedback."
+    },
+    {
+        "name_display": "ACM CI 2025",
+        "name_full": "ACM Collective Intelligence 2025",
+        "venue_type": "Conference",
+        "submission_type": "Miscellaneous",
+        "event_dates": "August 4-6, 2025",
+        "deadline": "2025-05-01T23:59:00Z",
+        "city": "La Jolla",
+        "country": "United States",
+        "archival": "Non-archival",
+        "link": "https://ci.acm.org/2025/",
+        "topics": [
+            "collective intelligence",
+            "ai & cognition",
+            "network science"
+        ],
+        "notes": "CrowdCamp: a hands-on collaborative workshop for developing new tools and approaches in human computation and crowdsourcing."
     },
     {
       "name_display": "ACM CI 2025",
       "name_full": "ACM Collective Intelligence 2025",
       "venue_type": "Conference",
-      "submission_type": "Doctoral Colloquium",
+      "submission_type": "Student Event",
       "event_dates": "August 4-6, 2025",
       "deadline": "2025-05-01T23:59:00Z",
       "city": "La Jolla",
       "country": "United States",
       "archival": "Non-archival",
       "link": "https://ci.acm.org/2025/",
-      "topics": ["collective intelligence", "crowdsourcing", "hybrid systems", "ai & cognition", "network science"],
-      "notes": "Mentorship opportunity for PhD students to present their research and receive feedback from senior scholars."
+      "topics": [
+        "collective intelligence",
+        "ai & cognition",
+        "network science"
+    ],
+      "notes": "Doctoral Colloquium. Mentorship opportunity for PhD students to present their research and receive feedback from senior scholars."
     }
 ]
