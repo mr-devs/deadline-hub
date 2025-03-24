@@ -364,20 +364,71 @@ export function generateTopicButtons(datums) {
     const sortedTopics = Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]);
     const visibleTopics = sortedTopics.slice(0, 10)
         .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
-        .join('');
-    const hiddenTopics = sortedTopics.slice(10)
+        .join(' ');
+    const hiddenTopics = sortedTopics.slice()
         .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
-        .join('');
+        .join(' ');
     if (hiddenTopics) {
         return `
-            <div id="topicsVisible">
-                ${visibleTopics}
-            </div>
-            <div id="topicsHidden" style="display:none;">
-                ${hiddenTopics}
+            <div id="topics">
+                ${visibleTopics}<span id="topicsHidden" style="display:none;"> ${hiddenTopics} </span>
             </div>
             <a href="#" id="toggleTopics" class="btn btn-link btn-sm">Show More</a>
         `;
     }
     return visibleTopics;
+}
+
+export function generateSubmissionTypeButtons(datums) {
+    const counts = {};
+    datums.forEach(datum => {
+        const key = datum.submission_type;
+        counts[key] = (counts[key] || 0) + 1;
+    });
+    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    return hidden 
+        ? `
+            <div id="submissionTypesVisible">${visible}</div>
+            <div id="submissionTypesHidden" style="display:none;">${hidden}</div>
+            <a href="#" id="toggleSubmissionTypes" class="btn btn-link btn-sm">Show More</a>
+          `
+        : visible;
+}
+
+export function generateVenueTypeButtons(datums) {
+    const counts = {};
+    datums.forEach(datum => {
+        const key = datum.venue_type;
+        counts[key] = (counts[key] || 0) + 1;
+    });
+    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    return hidden 
+        ? `
+            <div id="venueTypesVisible">${visible}</div>
+            <div id="venueTypesHidden" style="display:none;">${hidden}</div>
+            <a href="#" id="toggleVenueTypes" class="btn btn-link btn-sm">Show More</a>
+          `
+        : visible;
+}
+
+export function generateArchivalButtons(datums) {
+    const counts = {};
+    datums.forEach(datum => {
+        const key = datum.archival;
+        counts[key] = (counts[key] || 0) + 1;
+    });
+    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
+    return hidden 
+        ? `
+            <div id="archivalTypesVisible">${visible}</div>
+            <div id="archivalTypesHidden" style="display:none;">${hidden}</div>
+            <a href="#" id="toggleArchivalTypes" class="btn btn-link btn-sm">Show More</a>
+          `
+        : visible;
 }
