@@ -135,3 +135,15 @@ document.getElementById('journalCheckbox').addEventListener('change', renderDead
 document.getElementById('conferenceCheckbox').addEventListener('change', renderDeadlines);
 document.getElementById('archivalCheckbox').addEventListener('change', renderDeadlines);
 document.getElementById('nonArchivalCheckbox').addEventListener('change', renderDeadlines);
+
+// Fade out the "beggarsSection" after 10 seconds
+setTimeout(function(){
+    const beggarsSection = document.getElementById('beggarsSection');
+    if (beggarsSection) {
+        beggarsSection.style.transition = "opacity 0.5s ease";
+        beggarsSection.style.opacity = "0";
+        beggarsSection.addEventListener('transitionend', () => {
+            beggarsSection.style.display = "none";
+        });
+    }
+}, 10000);
