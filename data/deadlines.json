@@ -1,5 +1,19 @@
 [
     {
+        "name_display": "EPJ Data Science (Special Collection)",
+        "name_full": "Navigating Information Integrity in the Age of Misinformation",
+        "venue_type": "Journal",
+        "submission_type": "Research papers",
+        "event_dates": "N/A",
+        "deadline": "2025-06-30T23:59:59Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://link.springer.com/collections/iafjdfggce",
+        "topics": ["misinformation", "data science", "network science"],
+        "notes": "This topical collection seeks to explore the pressing issue of misinformation and disinformation through the combined lenses of Data Science and Network Science."
+    },
+    {
         "name_display": "TIST Special Issue 2025",
         "name_full": "ACM Transactions on Intelligent Systems and Technology Special Issue on Risks and Unintended Harms of Generative AI Systems",
         "venue_type": "Journal",
