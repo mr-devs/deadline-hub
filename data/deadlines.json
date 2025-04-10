@@ -3,7 +3,7 @@
         "name_display": "Trust & Safety Conference 2025",
         "name_full": "Trust & Safety Research Conference 2025",
         "venue_type": "Conference",
-        "submission_type": "Research Papers",
+        "submission_type": "Presentations",
         "event_dates": "September 25-26, 2025",
         "deadline": "2025-04-30T23:59:59Z",
         "city": "Stanford",
@@ -11,13 +11,13 @@
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
         "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
-        "notes": "Research panel: 12-minute presentations with discussant and Q&A. Must include original research; literature reviews are unlikely to be accepted."
+        "notes": "Research presentation: 12-minute presentations with discussant and Q&A. Must include original research; literature reviews are unlikely to be accepted."
     },
     {
         "name_display": "Trust & Safety Conference 2025",
         "name_full": "Trust & Safety Research Conference 2025",
         "venue_type": "Conference",
-        "submission_type": "Short papers",
+        "submission_type": "Presentations",
         "event_dates": "September 25-26, 2025",
         "deadline": "2025-04-30T23:59:59Z",
         "city": "Stanford",
