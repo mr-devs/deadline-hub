@@ -671,26 +671,6 @@
         "notes": "Designed for graduate students, postdoctoral researchers, untenured faculty within 7 years of their Ph.D., and researchers in NGOs or government agencies. Application details to be announced; check the website for updates."
     },
     {
-        "name_display": "SICSS-Indiana 2025",
-        "name_full": "Summer Institute in Computational Social Science - Indiana",
-        "venue_type": "Training Program",
-        "submission_type": "Applications",
-        "event_dates": "Dates TBD, 2025",
-        "deadline": "N/A",
-        "city": "West Lafayette",
-        "country": "United States",
-        "archival": "Non-archival",
-        "link": "https://sicss.io/2025/indiana/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
-        "notes": "Hosted at Purdue University. Application deadline and event dates to be determined; check the website for updates."
-    },
-    {
         "name_display": "SICSS-Penn 2025",
         "name_full": "Summer Institute in Computational Social Science - University of Pennsylvania",
         "venue_type": "Training Program",
