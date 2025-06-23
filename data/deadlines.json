@@ -1,5 +1,47 @@
 [
     {
+        "name_display": "ICWSM 2026 (Round 1)",
+        "name_full": "International AAAI Conference on Web and Social Media 2026 – Full Papers",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "N/A",
+        "deadline": "2025-05-15T23:59:00Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2025/submit/index.html#cfp-full-papers",
+        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+        "notes": "New submissions and revise-and-resubmits (R&Rs) from January 2025 round. Double-blind review; AAAI two-column US-Letter format; 8–11 pp (up to 12 pp for camera-ready). Ethics Checklist required."
+    },
+    {
+        "name_display": "ICWSM 2026 (Round 2)",
+        "name_full": "International AAAI Conference on Web and Social Media 2026 – Full Papers",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "N/A",
+        "deadline": "2025-09-15T23:59:00Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2025/submit/index.html#cfp-full-papers",
+        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+        "notes": "New submissions and R&Rs from May 2025 round. Same formatting and ethics requirements as Round 1."
+    },
+    {
+        "name_display": "ICWSM 2026 (Round 3)",
+        "name_full": "International AAAI Conference on Web and Social Media 2026 – Full Papers",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "N/A",
+        "deadline": "2026-01-15T23:59:00Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2025/submit/index.html#cfp-full-papers",
+        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+        "notes": "New submissions and R&Rs from September 2025 round. Accepted papers will appear at ICWSM 2026."
+    },
+    {
     "name_display": "Directions of Polarization, Social Norms & Trust in Societies 2025",
     "name_full": "Directions of Polarization, Social Norms & Trust in Societies: Perspectives from the Behavioral Sciences",
     "venue_type": "Workshop",
