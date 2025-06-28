@@ -4,7 +4,7 @@
  */
 
 import {fetchData} from './utils.js';
-import {createCard, createModal, generateTopicButtons, generateSubmissionTypeButtons, generateVenueTypeButtons, generateArchivalButtons} from './elements.js';
+import {createCard, createModal, createListItem, generateTopicButtons, generateSubmissionTypeButtons, generateVenueTypeButtons, generateArchivalButtons} from './elements.js';
 
 let deadlines = [];
 let selectedTopics = [];
@@ -176,11 +176,9 @@ function renderArchivalButtons() {
  */
 function renderDeadlines() {
     try {
-        const cardsContainer = document.getElementById('deadlinesContainer');
-        cardsContainer.innerHTML = '';
-
         const searchInput = document.getElementById('searchInput').value.toLowerCase();
         const showPastConferences = document.getElementById('showPastConferencesSwitch').checked;
+        const isListView = document.getElementById('listView').checked;
 
         const filteredDeadlines = deadlines.filter(datum => {
             // Handle deadline values "Rolling", "N/A" or "n/a"
@@ -210,12 +208,11 @@ function renderDeadlines() {
 
         filteredDeadlines.sort((a, b) => getDeadlineNumeric(a) - getDeadlineNumeric(b));
 
-        filteredDeadlines.forEach(datum => {
-            const cardHTML = createCard(datum);
-            const modalHTML = createModal(datum);
-            cardsContainer.innerHTML += cardHTML;
-            cardsContainer.innerHTML += modalHTML;
-        });
+        if (isListView) {
+            renderListView(filteredDeadlines);
+        } else {
+            renderCardView(filteredDeadlines);
+        }
 
         // Reinitialize tooltips on dynamically added elements
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
@@ -224,6 +221,67 @@ function renderDeadlines() {
     } catch (error) {
         console.error('Error rendering deadlines:', error);
     }
+}
+
+/**
+ * Renders deadlines in card view format.
+ */
+function renderCardView(filteredDeadlines) {
+    const cardsContainer = document.getElementById('cardsContainer');
+    const listContainer = document.getElementById('listContainer');
+    
+    cardsContainer.style.display = 'flex';
+    listContainer.style.display = 'none';
+    cardsContainer.innerHTML = '';
+
+    filteredDeadlines.forEach(datum => {
+        const cardHTML = createCard(datum);
+        cardsContainer.innerHTML += cardHTML;
+    });
+
+    // Render modals separately
+    renderModals(filteredDeadlines);
+}
+
+/**
+ * Renders deadlines in list view format.
+ */
+function renderListView(filteredDeadlines) {
+    const cardsContainer = document.getElementById('cardsContainer');
+    const listContainer = document.getElementById('listContainer');
+    const listTableBody = document.getElementById('listTableBody');
+    
+    cardsContainer.style.display = 'none';
+    listContainer.style.display = 'block';
+    listTableBody.innerHTML = '';
+
+    filteredDeadlines.forEach(datum => {
+        const listItemHTML = createListItem(datum);
+        listTableBody.innerHTML += listItemHTML;
+    });
+
+    // Render modals separately
+    renderModals(filteredDeadlines);
+}
+
+/**
+ * Renders all modals in the central modals container
+ */
+function renderModals(filteredDeadlines) {
+    const modalsContainer = document.getElementById('modalsContainer');
+    
+    // Clear existing modals
+    modalsContainer.innerHTML = '';
+
+    // Add all modals
+    filteredDeadlines.forEach(datum => {
+        const modalHTML = createModal(datum);
+        modalsContainer.innerHTML += modalHTML;
+    });
+
+    // Re-initialize Bootstrap tooltips for any new modal content
+    const tooltipTriggerList = modalsContainer.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltipTriggerList.forEach(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 }
 
 // Add a function to clear all filters
@@ -249,6 +307,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const clearBtn = document.getElementById('clearFiltersButton');
     if (clearBtn) {
         clearBtn.addEventListener('click', clearFilters);
+    }
+
+    // Add event listeners for view toggle
+    const cardViewRadio = document.getElementById('cardView');
+    const listViewRadio = document.getElementById('listView');
+    
+    if (cardViewRadio) {
+        cardViewRadio.addEventListener('change', renderDeadlines);
+    }
+    if (listViewRadio) {
+        listViewRadio.addEventListener('change', renderDeadlines);
     }
 });
 

@@ -216,11 +216,54 @@
                         <label class="form-check-label mx-1" for="showPastConferencesSwitch">Show past conferences</label>
                     </div>
                 </div>
+
+                <!-- View Toggle -->
+                <div class="row my-2">
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="btn-group" role="group" aria-label="View toggle">
+                            <input type="radio" class="btn-check" name="viewToggle" id="cardView" checked>
+                            <label class="btn btn-outline-dark btn-sm" for="cardView">
+                                <i class="bi bi-grid-3x3-gap"></i> Card View
+                            </label>
+                            <input type="radio" class="btn-check" name="viewToggle" id="listView">
+                            <label class="btn btn-outline-dark btn-sm" for="listView">
+                                <i class="bi bi-list-ul"></i> List View
+                            </label>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div id="deadlinesContainer" class="row row-cols-1 row-cols-md-4 g-4 my-2" id="cardsContainer">
+            <!-- Card View Container -->
+            <div id="cardsContainer" class="row row-cols-1 row-cols-md-4 g-4 my-2">
                 <!-- Cards will be dynamically generated here -->
             </div>
+
+            <!-- List View Container -->
+            <div id="listContainer" class="container my-2" style="display: none;">
+                <div class="row">
+                    <div class="col">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col">Conference</th>
+                                        <th scope="col">Deadline</th>
+                                        <th scope="col">Time Remaining</th>
+                                        <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="listTableBody">
+                                    <!-- List items will be dynamically generated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Central container for all modals -->
+            <div id="modalsContainer"></div>
+
             <div class="alert alert-warning" role="alert" style="text-align: center;">
                 <i class="bi bi-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="A helpful tip."></i>
                 If no deadlines appear, try selecting fewer filters, toggling "Show past conferences," or clicking the "Clear all filters" button next to the search bar.

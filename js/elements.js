@@ -433,3 +433,47 @@ export function generateArchivalButtons(datums) {
           `
         : visible;
 }
+
+/**
+ * Creates a table row for the list view for a given datum.
+ *
+ * @param {Object} datum - The data object containing information for the list item.
+ * @param {string} datum.deadline - The deadline date or "Rolling".
+ * @param {string} datum.name_display - The display name of the event.
+ * @param {string} datum.link - The URL link to the event.
+ * @returns {string} The HTML string representing the table row.
+ */
+export function createListItem(datum) {
+    const deadlineStr = datum.deadline.toLowerCase();
+    const deadlineDate = (deadlineStr === "rolling" || deadlineStr === "n/a") ? datum.deadline : new Date(datum.deadline);
+    const deadlineFormatted = (typeof deadlineDate === 'string')
+        ? deadlineDate
+        : deadlineDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    
+    const uniqueId = `deadline-${datum.id}`;
+    const countdownId = `list-countdown-${uniqueId}`;
+
+    setTimeout(() => {
+        if (typeof deadlineDate !== "string") {
+            updateCountdown(deadlineDate, countdownId);
+        }
+    }, 0);
+
+    return `
+        <tr>
+            <td>
+                <a href="${datum.link}" target="_blank" class="text-decoration-none fw-bold">${datum.name_display}</a>
+            </td>
+            <td>${deadlineFormatted}</td>
+            <td>
+                ${typeof deadlineDate === 'string' 
+                    ? "<span class='text-info'><i class='bi bi-alarm'></i> N/A</span>" 
+                    : `<span id="${countdownId}"></span>`}
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#modal-${uniqueId}">
+                    <i class="bi bi-info-circle"></i> More Info
+                </button>
+            </td>
+        </tr>`;
+}
