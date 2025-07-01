@@ -464,6 +464,8 @@ export function createListItem(datum) {
             <td>
                 <a href="${datum.link}" target="_blank" class="text-decoration-none fw-bold">${datum.name_display}</a>
             </td>
+            <td>${datum.event_dates}</td>
+            <td>${datum.city}, ${datum.country}</td>
             <td>${deadlineFormatted}</td>
             <td>
                 ${typeof deadlineDate === 'string' 
