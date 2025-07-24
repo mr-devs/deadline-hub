@@ -8,12 +8,19 @@ Deadline Hub is a client-side web application that tracks academic deadlines for
 
 ## Architecture
 
-The application follows a modular JavaScript architecture:
+The application follows a modular JavaScript architecture with clear separation of concerns:
 
-- **`js/script.js`**: Main application logic, data filtering, and UI state management
-- **`js/elements.js`**: UI component generation (deadline cards, modals, countdown timers)
+### Core Modules
+- **`js/script.js`**: Main application entry point and initialization
+- **`js/state.js`**: Centralized application state management (deadlines data, filter selections)
+- **`js/elements.js`**: UI component generation (deadline cards, modals, countdown timers, list items)
+- **`js/rendering.js`**: DOM rendering coordination for different view modes
+- **`js/filters.js`**: Data filtering logic and filter button generation
+- **`js/events.js`**: Event handling and user interaction management
 - **`js/utils.js`**: Data fetching utilities with error handling
 - **`js/calendar.js`**: ICS calendar export functionality
+
+### Data
 - **`data/deadlines.json`**: Core data store with structured deadline information
 
 ## Key Data Structure

@@ -1,13 +1,14 @@
 /**
- * @file /Users/mdeverna/Documents/Projects/deadline-hub/js/components/elements.js
- * @description This file contains functions that generate major elements for the website, such as cards and modals displaying deadline information.
+ * @file js/elements.js
+ * @description UI element generation functions for the Deadline Hub application.
+ * Creates HTML elements for cards, modals, list items, and countdown timers.
  * 
  * Functions:
- * - updateCountdownSecond(deadlineDate, elementId): Updates the countdown timer every second for a given deadline date and element ID.
- * - updateCountdown(deadlineDate, elementId): Updates the countdown timer with different formats based on the remaining time for a given deadline date and element ID.
- * - createCard(datum): Creates a card element with the provided data, including a countdown timer.
- * - createModal(datum): Creates a modal element with the provided data, including a countdown timer.
- * - generateTopicButtons(datums): Generates HTML buttons for the unique set of topics across all deadline data.
+ * - updateCountdownSecond(deadlineDate, elementId): Updates detailed countdown timer display
+ * - updateCountdown(deadlineDate, elementId): Updates simplified countdown timer display
+ * - createCard(datum): Creates deadline card HTML
+ * - createModal(datum): Creates modal dialog HTML
+ * - createListItem(datum): Creates table row HTML for list view
  */
 
 import { downloadICS } from './calendar.js';
@@ -350,89 +351,6 @@ export function createModal(datum) {
 }
 
 
-/**
- * Generates HTML buttons for the unique set of topics across all deadline datums,
- * sorted by the number of times they are present across all the data objects.
- *
- * @param {Array<Object>} datums - The array of deadline datums.
- * @returns {string} The HTML string containing buttons for each unique topic.
- */
-export function generateTopicButtons(datums) {
-    const topicCounts = {};
-    datums.forEach(datum => {
-        datum.topics.forEach(topic => topicCounts[topic] = (topicCounts[topic] || 0) + 1);
-    });
-    const sortedTopics = Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]);
-    const visibleTopics = sortedTopics.slice(0, 10)
-        .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
-        .join(' ');
-    const hiddenTopics = sortedTopics.slice(10)
-        .map(topic => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${topic}</button>`)
-        .join(' ');
-    if (hiddenTopics) {
-        return `
-            <div id="topics">
-                ${visibleTopics}<span id="topicsHidden" style="display:none;"> ${hiddenTopics} </span>
-            </div>
-            <a href="#" id="toggleTopics" class="btn btn-link btn-sm">Show More</a>
-        `;
-    }
-    return visibleTopics;
-}
-
-export function generateSubmissionTypeButtons(datums) {
-    const counts = {};
-    datums.forEach(datum => {
-        const key = datum.submission_type;
-        counts[key] = (counts[key] || 0) + 1;
-    });
-    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    return hidden 
-        ? `
-            <div id="submissionTypesVisible">${visible}</div>
-            <div id="submissionTypesHidden" style="display:none;">${hidden}</div>
-            <a href="#" id="toggleSubmissionTypes" class="btn btn-link btn-sm">Show More</a>
-          `
-        : visible;
-}
-
-export function generateVenueTypeButtons(datums) {
-    const counts = {};
-    datums.forEach(datum => {
-        const key = datum.venue_type;
-        counts[key] = (counts[key] || 0) + 1;
-    });
-    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    return hidden 
-        ? `
-            <div id="venueTypesVisible">${visible}</div>
-            <div id="venueTypesHidden" style="display:none;">${hidden}</div>
-            <a href="#" id="toggleVenueTypes" class="btn btn-link btn-sm">Show More</a>
-          `
-        : visible;
-}
-
-export function generateArchivalButtons(datums) {
-    const counts = {};
-    datums.forEach(datum => {
-        const key = datum.archival;
-        counts[key] = (counts[key] || 0) + 1;
-    });
-    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const visible = sorted.slice(0, 10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    const hidden = sorted.slice(10).map(key => `<button class="btn btn-outline-dark btn-sm mx-1 my-1">${key}</button>`).join('');
-    return hidden 
-        ? `
-            <div id="archivalTypesVisible">${visible}</div>
-            <div id="archivalTypesHidden" style="display:none;">${hidden}</div>
-            <a href="#" id="toggleArchivalTypes" class="btn btn-link btn-sm">Show More</a>
-          `
-        : visible;
-}
 
 /**
  * Creates a table row for the list view for a given datum.
