@@ -382,14 +382,14 @@ export function createListItem(datum) {
             <td>
                 <a href="${datum.link}" target="_blank" class="text-decoration-none fw-bold">${datum.name_display}</a>
             </td>
-            <td>${datum.event_dates}</td>
-            <td>${datum.city}, ${datum.country}</td>
             <td>${deadlineFormatted}</td>
             <td>
                 ${typeof deadlineDate === 'string' 
                     ? "<span class='text-info'><i class='bi bi-alarm'></i> N/A</span>" 
                     : `<span id="${countdownId}"></span>`}
             </td>
+            <td>${datum.city}, ${datum.country}</td>
+            <td>${datum.event_dates}</td>
             <td>
                 <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#modal-${uniqueId}">
                     <i class="bi bi-info-circle"></i> More Info
