@@ -12,8 +12,8 @@ import { renderDeadlines, renderAllFilterButtons } from './rendering.js';
 // Initialize application
 async function initializeApp() {
     try {
-        // const data = await fetchData('../data/deadlines.json') // for local testing!
-        const data = await fetchData('https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json');
+        const data = await fetchData('../data/deadlines.json') // for local testing!
+        // const data = await fetchData('https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json');
         
         appState.setDeadlines(data);
         renderAllFilterButtons();

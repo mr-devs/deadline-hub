@@ -218,7 +218,7 @@ export function createCard(datum) {
         <div class="col">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="${datum.link}" target="_blank">${datum.name_display}</a></h5>
+                    <h5 class="card-title"><i class="bi bi-building me-1" data-bs-toggle="tooltip" data-bs-placement="left" title="${datum.name_full}"></i><a href="${datum.link}" target="_blank">${datum.name_display}</a></h5>
                     <p class="card-text">
                         <i class="bi bi-signpost-split" data-bs-toggle="tooltip" data-bs-placement="left" title="Venue type"></i> ${datum.venue_type}
                         <br>
@@ -382,6 +382,7 @@ export function createListItem(datum) {
             <td>
                 <a href="${datum.link}" target="_blank" class="text-decoration-none fw-bold">${datum.name_display}</a>
             </td>
+            <td>${datum.submission_type}</td>
             <td>${deadlineFormatted}</td>
             <td>
                 ${typeof deadlineDate === 'string' 
