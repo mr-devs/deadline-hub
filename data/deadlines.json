@@ -1362,5 +1362,33 @@
         "network science"
     ],
       "notes": "Doctoral Colloquium. Mentorship opportunity for PhD students to present their research and receive feedback from senior scholars."
+    },
+    {
+        "name_display": "IC2S2 2026",
+        "name_full": "International Conference on Computational Social Science",
+        "venue_type": "Conference",
+        "submission_type": "Tutorials",
+        "event_dates": "July 28-31, 2026",
+        "deadline": "2026-02-02T23:59:59Z",
+        "city": "Burlington, VT",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://ic2s2-2026.org/",
+        "topics": ["computational social science", "data science", "machine learning", "network science"],
+        "notes": "Tutorial day is July 28. Acceptance notifications by February 16, 2026. Tutorials aimed at early-career scholars."
+    },
+    {
+        "name_display": "IC2S2 2026",
+        "name_full": "International Conference on Computational Social Science",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "July 28-31, 2026",
+        "deadline": "2026-03-03T23:59:59Z",
+        "city": "Burlington, VT",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://ic2s2-2026.org/",
+        "topics": ["computational social science", "data science", "machine learning", "network science"],
+        "notes": "Max 2-page extended abstract (PDF), anonymized for double-blind review. Figures/tables do not count toward page limit. Accepted work assigned to lightning talks (~6 min), oral presentations (~15 min), or poster sessions. Acceptance notifications by April 14, 2026. At least one author must register by early-bird deadline (May 8, 2026)."
     }
 ]

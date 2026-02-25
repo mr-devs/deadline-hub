@@ -1,0 +1,19 @@
+CHI | The ACM Conference on Human Factors in Computing Systems
+CSCW | ACM Conference on Computer-Supported Cooperative Work and Social Computing
+ICWSM | International AAAI Conference on Web and Social Media
+The Web Conference | The Web Conference
+IC2S2 | International Conference on Computational Social Science
+ICA | International Communication Association Conference
+AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society
+ACM CI | ACM Collective Intelligence
+CSS | Computational Social Science Society of the Americas Conference
+CCS | Conference on Complex Systems
+NetSci | International School and Conference on Network Science
+ICSSI | International Conference on the Science of Science and Innovation
+CySoc | International Workshop on Cyber Social Threats
+PolNet-PaCSS | Political Networks and Computational Social Science Conference
+Trust & Safety Conference | Trust & Safety Research Conference
+Cambridge Disinformation Summit | Cambridge Disinformation Summit
+ACL | Annual Meeting of the Association for Computational Linguistics
+EMNLP | Conference on Empirical Methods in Natural Language Processing
+COLM | Conference on Language Modeling
