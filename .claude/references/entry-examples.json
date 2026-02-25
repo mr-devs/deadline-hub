@@ -1,0 +1,115 @@
+[
+    {
+        "_comment": "PATTERN: Round-based conference. ICWSM has 3 submission rounds per year. Each round is a separate entry with a distinct name_display (includes round number) but the SAME name_full. The event_dates, city, country, link, topics, and archival status are identical across rounds. Only the deadline and notes differ.",
+        "_entries": [
+            {
+                "name_display": "ICWSM 2026 (Round 1)",
+                "name_full": "International AAAI Conference on Web and Social Media 2026 - Full Papers",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "event_dates": "May 27-29, 2026",
+                "deadline": "2025-05-15T23:59:00Z",
+                "city": "Los Angeles, CA",
+                "country": "USA",
+                "archival": "Archival",
+                "link": "https://icwsm.org/2026/",
+                "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+                "notes": "New submissions and revise-and-resubmits (R&Rs) from January 2025 round. Double-blind review; AAAI two-column US-Letter format; 8-11 pp (up to 12 pp for camera-ready). Ethics Checklist required."
+            },
+            {
+                "name_display": "ICWSM 2026 (Round 2)",
+                "name_full": "International AAAI Conference on Web and Social Media 2026 - Full Papers",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "event_dates": "May 27-29, 2026",
+                "deadline": "2025-09-15T23:59:00Z",
+                "city": "Los Angeles, CA",
+                "country": "USA",
+                "archival": "Archival",
+                "link": "https://icwsm.org/2026/",
+                "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+                "notes": "New submissions and R&Rs from May 2025 round. Same formatting and ethics requirements as Round 1."
+            },
+            {
+                "name_display": "ICWSM 2026 (Round 3)",
+                "name_full": "International AAAI Conference on Web and Social Media 2026 - Full Papers",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "event_dates": "May 27-29, 2026",
+                "deadline": "2026-01-15T23:59:00Z",
+                "city": "Los Angeles, CA",
+                "country": "USA",
+                "archival": "Archival",
+                "link": "https://icwsm.org/2026/",
+                "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
+                "notes": "New submissions and R&Rs from September 2025 round. Accepted papers will appear at ICWSM 2026."
+            }
+        ]
+    },
+    {
+        "_comment": "PATTERN: Multi-track with abstract+paper split. The Web Conference has separate entries for abstracts and papers within each track, plus workshops and tutorials. The name_display stays the same across all entries. The name_full uses parenthetical suffixes to distinguish: (Research Track: Abstracts Due), (Research Track: Papers Due), (Industry Track: Abstracts Due), etc. Note the abstract deadline always precedes the paper deadline by about a week.",
+        "_entries": [
+            {
+                "name_display": "The Web Conference 2026",
+                "name_full": "The Web Conference 2026 (Research Track: Abstracts Due)",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "event_dates": "April 13-17, 2026",
+                "deadline": "2025-09-30T23:59:59Z",
+                "city": "Dubai",
+                "country": "United Arab Emirates",
+                "archival": "Archival",
+                "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
+                "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
+                "notes": "Full paper abstracts. Double-blind review with rebuttal (Nov 24-Dec 1); notification on 2026-01-13; camera-ready due 2026-01-25. Max 8 pages (excl. references)."
+            },
+            {
+                "name_display": "The Web Conference 2026",
+                "name_full": "The Web Conference 2026 (Research Track: Papers Due)",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "event_dates": "April 13-17, 2026",
+                "deadline": "2025-10-07T23:59:59Z",
+                "city": "Dubai",
+                "country": "United Arab Emirates",
+                "archival": "Archival",
+                "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
+                "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
+                "notes": "Full papers. Double-blind review with rebuttal (Nov 24-Dec 1); notification on 2026-01-13; camera-ready due 2026-01-25. Max 8 pages (excl. references)."
+            }
+        ]
+    },
+    {
+        "_comment": "PATTERN: Simple conference with tutorials + abstracts. IC2S2 has just two entry types: Tutorials and Abstracts. Both share the same name_display and name_full. They differ only in submission_type, deadline, and notes. This is the simplest multi-entry pattern.",
+        "_entries": [
+            {
+                "name_display": "IC2S2 2026",
+                "name_full": "International Conference on Computational Social Science",
+                "venue_type": "Conference",
+                "submission_type": "Tutorials",
+                "event_dates": "July 28-31, 2026",
+                "deadline": "2026-02-02T23:59:59Z",
+                "city": "Burlington, VT",
+                "country": "USA",
+                "archival": "Non-archival",
+                "link": "https://ic2s2-2026.org/",
+                "topics": ["computational social science", "data science", "machine learning", "network science"],
+                "notes": "Tutorial day is July 28. Acceptance notifications by February 16, 2026. Tutorials aimed at early-career scholars."
+            },
+            {
+                "name_display": "IC2S2 2026",
+                "name_full": "International Conference on Computational Social Science",
+                "venue_type": "Conference",
+                "submission_type": "Abstracts",
+                "event_dates": "July 28-31, 2026",
+                "deadline": "2026-03-03T23:59:59Z",
+                "city": "Burlington, VT",
+                "country": "USA",
+                "archival": "Non-archival",
+                "link": "https://ic2s2-2026.org/",
+                "topics": ["computational social science", "data science", "machine learning", "network science"],
+                "notes": "Max 2-page extended abstract (PDF), anonymized for double-blind review. Figures/tables do not count toward page limit."
+            }
+        ]
+    }
+]

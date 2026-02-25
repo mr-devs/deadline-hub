@@ -1,0 +1,52 @@
+agent-based modeling
+ai
+ai & cognition
+ai ethics
+ai governance
+algorithms
+behavioral science
+brain networks
+collaborative systems
+collective intelligence
+communication studies
+complex systems
+computational modeling
+computational social science
+cyber social threats
+cybersecurity
+data science
+digital communication
+economic modeling
+ethics
+generative ai
+graph ml
+human-ai interaction
+human-computer interaction
+information retrieval
+innovation
+international web systems
+journalism
+machine learning
+media studies
+misinformation
+natural language processing
+network analysis
+network dynamics
+network science
+online behavior
+policy analysis
+political networks
+political science
+public policy
+recommender systems
+science of science
+sentiment analysis
+social computing
+social media analysis
+social networks
+social norms
+social systems
+temporal networks
+text analysis
+trust and safety
+trustworthy ai

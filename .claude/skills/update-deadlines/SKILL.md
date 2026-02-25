@@ -21,9 +21,11 @@ Arguments are optional and flexible. Examples:
 - `/update-deadlines 2027` — all conferences for a specific year
 - `/update-deadlines CHI` — single conference, will prompt for year
 
-## Step 1: Read the Conference List
+## Step 1: Read Reference Files
 
-Read `.claude/references/conferences.txt`. Each line has the format `abbreviation | full_name`. Parse both fields for each conference.
+Read `.claude/references/conferences.txt`. Each line has the format `abbreviation | full_name | base_url`. Parse all three fields for each conference. The base URL is the conference's official website root — use it in Step 4 for direct fetching.
+
+Also read `.claude/references/topics.txt` for the canonical list of topic strings. You will need this when assigning topics to entries.
 
 ## Step 2: Determine Scope
 
@@ -42,19 +44,28 @@ Read `data/deadlines.json` and identify which entries already exist for the sele
 
 ## Step 4: Search for Each Conference
 
-For each conference+year combination, use `WebSearch` to find the latest information:
+For each conference+year combination:
 
-- **Search query**: Use both the abbreviation and full name with the year, e.g.:
-  `"ICWSM 2026 International AAAI Conference on Web and Social Media call for papers deadline"`
+1. **Try the official site first.** If the conference has a `base_url` in `conferences.txt`, construct the year-specific URL (e.g., append `/{year}/` or replace the year in the domain) and try `WebFetch` on it before falling back to `WebSearch`. Many conference sites follow predictable URL patterns like `https://icwsm.org/2026/` or `https://ic2s2-2026.org/`.
+
+2. **Fall back to web search.** If the direct URL doesn't work, use `WebSearch` with both the abbreviation and full name plus the year, e.g.:
+   `"ICWSM 2026 International AAAI Conference on Web and Social Media call for papers deadline"`
+
 - **What to look for**: official CFP page, submission deadlines, submission types, event dates, location, topics, archival status
 - **Use `WebFetch`** to visit promising results (official conference sites, WikiCFP, etc.) and extract specific details
 - **Pay attention to**:
   - Round-based deadlines (e.g., ICWSM Round 1, Round 2, Round 3) — each round should be a separate entry
   - Multiple tracks (research track, industry track, workshops, tutorials) — each may be a separate entry
   - Abstract vs. full paper deadlines — these are often separate entries
-  - Timezone information — convert to UTC for the `deadline` field
+  - **Timezone / AoE conversion**: Many CFPs use "Anywhere on Earth" (AoE) timezone, which is UTC-12. An AoE deadline of "January 15, 2026 11:59pm AoE" converts to `"2026-01-16T11:59:00Z"` (add 12 hours to get UTC). If no timezone is specified, assume AoE and convert accordingly.
+
+## Step 4b: Review Entry Patterns
+
+Read `.claude/references/entry-examples.json` for formatting guidance on round-based, multi-track, and abstract+paper patterns. Use these examples to ensure new entries follow established conventions.
 
 ## Step 5: Compare Findings with Existing Data
+
+Before proposing new entries, check for near-duplicates: entries with the same conference abbreviation, year, and submission type. If a match exists, propose an **update** rather than a new entry.
 
 For each conference, categorize findings:
 
@@ -80,6 +91,13 @@ After user approval:
 - Update changed entries in place
 - Preserve all existing entries that don't need changes
 - Ensure the file remains valid JSON with consistent formatting
+
+## Step 8: Validate Changes
+
+After updating `deadlines.json`, verify correctness:
+- Read the file back and confirm it is valid JSON (no trailing commas, proper brackets, etc.)
+- Check that all new/updated entries contain every required field (`name_display`, `name_full`, `venue_type`, `submission_type`, `event_dates`, `deadline`, `city`, `country`, `archival`, `link`, `topics`, `notes`)
+- Verify that topic strings in new/updated entries match the canonical list in `.claude/references/topics.txt`. Flag any new topics that were introduced.
 
 ## Schema Reference
 
@@ -113,12 +131,12 @@ Every entry in `data/deadlines.json` must follow this structure:
 - **`city`** and **`country`**: Event location. Use `"Virtual"` / `"N/A"` for online events.
 - **`archival`**: `"Archival"` or `"Non-archival"`
 - **`link`**: URL to the official CFP or conference page
-- **`topics`**: Array of lowercase topic strings relevant to the conference
+- **`topics`**: Array of lowercase topic strings relevant to the conference. Read `.claude/references/topics.txt` for the canonical list. Always prefer existing topics from this list. Only introduce a new topic if none of the existing ones fit, and note the addition in the summary.
 - **`notes`**: Brief description of submission requirements, review process, page limits, notification dates, or other relevant details
 
 ### Consistency rules:
 
 - Match the formatting style of existing entries in `deadlines.json`
-- Use existing topic strings when possible (check what's already in the file) rather than inventing new ones
+- Use canonical topic strings from `.claude/references/topics.txt` rather than inventing new ones
 - When a conference has multiple deadlines (abstract + paper, multiple rounds), create separate entries for each
 - Ensure `deadline` timestamps use `T23:59:59Z` unless a specific time is known

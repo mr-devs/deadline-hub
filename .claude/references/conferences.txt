@@ -1,19 +1,19 @@
-CHI | The ACM Conference on Human Factors in Computing Systems
-CSCW | ACM Conference on Computer-Supported Cooperative Work and Social Computing
-ICWSM | International AAAI Conference on Web and Social Media
-The Web Conference | The Web Conference
-IC2S2 | International Conference on Computational Social Science
-ICA | International Communication Association Conference
-AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society
-ACM CI | ACM Collective Intelligence
-CSS | Computational Social Science Society of the Americas Conference
-CCS | Conference on Complex Systems
-NetSci | International School and Conference on Network Science
-ICSSI | International Conference on the Science of Science and Innovation
-CySoc | International Workshop on Cyber Social Threats
-PolNet-PaCSS | Political Networks and Computational Social Science Conference
-Trust & Safety Conference | Trust & Safety Research Conference
-Cambridge Disinformation Summit | Cambridge Disinformation Summit
-ACL | Annual Meeting of the Association for Computational Linguistics
-EMNLP | Conference on Empirical Methods in Natural Language Processing
-COLM | Conference on Language Modeling
+CHI | The ACM Conference on Human Factors in Computing Systems | https://chi.acm.org/
+CSCW | ACM Conference on Computer-Supported Cooperative Work and Social Computing | https://cscw.acm.org/
+ICWSM | International AAAI Conference on Web and Social Media | https://icwsm.org/
+The Web Conference | The Web Conference | https://thewebconf.org/
+IC2S2 | International Conference on Computational Social Science | https://ic2s2.org/
+ICA | International Communication Association Conference | https://www.icahdq.org/
+AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society | https://www.aies-conference.com/
+ACM CI | ACM Collective Intelligence | https://ci.acm.org/
+CSS | Computational Social Science Society of the Americas Conference | https://computationalsocialscience.org/
+CCS | Conference on Complex Systems | https://ccs2025.org/
+NetSci | International School and Conference on Network Science | https://netsci.net/
+ICSSI | International Conference on the Science of Science and Innovation | https://www.scienceofscience.org/
+CySoc | International Workshop on Cyber Social Threats | https://cy-soc.github.io/
+PolNet-PaCSS | Political Networks and Computational Social Science Conference | https://polnet-pacss.org/
+Trust & Safety Conference | Trust & Safety Research Conference | https://www.tsresearchconference.org/
+Cambridge Disinformation Summit | Cambridge Disinformation Summit | https://www.cst.cam.ac.uk/
+ACL | Annual Meeting of the Association for Computational Linguistics | https://www.aclweb.org/
+EMNLP | Conference on Empirical Methods in Natural Language Processing | https://www.aclweb.org/
+COLM | Conference on Language Modeling | https://colmweb.org/

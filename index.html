@@ -50,12 +50,6 @@
                             Deadline Hub tracks deadlines for conferences, journals, training programs, and more.
                         </h5>
                         <p class="text-center">
-                            Feel free to submit your own deadlines and feature requests by visiting
-                            <a href="https://github.com/mr-devs/deadline-hub" target="_blank" class="badge bg-dark text-decoration-none">
-                                <i class="bi bi-github"></i> GitHub
-                            </a>.
-                        </p>
-                        <p class="text-center">
                             <button type="button" class="badge bg-dark" data-bs-toggle="modal" data-bs-target="#learnModal">
                                 Learn more about this website.
                                 <i class="bi bi-question-circle-fill"></i>
@@ -65,50 +59,41 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="learnModalLabel">About This Website</h5>
+                                        <h5 class="modal-title" id="learnModalLabel">About Deadline Hub</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <p>
-                                            This website is managed and updated solely by
-                                            <a href="https://matthewdeverna.com" target="_blank">Matt DeVerna</a>.
-                                            It aims to be a useful resource for researchers and students in computational social science (broadly defined).
+                                            Built by
+                                            <a href="https://matthewdeverna.com" target="_blank">Matt DeVerna</a>
+                                            for researchers in computational social science (broadly defined).
+                                            Tracked venues are automatically updated using AI.
                                         </p>
-                                        <p>
-                                            Matt's long-term goal is to automate the process of finding deadlines for conferences, journals, and other relevant events.
-                                            In the future, the backend will use artificial intelligence to scrape and update these deadlines directly from official websites.
-                                        </p>
-                                          
-                                        <p>
-                                            <strong>You're missing my favorite venue!</strong>
-                                        </p>
-                                        <p>
-                                            If you'd like a deadline tracked that isn't currently listed, or you have feature/design suggestions, please consider contributing in one of the following ways:
-                                        <ol>
-                                            <li>
-                                                <strong>Create a Pull Request on GitHub</strong>: The fastest option—just
-                                                <a href="https://github.com/mr-devs/deadline-hub/blob/main/data/deadlines.json" target="_blank">edit a single file</a> and submit the PR.
-                                                Matt even created a
-                                                <a href="https://chatgpt.com/g/g-67c62a6497d081918a7d0de2d1267137-deadline-hub-data-extractor" target="_blank">
-                                                    free OpenAI GPT
-                                                </a>
-                                                that extracts deadline information in the correct format when provided with a conference website link.
-                                            </li>
-                                            <li>
-                                                <strong>Create an Issue on GitHub</strong>: This is the easiest method, but may take longer as Matt will need to manually gather and add the information.
-                                            </li>
-                                        </ol>
-                                        Please note that Matt <em>wants</em> these requests, so that he is aware of them and the tool becomes more useful for everyone.
-                                        </p>
-                                          
-                                        <p>
-                                            <strong>Support the Project</strong>
-                                        </p>
-                                        <p>
-                                            If you find the website useful, consider
-                                            <a href="https://ko-fi.com/mrdeverna" target="_blank">buying Matt a coffee</a>
-                                            to help keep it running.
-                                        </p>
+
+                                        <div class="list-group list-group-flush mb-3">
+                                            <div class="list-group-item bg-light d-flex align-items-start px-3 py-2">
+                                                <i class="bi bi-plus-circle me-2 mt-1"></i>
+                                                <div>
+                                                    <strong>Missing a venue?</strong>
+                                                    <a href="https://github.com/mr-devs/deadline-hub/issues" target="_blank">Open an issue</a>
+                                                    to request it. The more we track, the more useful this becomes.
+                                                </div>
+                                            </div>
+                                            <div class="list-group-item bg-light d-flex align-items-start px-3 py-2">
+                                                <i class="bi bi-heart me-2 mt-1"></i>
+                                                <div>
+                                                    <strong>Support the project.</strong>
+                                                    Free and open source — if it saves you time,
+                                                    <a href="https://ko-fi.com/mrdeverna" target="_blank">buy Matt a coffee</a>.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <a href="https://github.com/mr-devs/deadline-hub" target="_blank" class="text-muted small">
+                                                <i class="bi bi-github me-1"></i>View on GitHub
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
