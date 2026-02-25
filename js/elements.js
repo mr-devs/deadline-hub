@@ -202,7 +202,7 @@ export function createCard(datum) {
     const deadlineDate = (deadlineStr === "rolling" || deadlineStr === "n/a") ? datum.deadline : new Date(datum.deadline);
     const deadlineFormatted = (typeof deadlineDate === 'string')
         ? deadlineDate
-        : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+        : deadlineDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
     
     // Use the new "id" field to create unique identifiers.
     const uniqueId = `deadline-${datum.id}`;
@@ -366,7 +366,7 @@ export function createListItem(datum) {
     const deadlineDate = (deadlineStr === "rolling" || deadlineStr === "n/a") ? datum.deadline : new Date(datum.deadline);
     const deadlineFormatted = (typeof deadlineDate === 'string')
         ? deadlineDate
-        : deadlineDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+        : deadlineDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
     
     const uniqueId = `deadline-${datum.id}`;
     const countdownId = `list-countdown-${uniqueId}`;
