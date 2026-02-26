@@ -57,7 +57,7 @@ For each conference+year combination:
   - Round-based deadlines (e.g., ICWSM Round 1, Round 2, Round 3) — each round should be a separate entry
   - Multiple tracks (research track, industry track, workshops, tutorials) — each may be a separate entry
   - Abstract vs. full paper deadlines — these are often separate entries
-  - **Timezone / AoE conversion**: Many CFPs use "Anywhere on Earth" (AoE) timezone, which is UTC-12. An AoE deadline of "January 15, 2026 11:59pm AoE" converts to `"2026-01-16T11:59:00Z"` (add 12 hours to get UTC). If no timezone is specified, assume AoE and convert accordingly.
+  - **Timezone handling**: Always use the **announced deadline date** as the calendar date in the timestamp, with `T23:59:59Z` as the time. For example, "January 15, 2026 AoE" becomes `"2026-01-15T23:59:59Z"`. Do NOT convert AoE to UTC by adding 12 hours — this shifts the date forward by one day and causes the wrong date to display on the website. The goal is for the displayed date to match what the CFP announces. If a specific non-AoE time is given (e.g., "12:00 noon ET"), convert that to UTC normally.
 
 ## Step 4b: Review Entry Patterns
 
@@ -127,7 +127,7 @@ Every entry in `data/deadlines.json` must follow this structure:
 - **`venue_type`**: One of `"Conference"`, `"Workshop"`, `"Journal"`, `"Training"`
 - **`submission_type`**: e.g., `"Full papers"`, `"Research Papers"`, `"Abstracts"`, `"Applications"`, `"Workshops"`, `"Tutorials"`
 - **`event_dates`**: Human-readable date range (e.g., `"April 13-17, 2026"`)
-- **`deadline`**: ISO 8601 UTC timestamp (e.g., `"2025-09-30T23:59:59Z"`). Use `"Rolling"` or `"N/A"` if no fixed deadline.
+- **`deadline`**: ISO 8601 UTC timestamp using the **announced deadline date** with `T23:59:59Z` (e.g., a September 30 deadline becomes `"2025-09-30T23:59:59Z"`). Do not shift AoE dates forward. Use `"Rolling"` or `"N/A"` if no fixed deadline.
 - **`city`** and **`country`**: Event location. Use `"Virtual"` / `"N/A"` for online events.
 - **`archival`**: `"Archival"` or `"Non-archival"`
 - **`link`**: URL to the official CFP or conference page
