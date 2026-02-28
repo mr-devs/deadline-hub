@@ -4,8 +4,10 @@
  * Manages DOM rendering for different view modes and UI updates.
  */
 
-import { createCard, createModal, createListItem } from './elements.js';
-import { renderFilterButtons, filterDeadlines, sortDeadlines } from './filters.js';
+import { createCard } from './card.js';
+import { createModal } from './modal.js';
+import { createListItem } from './list-item.js';
+import { renderFilterButtons, filterDeadlines, sortDeadlines, updateFilterCounts } from './filters.js';
 
 export function renderDeadlines() {
     try {
@@ -20,67 +22,47 @@ export function renderDeadlines() {
             renderCardView(sortedDeadlines);
         }
 
-        reinitializeTooltips();
+        updateFilterCounts(filteredDeadlines);
     } catch (error) {
         console.error('Error rendering deadlines:', error);
     }
 }
 
-function renderCardView(filteredDeadlines) {
+function renderCardView(deadlines) {
     const cardsContainer = document.getElementById('cardsContainer');
     const listContainer = document.getElementById('listContainer');
-    
+
     cardsContainer.style.display = 'flex';
     listContainer.style.display = 'none';
-    cardsContainer.innerHTML = '';
+    cardsContainer.innerHTML = deadlines.map(d => createCard(d)).join('');
+    cardsContainer.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
 
-    filteredDeadlines.forEach(datum => {
-        const cardHTML = createCard(datum);
-        cardsContainer.innerHTML += cardHTML;
-    });
-
-    renderModals(filteredDeadlines);
+    renderModals(deadlines);
 }
 
-function renderListView(filteredDeadlines) {
+function renderListView(deadlines) {
     const cardsContainer = document.getElementById('cardsContainer');
     const listContainer = document.getElementById('listContainer');
     const listTableBody = document.getElementById('listTableBody');
-    
+
     cardsContainer.style.display = 'none';
     listContainer.style.display = 'block';
-    listTableBody.innerHTML = '';
+    listTableBody.innerHTML = deadlines.map(d => createListItem(d)).join('');
+    listTableBody.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
 
-    filteredDeadlines.forEach(datum => {
-        const listItemHTML = createListItem(datum);
-        listTableBody.innerHTML += listItemHTML;
-    });
-
-    renderModals(filteredDeadlines);
+    renderModals(deadlines);
 }
 
-function renderModals(filteredDeadlines) {
+function renderModals(deadlines) {
     const modalsContainer = document.getElementById('modalsContainer');
-    
-    modalsContainer.innerHTML = '';
+    modalsContainer.innerHTML = deadlines.map(d => createModal(d)).join('');
 
-    filteredDeadlines.forEach(datum => {
-        const modalHTML = createModal(datum);
-        modalsContainer.innerHTML += modalHTML;
-    });
-
-    const tooltipTriggerList = modalsContainer.querySelectorAll('[data-bs-toggle="tooltip"]');
-    tooltipTriggerList.forEach(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
-}
-
-function reinitializeTooltips() {
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    tooltipTriggerList.forEach(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+    modalsContainer.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
 }
 
 export function renderAllFilterButtons() {
-    renderFilterButtons('topics', 'topics', 'Topics');
-    renderFilterButtons('submissionTypes', 'submission_type', 'SubmissionTypes');
-    renderFilterButtons('venueTypes', 'venue_type', 'VenueTypes');
-    renderFilterButtons('archivalTypes', 'archival', 'ArchivalTypes');
+    renderFilterButtons('topics', 'topics');
+    renderFilterButtons('submissionTypes', 'submission_type');
+    renderFilterButtons('venueTypes', 'venue_type');
+    renderFilterButtons('archivalTypes', 'archival');
 }

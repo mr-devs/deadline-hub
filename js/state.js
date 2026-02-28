@@ -11,12 +11,10 @@ class AppState {
         this.selectedSubmissionTypes = [];
         this.selectedVenueTypes = [];
         this.selectedArchivalTypes = [];
-        this.isInitialized = false;
     }
 
     setDeadlines(data) {
         this.deadlines = data.map((item, index) => ({ ...item, id: index }));
-        this.isInitialized = true;
     }
 
     getDeadlines() {
@@ -82,9 +80,6 @@ class AppState {
         this.selectedArchivalTypes = [];
     }
 
-    isReady() {
-        return this.isInitialized;
-    }
 }
 
 export const appState = new AppState();

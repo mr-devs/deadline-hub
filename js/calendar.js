@@ -32,7 +32,7 @@ export function generateICS(datum) {
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "BEGIN:VEVENT",
-        `UID:${Date.now()}@deadline-hub`,
+        `UID:${datum.id}-${Date.now()}@deadline-hub`,
         `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
         `DTSTART;VALUE=DATE:${dtStart}`,
         `SUMMARY:${datum.name_display}`,
@@ -40,6 +40,42 @@ export function generateICS(datum) {
         "END:VEVENT",
         "END:VCALENDAR"
     ].join("\r\n");
+}
+
+/**
+ * Generates a Google Calendar "Add Event" URL for the given datum.
+ * Returns null for rolling/n/a deadlines.
+ */
+export function generateGoogleCalendarUrl(datum) {
+    const lower = typeof datum.deadline === 'string' ? datum.deadline.toLowerCase() : "";
+    if (lower === "rolling" || lower === "n/a") return null;
+
+    const deadlineDate = new Date(datum.deadline);
+    const pad = num => num.toString().padStart(2, '0');
+    const fmt = d => `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}`;
+
+    // Google Calendar all-day events need DTEND = day after DTSTART
+    const endDate = new Date(deadlineDate);
+    endDate.setUTCDate(endDate.getUTCDate() + 1);
+
+    const details = [
+        `Full Name: ${datum.name_full}`,
+        `Submission Type: ${datum.submission_type}`,
+        `Venue: ${datum.venue_type}`,
+        `Archival: ${datum.archival}`,
+        `Event Dates: ${datum.event_dates}`,
+        `Notes: ${datum.notes}`
+    ].join('\n\n');
+
+    const params = new URLSearchParams({
+        action:   'TEMPLATE',
+        text:     datum.name_display,
+        dates:    `${fmt(deadlineDate)}/${fmt(endDate)}`,
+        details:  details,
+        location: `${datum.city}, ${datum.country}`,
+    });
+
+    return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
 /**
@@ -62,5 +98,3 @@ export function downloadICS(datum) {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 }
-// Expose the function globally.
-window.downloadICS = downloadICS;

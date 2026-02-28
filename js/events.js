@@ -6,89 +6,77 @@
 
 import { appState } from './state.js';
 import { renderDeadlines } from './rendering.js';
-
-export function setupFilterButtonEvents(container, filterType) {
-    const buttons = container.querySelectorAll('button');
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            button.classList.toggle('active');
-            const value = button.textContent.trim();
-            
-            switch(filterType) {
-                case 'topics':
-                    appState.toggleTopic(value);
-                    break;
-                case 'submissionTypes':
-                    appState.toggleSubmissionType(value);
-                    break;
-                case 'venueTypes':
-                    appState.toggleVenueType(value);
-                    break;
-                case 'archivalTypes':
-                    appState.toggleArchivalType(value);
-                    break;
-            }
-            
-            renderDeadlines();
-        });
-    });
-}
-
-export function setupToggleEvents(toggleLinkId, hiddenDivId) {
-    const toggleLink = document.getElementById(toggleLinkId);
-    if (toggleLink) {
-        toggleLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            const hiddenDiv = document.getElementById(hiddenDivId);
-            if (hiddenDiv.style.display === "none") {
-                hiddenDiv.style.display = "block";
-                toggleLink.textContent = "Show Less";
-            } else {
-                hiddenDiv.style.display = "none";
-                toggleLink.textContent = "Show More";
-            }
-        });
-    }
-}
+import { downloadICS, generateGoogleCalendarUrl } from './calendar.js';
 
 export function setupGlobalEventListeners() {
-    document.addEventListener('DOMContentLoaded', function() {
-        const clearBtn = document.getElementById('clearFiltersButton');
-        if (clearBtn) {
-            clearBtn.addEventListener('click', clearFilters);
+    const clearBtn = document.getElementById('clearFiltersButton');
+    if (clearBtn) clearBtn.addEventListener('click', clearFilters);
+
+    const cardViewRadio = document.getElementById('cardView');
+    const listViewRadio = document.getElementById('listView');
+    if (cardViewRadio) cardViewRadio.addEventListener('change', renderDeadlines);
+    if (listViewRadio) listViewRadio.addEventListener('change', renderDeadlines);
+
+    const searchInput = document.getElementById('searchInput');
+    const showPastSwitch = document.getElementById('showPastConferencesSwitch');
+    if (searchInput) searchInput.addEventListener('keyup', renderDeadlines);
+    if (showPastSwitch) showPastSwitch.addEventListener('change', renderDeadlines);
+
+    document.addEventListener('change', (e) => {
+        const checkbox = e.target.closest('.filter-checkbox');
+        if (!checkbox) return;
+        const filterType = checkbox.dataset.filterType;
+        const value = checkbox.dataset.filterValue;
+        switch (filterType) {
+            case 'topics':          appState.toggleTopic(value);          break;
+            case 'submissionTypes': appState.toggleSubmissionType(value); break;
+            case 'venueTypes':      appState.toggleVenueType(value);      break;
+            case 'archivalTypes':   appState.toggleArchivalType(value);   break;
+        }
+        updateFilterBadge(filterType);
+        renderDeadlines();
+    });
+
+    document.addEventListener('click', (e) => {
+        const icalBtn = e.target.closest('.ical-download-btn');
+        if (icalBtn) {
+            const datum = appState.getDeadlines().find(d => d.id === parseInt(icalBtn.dataset.deadlineId, 10));
+            if (datum) downloadICS(datum);
+            return;
         }
 
-        const cardViewRadio = document.getElementById('cardView');
-        const listViewRadio = document.getElementById('listView');
-        
-        if (cardViewRadio) {
-            cardViewRadio.addEventListener('change', renderDeadlines);
-        }
-        if (listViewRadio) {
-            listViewRadio.addEventListener('change', renderDeadlines);
-        }
-
-        const searchInput = document.getElementById('searchInput');
-        const showPastSwitch = document.getElementById('showPastConferencesSwitch');
-        
-        if (searchInput) {
-            searchInput.addEventListener('keyup', renderDeadlines);
-        }
-        if (showPastSwitch) {
-            showPastSwitch.addEventListener('change', renderDeadlines);
+        const gcalBtn = e.target.closest('.gcal-btn');
+        if (gcalBtn) {
+            const datum = appState.getDeadlines().find(d => d.id === parseInt(gcalBtn.dataset.deadlineId, 10));
+            const url = datum && generateGoogleCalendarUrl(datum);
+            if (url) window.open(url, '_blank', 'noopener');
         }
     });
+}
+
+
+function updateFilterBadge(filterType) {
+    const counts = {
+        topics:          appState.getSelectedTopics().length,
+        submissionTypes: appState.getSelectedSubmissionTypes().length,
+        venueTypes:      appState.getSelectedVenueTypes().length,
+        archivalTypes:   appState.getSelectedArchivalTypes().length,
+    };
+    const badge = document.getElementById(`${filterType}Badge`);
+    if (!badge) return;
+    const count = counts[filterType] || 0;
+    badge.textContent = count;
+    badge.style.display = count > 0 ? 'inline-flex' : 'none';
+}
+
+function updateAllFilterBadges() {
+    ['topics', 'submissionTypes', 'venueTypes', 'archivalTypes'].forEach(updateFilterBadge);
 }
 
 function clearFilters() {
     appState.clearAllFilters();
-    
-    document.getElementById('searchInput').value = "";
-    
-    document.querySelectorAll('#topicsContainer button.active').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('#submissionTypesContainer button.active').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('#venueTypesContainer button.active').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('#archivalTypesContainer button.active').forEach(btn => btn.classList.remove('active'));
-
+    document.getElementById('searchInput').value = '';
+    document.querySelectorAll('.filter-checkbox').forEach(cb => { cb.checked = false; });
+    updateAllFilterBadges();
     renderDeadlines();
 }

@@ -1,0 +1,190 @@
+/* ============================================================
+   Deadline Hub — Custom CSS
+   Design tokens, card hierarchy, toolbar styles, and states
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   Design Tokens
+   ---------------------------------------------------------- */
+:root {
+    --color-primary:       #212529;
+    --color-accent:        #0d6efd;
+    --color-surface:       #ffffff;
+    --color-surface-alt:   #f8f9fa;
+    --color-border:        #dee2e6;
+    --color-text-primary:  #212529;
+    --color-text-muted:    #6c757d;
+
+    --font-size-xs:   0.7rem;
+    --font-size-sm:   0.8125rem;
+    --font-size-base: 1rem;
+    --font-size-md:   1.125rem;
+    --font-size-lg:   1.25rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold:   700;
+
+    --space-xs:  0.25rem;
+    --space-sm:  0.5rem;
+    --space-md:  1rem;
+    --space-lg:  1.5rem;
+    --space-xl:  2.5rem;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+
+    --shadow-card:       0 1px 3px rgba(0, 0, 0, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-card-hover: 0 6px 16px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ----------------------------------------------------------
+   Base
+   ---------------------------------------------------------- */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--color-text-primary);
+    background-color: var(--color-surface-alt);
+}
+
+/* ----------------------------------------------------------
+   Card Visual Hierarchy
+   ---------------------------------------------------------- */
+.card {
+    position: relative;
+    top: 0;
+    box-shadow: var(--shadow-card);
+    border-color: var(--color-border);
+    transition: box-shadow 0.18s ease, top 0.18s ease;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-card-hover);
+    top: -2px;
+}
+
+.card-title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-sm);
+}
+
+.card-text {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+}
+
+.card-meta {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+}
+
+/* ----------------------------------------------------------
+   Filter Toolbar
+   ---------------------------------------------------------- */
+#filterToolbar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-sm) 0;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+/* Search bar grows to fill available space in row 1 */
+.filter-search {
+    flex: 1 1 200px;
+}
+
+/* View toggle + show past: inline on desktop, own line on mobile */
+.filter-controls-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+@media (max-width: 767px) {
+    .filter-controls-group {
+        flex-basis: 100%;
+    }
+}
+
+/* Dropdown menus for filters: scrollable, fixed max-height */
+.filter-dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+    min-width: 220px;
+    padding: var(--space-xs) 0;
+}
+
+/* Filter dropdown toggle: position badge relative to button */
+.filter-dropdown-toggle {
+    position: relative;
+}
+
+/* Active filter count badge */
+.filter-active-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    margin-left: var(--space-xs);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--color-accent);
+    color: #fff;
+    border-radius: 999px;
+    line-height: 1;
+}
+
+/* Checkbox items inside dropdown menus */
+.filter-dropdown-menu .dropdown-item {
+    cursor: pointer;
+    font-size: var(--font-size-sm);
+    padding: 0.35rem var(--space-md);
+}
+
+.filter-dropdown-menu .dropdown-item:hover {
+    background-color: var(--color-surface-alt);
+}
+
+/* Count pill next to each filter option */
+.filter-count {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    margin-left: auto;
+    padding-left: var(--space-sm);
+}
+
+/* ----------------------------------------------------------
+   Loading / Error States
+   ---------------------------------------------------------- */
+#loadingIndicator {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl) 0;
+    gap: var(--space-md);
+}
+
+#errorMessage {
+    display: none;
+}
+
+#appContent {
+    display: none;
+}
+
+#listContainer {
+    display: none;
+}

@@ -11,18 +11,29 @@ import { renderDeadlines, renderAllFilterButtons } from './rendering.js';
 
 // Initialize application
 async function initializeApp() {
+    const loadingEl = document.getElementById('loadingIndicator');
+    const errorEl   = document.getElementById('errorMessage');
+    const contentEl = document.getElementById('appContent');
+
+    if (loadingEl) loadingEl.style.display = 'flex';
+
     try {
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
         const dataUrl = isLocal
             ? 'data/deadlines.json'
             : 'https://raw.githubusercontent.com/mr-devs/deadline-hub/refs/heads/main/data/deadlines.json';
         const data = await fetchData(dataUrl);
-        
+
         appState.setDeadlines(data);
         renderAllFilterButtons();
         renderDeadlines();
+
+        if (loadingEl) loadingEl.style.display = 'none';
+        if (contentEl) contentEl.style.display = 'block';
     } catch (error) {
         console.error('Error loading deadlines data:', error);
+        if (loadingEl) loadingEl.style.display = 'none';
+        if (errorEl)   errorEl.style.display   = 'block';
     }
 }
 
