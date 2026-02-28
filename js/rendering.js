@@ -63,7 +63,6 @@ function renderModals(deadlines) {
 }
 
 export function renderAllFilterButtons() {
-    renderFilterButtons('topics', 'topics');
     renderFilterButtons('submissionTypes', 'submission_type');
     renderFilterButtons('venueTypes', 'venue_type');
     renderFilterButtons('archivalTypes', 'archival');

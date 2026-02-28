@@ -30,7 +30,6 @@ Each deadline entry in `deadlines.json` contains:
 - `venue_type`: Conference, Workshop, Journal, Training, etc.
 - `submission_type`: Full papers, Abstracts, Applications, etc.
 - `deadline`: ISO 8601 timestamp or "Rolling"/"N/A"
-- `topics`: Array of research topics for filtering
 - `archival`: Boolean for archival status
 - Location, dates, links, and notes fields
 
@@ -57,7 +56,6 @@ Data updates should only modify `data/deadlines.json`. Use the OpenAI GPT tool f
 ## Filtering System
 
 The application supports multi-dimensional filtering:
-- Topics (social computing, machine learning, etc.)
 - Submission types (Full papers, Abstracts, etc.)
 - Venue types (Conference, Workshop, Journal)
 - Archival status

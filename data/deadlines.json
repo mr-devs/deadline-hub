@@ -10,7 +10,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Industry Track Abstracts. Follows same timeline as Research Track. For real-world systems and web innovations. Peer reviewed with rebuttal and camera-ready stages."
     },
     {
@@ -24,7 +23,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Industry Track Full papers. Follows same timeline as Research Track. For real-world systems and web innovations. Peer reviewed with rebuttal and camera-ready stages."
     },
     {
@@ -38,7 +36,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/important-dates.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Proposal notifications by 2025-11-17. Accepted workshop papers due 2025-12-18; notification on 2026-01-13; camera-ready by 2026-02-02."
     },
     {
@@ -52,7 +49,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/important-dates.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Notification by 2025-12-05; materials due 2026-04-01. Covers introductory and advanced web topics."
     },
     {
@@ -66,7 +62,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Full paper abstracts. Double-blind review with rebuttal (Nov 24-Dec 1); notification on 2026-01-13; camera-ready due 2026-01-25. Max 8 pages (excl. references). Limit 7 submissions per author; LLMs not allowed; anonymity required. Optional reproducibility badge. Registration required for accepted papers."
     },
     {
@@ -80,7 +75,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Full papers. Double-blind review with rebuttal (Nov 24-Dec 1); notification on 2026-01-13; camera-ready due 2026-01-25. Max 8 pages (excl. references). Limit 7 submissions per author; LLMs not allowed; anonymity required. Optional reproducibility badge. Registration required for accepted papers."
     },
     {
@@ -94,7 +88,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Short paper abstracts. Submissions should present early findings, preliminary data, or innovative ideas. Shares same notification (2026-01-13) and camera-ready (2026-01-25) timeline as full papers."
     },
     {
@@ -108,7 +101,6 @@
         "country": "United Arab Emirates",
         "archival": "Archival",
         "link": "https://www2026.thewebconf.org/calls/research-tracks.html",
-        "topics": ["machine learning", "algorithms", "data science", "human-computer interaction", "international web systems"],
         "notes": "Short papers. Submissions should present early findings, preliminary data, or innovative ideas. Shares same notification (2026-01-13) and camera-ready (2026-01-25) timeline as full papers."
     },
     {
@@ -122,7 +114,6 @@
         "country": "Spain",
         "archival": "Archival",
         "link": "https://chi2026.acm.org/authors/papers/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Abstract/metadata deadline is mandatory; full paper submissions must be standalone. Revise & resubmit and optional video materials are included."
     },
     {
@@ -136,7 +127,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/posters/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Up to 6 pages, ACM template, anonymous submissions; E-rights and optional video deadlines follow."
     },
     {
@@ -150,7 +140,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/interactive-demos/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Up to 6 pages plus mandatory walkthrough video and promotional image; non-anonymous."
     },
     {
@@ -164,7 +153,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/panels/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Panel proposals reviewed, with notification by January 15, 2026."
     },
     {
@@ -178,7 +166,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/workshops/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Workshop proposals (up to 8 pages, ACM template), non-anonymous; juror application deadline Sept 29 2025."
     },
     {
@@ -192,7 +179,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/meet-ups/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Short community discussion proposals, up to 3 pages."
     },
     {
@@ -206,7 +192,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/student-mentoring-program/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Student mentoring submissions; part of restructured doctoral consortium."
     },
     {
@@ -220,7 +205,6 @@
         "country": "Spain",
         "archival": "Non-archival",
         "link": "https://chi2026.acm.org/authors/student-research-competition/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "Up to 5 pages excluding references; proof of student status required."
     },
     {
@@ -234,7 +218,6 @@
         "country": "Spain",
         "archival": "Archival",
         "link": "https://chi2026.acm.org/authors/journals/",
-        "topics": ["human-computer interaction", "computational social science"],
         "notes": "By invitation only; for articles accepted to ToCHI/TSC or other HCI journals."
     },
     {
@@ -248,7 +231,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://icwsm.org/2026/",
-        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
         "notes": "New submissions and revise-and-resubmits (R&Rs) from January 2025 round. Double-blind review; AAAI two-column US-Letter format; 8-11 pp (up to 12 pp for camera-ready). Ethics Checklist required."
     },
     {
@@ -262,7 +244,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://icwsm.org/2026/",
-        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
         "notes": "New submissions and R&Rs from May 2025 round. Same formatting and ethics requirements as Round 1."
     },
     {
@@ -276,7 +257,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://icwsm.org/2026/",
-        "topics": ["social computing", "machine learning", "network science", "generative ai", "data science"],
         "notes": "New submissions and R&Rs from September 2025 round. Accepted papers will appear at ICWSM 2026."
     },
     {
@@ -290,7 +270,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sites.google.com/view/polarization-workshop",
-        "topics": ["social norms", "polarization", "trust", "behavioral science", "public policy"],
         "notes": "Two-day interdisciplinary workshop at MIT featuring faculty/postdoc speakers and graduate student posters. Abstract-only submissions acceptable; registration fee covers meals and speaker dinner."
     },
     {
@@ -304,7 +283,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Research presentation: 12-minute presentations with discussant and Q&A. Must include original research; literature reviews are unlikely to be accepted."
     },
     {
@@ -318,7 +296,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Lightening talks: 7-minute presentations grouped by topic. Suitable for concise, focused research overviews."
     },
     {
@@ -332,7 +309,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Posters: displayed all day and presented during happy hour. Ideal for students. Posters will be printed by the conference."
     },
     {
@@ -346,7 +322,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Participant-Organized Panels: 60-minute discussions with 3-4 panelists and a facilitator. Panels with cross-sector representation are favored."
     },
     {
@@ -360,7 +335,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/content/trust-and-safety-research-conference-2025",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Workshop: 60 or 90-minute skill-based workshops. Proposals should describe the structure and learning objectives."
     },
     {
@@ -374,7 +348,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://tsjournal.org/index.php/jots/index",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Peer-reviewed submissions published in the September 2025 issue of the Journal of Online Trust and Safety."
     },
     {
@@ -388,7 +361,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://tsjournal.org/index.php/jots/index",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Commentaries: Commentaries offer brief insights or perspectives and will be published in the September 2025 journal issue."
     },
     {
@@ -402,7 +374,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://link.springer.com/collections/iafjdfggce",
-        "topics": ["misinformation", "data science", "network science"],
         "notes": "This topical collection seeks to explore the pressing issue of misinformation and disinformation through the combined lenses of Data Science and Network Science."
     },
     {
@@ -416,13 +387,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://dl.acm.org/pb-assets/static_journal_pages/tist/pdf/TIST-CfP-Risks-Unintended-Harms-Generative-AI-Systems-1737060964027.pdf",
-        "topics": [
-            "generative ai",
-            "misinformation",
-            "cybersecurity",
-            "human-ai interaction",
-            "ethics"
-        ],
         "notes": "Special issue on generative AI risks in ACM TIST. Rolling review process with final publication in early 2026."
     },
     {
@@ -432,16 +396,10 @@
         "submission_type": "Tutorials",
         "event_dates": "July 21-24, 2025",
         "deadline": "2025-01-17T23:59:59Z",
-        "city": "Norrköping",
+        "city": "Norrk\u00f6ping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "machine learning",
-            "network science"
-        ],
         "notes": "Accepted tutorials will be held during the conference."
     },
     {
@@ -451,16 +409,10 @@
         "submission_type": "Abstracts",
         "event_dates": "July 21-24, 2025",
         "deadline": "2025-02-26T23:59:59Z",
-        "city": "Norrköping",
+        "city": "Norrk\u00f6ping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "machine learning",
-            "network science"
-        ],
         "notes": "Accepted abstracts will be presented at the conference."
     },
     {
@@ -474,13 +426,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": [
-            "agent-based modeling",
-            "network science",
-            "economic modeling",
-            "policy analysis",
-            "data science"
-        ],
         "notes": "Papers should be 3,000-5,000 words including all content. ODD documentation can be attached without word count penalty."
     },
     {
@@ -494,13 +439,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": [
-            "agent-based modeling",
-            "network science",
-            "economic modeling",
-            "policy analysis",
-            "data science"
-        ],
         "notes": "Extended abstracts are 1,000-2,000 words excluding figures and tables. Not included in proceedings."
     },
     {
@@ -514,13 +452,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": [
-            "agent-based modeling",
-            "network science",
-            "economic modeling",
-            "policy analysis",
-            "data science"
-        ],
         "notes": "Poster submissions require an 800-word abstract. Accepted posters must include a one-slide summary for a two-minute presentation."
     },
     {
@@ -534,13 +465,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/css-2025-santa-fe/",
-        "topics": [
-            "agent-based modeling",
-            "network science",
-            "economic modeling",
-            "policy analysis",
-            "data science"
-        ],
         "notes": "SIGs can include workshops, tutorials, or discussions. Proposals must describe event format and duration."
     },
     {
@@ -554,13 +478,6 @@
         "country": "United Kingdom",
         "archival": "Non-archival",
         "link": "https://edri.org/take-action/events/call-for-papers-cambridge-disinformation-summit-2025/",
-        "topics": [
-            "misinformation",
-            "policy analysis",
-            "algorithms",
-            "computational social science",
-            "ai"
-        ],
         "notes": "10-12 papers will be selected. Priority for newer working papers. Interdisciplinary research encouraged."
     },
     {
@@ -574,12 +491,6 @@
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://unicri.org/Training/School-Hate-Speech-2025",
-        "topics": [
-            "misinformation",
-            "cyber social threats",
-            "ai",
-            "computational social science"
-        ],
         "notes": "Hybrid format. Rolling admissions. Certificate upon completion."
     },
     {
@@ -593,13 +504,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/stanford/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Focus on computational social science. Requires CV and research statement. Collaborative projects included."
     },
     {
@@ -613,13 +517,6 @@
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://cy-soc.github.io/2025/",
-        "topics": [
-            "cyber social threats",
-            "misinformation",
-            "data science",
-            "social media analysis",
-            "generative AI"
-        ],
         "notes": "Co-located with AAAI ICWSM 2025. Accepts research, position, short, and demo papers. Double-blind review. Page limits vary by submission type. Full papers are recommended to be 8 pages long and must be less than 11 pages."
     },
     {
@@ -633,13 +530,6 @@
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": [
-            "social media analysis", 
-            "misinformation", 
-            "online behavior", 
-            "machine learning", 
-            "computational social science"
-        ],
         "notes": "First full-paper submission deadline. New submissions and revise-and-resubmit papers from Jan 2024 round."
     },
     {
@@ -653,13 +543,6 @@
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": [
-            "social media analysis",
-            "misinformation", 
-            "online behavior", 
-            "machine learning", 
-            "computational social science"
-        ],
         "notes": "Second full-paper submission deadline. New submissions and revise-and-resubmit papers from May 2024 round."
     },
     {
@@ -673,13 +556,6 @@
         "country": "Denmark",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2025/submit/index.html",
-        "topics": [
-            "social media analysis",
-            "misinformation", 
-            "online behavior", 
-            "machine learning", 
-            "computational social science"
-        ],
         "notes": "Third full-paper submission deadline. New submissions and revise-and-resubmit papers from September 2024 round."
     },
     {
@@ -693,11 +569,6 @@
         "country": "Japan",
         "archival": "Archival",
         "link": "https://chi2025.acm.org/for-authors/papers/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Meta data must be submitted by the 5th! Peer-reviewed archival papers. Full and short formats available."
     },
     {
@@ -711,11 +582,6 @@
         "country": "Japan",
         "archival": "Archival",
         "link": "https://chi2025.acm.org/for-authors/case-studies/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Call for Case Studies. Practical applications of HCI research in industry or field settings."
     },
     {
@@ -729,11 +595,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/late-breaking-work/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Call for Late-Breaking Work. Up to 8 pages. Short papers presenting preliminary results."
     },
     {
@@ -747,11 +608,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/interactivity/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Up to 6 pages. Hands-on demonstration of interactive systems."
     },
     {
@@ -765,11 +621,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/in-person-doctoral-consortium/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Doctoral Consortium. PhD students receive guidance and feedback from senior researchers."
     },
     {
@@ -783,11 +634,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-design-competition/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Student Design Competition. Students present novel design solutions to HCI challenges."
     },
     {
@@ -801,11 +647,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-game-competition/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Student Game Competition. Student teams submit original game designs."
     },
     {
@@ -819,11 +660,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/student-research-competition/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Student Research Competition. Undergraduate and graduate students present research projects."
     },
     {
@@ -837,11 +673,6 @@
         "country": "Japan",
         "archival": "Non-archival",
         "link": "https://chi2025.acm.org/for-authors/video-showcase/",
-        "topics": [
-            "human-computer interaction", 
-            "social computing",
-            "computational social science"
-        ],
         "notes": "Video Showcase. Creative videos demonstrating HCI concepts or projects."
     },
     {
@@ -855,13 +686,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/cmu/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Designed for graduate students, postdoctoral researchers, staff, and early-career faculty. Participants are expected to fully attend and participate in the entire program. Application requires a statement of interest and CV."
     },
     {
@@ -871,17 +695,10 @@
         "submission_type": "Applications",
         "event_dates": "June 9-19, 2025",
         "deadline": "2025-03-31T23:59:59Z",
-        "city": "Norrköping",
+        "city": "Norrk\u00f6ping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/ias/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Open to Ph.D. students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Lodging expenses covered; limited travel funds available. Application requires a CV and statement of interest."
     },
     {
@@ -895,13 +712,6 @@
         "country": "France",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/paris/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Restricted to Ph.D. students, postdoctoral researchers, and early career-stage faculty from Europe and Africa. Housing provided for around 20 students during onsite days. Application requires a CV and statement of interest."
     },
     {
@@ -915,13 +725,6 @@
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/odissei/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Targeted at Ph.D. students, post-docs, and early career researchers, especially in sociology, psychology, economics, and political science. Participation is free; accommodation provided for those living more than 30 minutes away. Application requires a CV and short statement of motivation."
     },
     {
@@ -935,13 +738,6 @@
         "country": "China",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/lingnan/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Invites advanced research postgraduate students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Participants expected to cover their own travel and lodging; on-campus accommodation available. Application requires a CV and statement of interest."
     },
     {
@@ -955,13 +751,6 @@
         "country": "Singapore",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/singapore/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Designed for graduate students, postdoctoral researchers, untenured faculty within 7 years of their Ph.D., and researchers in NGOs or government agencies. Application details to be announced; check the website for updates."
     },
     {
@@ -975,13 +764,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/penn/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Hosted by the University of Pennsylvania. Open to Ph.D. students, postdoctoral researchers, and junior faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
@@ -995,14 +777,7 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/rochester/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
-        "notes": "Hosted by the Goergen Institute for Data Science at the University of Rochester. Open to advanced undergraduates, Master’s students, Ph.D. students, postdoctoral researchers, and assistant professors within 7 years of their Ph.D. Application requires a CV and a statement of interest."
+        "notes": "Hosted by the Goergen Institute for Data Science at the University of Rochester. Open to advanced undergraduates, Master\u2019s students, Ph.D. students, postdoctoral researchers, and assistant professors within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "SICSS-UCLA 2025",
@@ -1015,13 +790,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/ucla/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Hosted by the UCLA Division of Social Sciences and the California Center for Population Research. Open to advanced Ph.D. students, postdoctoral researchers, and junior faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
@@ -1035,13 +803,6 @@
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/lake-como/",
-        "topics": [
-            "computational social science",
-            "data science",
-            "network science",
-            "machine learning",
-            "text analysis"
-        ],
         "notes": "Hosted by the Lake Como School of Advanced Studies. Open to advanced Ph.D. students, postdoctoral researchers, and faculty within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
@@ -1055,12 +816,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://cscw.acm.org/",
-        "topics": [
-            "social computing",
-            "collaborative systems",
-            "human-computer interaction",
-            "human-ai interaction"
-        ],
         "notes": "CSCW 2026 will be the last cycle with a single deadline. Starting in 2026, the conference will transition to rolling deadlines for submissions."
     },
     {
@@ -1074,12 +829,6 @@
         "country": "Norway",
         "archival": "Archival",
         "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
-        "topics": [
-            "social computing",
-            "collaborative systems",
-            "human-computer interaction",
-            "human-ai interaction"
-        ],
         "notes": "First submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
     },
     {
@@ -1093,12 +842,6 @@
         "country": "Norway",
         "archival": "Archival",
         "link": "https://cscw.acm.org/2025/index.php/submit-papers/",
-        "topics": [
-            "social computing",
-            "collaborative systems",
-            "human-computer interaction",
-            "human-ai interaction"
-        ],
         "notes": "Second and final submission round for new papers. Papers must adhere to the ACM PACM HCI format and be between 5,000 and 12,000 words."
     },
     {
@@ -1112,13 +855,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sites.google.com/view/confpolinetworks/",
-        "topics": [
-            "political science",
-            "network analysis",
-            "political networks", 
-            "computational social science", 
-            "social systems"
-        ],
         "notes": "Joint conference hosted by Harvard University and Northeastern University. Accepting theoretical and empirical research papers of posters. 300 word limit."
     },
     {
@@ -1132,12 +868,6 @@
         "country": "USA",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2024/",
-        "topics": [
-            "ai",
-            "ai governance",
-            "ai ethics",
-            "trustworthy ai"
-        ],
         "notes": "Submissions may be up to 10 pages in the AAAI-2024 2-column format, with unlimited pages for references. Authors can opt for non-archival publication to accommodate subsequent journal submissions. The conference will be held at the San Jose McEnery Convention Center."
     },
     {
@@ -1151,12 +881,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://www.icahdq.org/mpage/annual-conference",
-        "topics": [
-            "communication studies",
-            "media studies",
-            "digital communication",
-            "journalism"
-        ],
         "notes": "Major conference in communication studies. Submission system opened on September 3, 2024. Acceptance notifications were sent on January 15, 2025."
     },
     {
@@ -1170,13 +894,6 @@
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://netsci2025.github.io/calls/",
-        "topics": [
-            "network science", 
-            "graph ml",
-            "temporal networks", 
-            "brain networks", 
-            "social networks"
-        ],
         "notes": "Poster session on June 6. Priority for authors not already presenting. One-page abstract with figure and references."
     },
     {
@@ -1190,13 +907,6 @@
         "country": "Netherlands",
         "archival": "Non-archival",
         "link": "https://netsci2025.github.io/calls/",
-        "topics": [
-            "network science", 
-            "graph ml",
-            "temporal networks", 
-            "brain networks", 
-            "social networks"
-        ],
         "notes": "Submit one-page abstract with figure and references. Presentation formats include contributed talks, lightning talks, and posters."
     },
     {
@@ -1210,12 +920,6 @@
         "country": "Denmark",
         "archival": "Non-archival",
         "link": "https://icssi.org/",
-        "topics": [
-            "science of science",
-            "innovation",
-            "ai",
-            "ethics"
-        ],
         "notes": "Submissions should be 2-page Extended abstracts in PDF format, including figures, tables, and references. Accepted presentations may be assigned as lightning talks, oral presentations, or posters. At least one author must register by April 14, 2025."
     },
     {
@@ -1229,12 +933,6 @@
         "country": "Italy",
         "archival": "Non-archival",
         "link": "https://ccs25.cssociety.org/abstract-2/",
-        "topics": [
-            "complex systems",
-            "network dynamics",
-            "data science", 
-            "computational modeling"
-        ],
         "notes": "Max 2-page PDF including abstract, one figure, and references. Presentation preference may be indicated but not guaranteed. One author must register to present."
     },
     {
@@ -1248,11 +946,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "Archival paper track integrated with former HCOMP community. Emphasis on diverse intelligence systems including human, machine, and hybrid forms."
     },
     {
@@ -1266,11 +959,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "Extended abstracts allow for flexible presentation formats and encourage interdisciplinary participation."
     },
     {
@@ -1284,11 +972,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "Workshops provide in-depth engagement on emerging research areas and community building."
     },
     {
@@ -1302,11 +985,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "Poster and demo tracks showcase work-in-progress and interactive projects. Great venue for networking and early-stage feedback."
     },
     {
@@ -1320,11 +998,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "Poster and demo tracks showcase work-in-progress and interactive projects. Great venue for networking and early-stage feedback."
     },
     {
@@ -1338,30 +1011,20 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ci.acm.org/2025/",
-        "topics": [
-            "collective intelligence",
-            "ai & cognition",
-            "network science"
-        ],
         "notes": "CrowdCamp: a hands-on collaborative workshop for developing new tools and approaches in human computation and crowdsourcing."
     },
     {
-      "name_display": "ACM CI 2025",
-      "name_full": "ACM Collective Intelligence 2025",
-      "venue_type": "Conference",
-      "submission_type": "Student Event",
-      "event_dates": "August 4-6, 2025",
-      "deadline": "2025-05-01T23:59:00Z",
-      "city": "La Jolla, CA",
-      "country": "USA",
-      "archival": "Non-archival",
-      "link": "https://ci.acm.org/2025/",
-      "topics": [
-        "collective intelligence",
-        "ai & cognition",
-        "network science"
-    ],
-      "notes": "Doctoral Colloquium. Mentorship opportunity for PhD students to present their research and receive feedback from senior scholars."
+        "name_display": "ACM CI 2025",
+        "name_full": "ACM Collective Intelligence 2025",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "August 4-6, 2025",
+        "deadline": "2025-05-01T23:59:00Z",
+        "city": "La Jolla, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://ci.acm.org/2025/",
+        "notes": "Doctoral Colloquium. Mentorship opportunity for PhD students to present their research and receive feedback from senior scholars."
     },
     {
         "name_display": "IC2S2 2026",
@@ -1374,7 +1037,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ic2s2-2026.org/",
-        "topics": ["computational social science", "data science", "machine learning", "network science"],
         "notes": "Tutorial day is July 28. Acceptance notifications by February 16, 2026. Tutorials aimed at early-career scholars."
     },
     {
@@ -1388,7 +1050,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ic2s2-2026.org/",
-        "topics": ["computational social science", "data science", "machine learning", "network science"],
         "notes": "Max 2-page extended abstract (PDF), anonymized for double-blind review. Figures/tables do not count toward page limit. Accepted work assigned to lightning talks (~6 min), oral presentations (~15 min), or poster sessions. Acceptance notifications by April 14, 2026. At least one author must register by early-bird deadline (May 8, 2026)."
     },
     {
@@ -1402,7 +1063,6 @@
         "country": "South Africa",
         "archival": "Non-archival",
         "link": "https://www.icahdq.org/mpage/ICA26-calls-for-papers",
-        "topics": ["communication studies", "media studies", "digital communication", "journalism"],
         "notes": "Theme: 'Communication and Inequalities in Context'. Full papers up to 8,000 words or extended abstracts 1,000-2,500 words. Limit 3 individual submissions. Deadline was 12:00 Noon ET."
     },
     {
@@ -1413,11 +1073,10 @@
         "submission_stage": "Abstract",
         "event_dates": "October 12-14, 2026",
         "deadline": "2026-05-14T23:59:00Z",
-        "city": "Malmö",
+        "city": "Malm\u00f6",
         "country": "Sweden",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2026/call-for-papers/",
-        "topics": ["ai", "ai governance", "ai ethics", "trustworthy ai"],
         "notes": "Abstract registration deadline. Double-anonymized review. Up to 10 pages in AAAI-2026 format. Authors choose archival or non-archival publication. At least one author must attend in person."
     },
     {
@@ -1428,11 +1087,10 @@
         "submission_stage": "Full paper",
         "event_dates": "October 12-14, 2026",
         "deadline": "2026-05-21T23:59:00Z",
-        "city": "Malmö",
+        "city": "Malm\u00f6",
         "country": "Sweden",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2026/call-for-papers/",
-        "topics": ["ai", "ai governance", "ai ethics", "trustworthy ai"],
         "notes": "Full paper deadline. Up to 10 pages in AAAI-2026 format, unlimited references. Optional ethics/positionality/adverse impact statement (1 extra page). Notification July 16, 2026."
     },
     {
@@ -1446,7 +1104,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://ccs26.cssociety.org/",
-        "topics": ["complex systems", "network dynamics", "data science", "computational modeling"],
         "notes": "1-page extended abstract with one mandatory figure. Hybrid format (in-person + Zoom). Notification June 1, 2026. Warm-up Oct 9-10, main conference Oct 12-16."
     },
     {
@@ -1460,7 +1117,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://www.netsci2026.com/call-for-abstracts",
-        "topics": ["network science", "graph ml", "temporal networks", "brain networks", "social networks"],
         "notes": "20th anniversary. One-page abstract with figure using official LaTeX template. Formats: contributed talks (12 min), lightning talks (3 min), or posters. Must present in person. Hosted by Northeastern University."
     },
     {
@@ -1474,7 +1130,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://cy-soc.github.io/2026/",
-        "topics": ["cyber social threats", "misinformation", "data science", "social media analysis", "generative ai"],
         "notes": "Co-located with ICWSM 2026. Theme: 'Human-AI Relationships: Risks, Rewards, and Responsibilities'. Accepts research (8-11 pp), position (5 pp), short (5 pp), and demo (4 pp) papers. Double-blind, AAAI format. Ethics checklist required."
     },
     {
@@ -1488,7 +1143,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://cyber.fsi.stanford.edu/trust-and-safety-research-conference",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "5th annual conference at Frances C. Arrillaga Alumni Center. Accepts research presentations, lightning talks, poster presentations, and workshop proposals. Presentation application deadline may differ from JOTS deadline."
     },
     {
@@ -1502,7 +1156,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://tsjournal.org/index.php/jots/index",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Peer-reviewed submissions published in the October 2026 issue of the Journal of Online Trust and Safety, timed with the Trust & Safety Research Conference."
     },
     {
@@ -1516,7 +1169,6 @@
         "country": "N/A",
         "archival": "Archival",
         "link": "https://tsjournal.org/index.php/jots/index",
-        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
         "notes": "Commentaries offer brief insights or perspectives and will be published in the October 2026 issue of the Journal of Online Trust and Safety, timed with the Trust & Safety Research Conference."
     },
     {
@@ -1530,7 +1182,6 @@
         "country": "United Kingdom",
         "archival": "Non-archival",
         "link": "https://www.mctd.ac.uk/call-for-papers-cambridge-disinformation-summit-2026/",
-        "topics": ["misinformation", "policy analysis", "algorithms", "computational social science", "ai"],
         "notes": "At King's College, Cambridge. 10-12 papers selected. Priority for newer working papers. Interdisciplinary research encouraged. Paper submission fee required. Original deadline was November 15, 2025 at 23:59 BST."
     },
     {
@@ -1544,7 +1195,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://2026.aclweb.org/calls/main_conference_papers/",
-        "topics": ["natural language processing", "machine learning", "text analysis", "sentiment analysis", "ai"],
         "notes": "ARR paper submission deadline. Long papers: 8 pages, short papers: 4 pages. Double-blind via OpenReview. Theme: 'Explainability of NLP Models'. Mandatory peer reviewing for all authors."
     },
     {
@@ -1558,7 +1208,6 @@
         "country": "Hungary",
         "archival": "Archival",
         "link": "https://2026.emnlp.org/calls/main_conference_papers/",
-        "topics": ["natural language processing", "machine learning", "text analysis", "sentiment analysis", "ai"],
         "notes": "ARR paper submission deadline. Long papers: 8 pages, short papers: 4 pages. Double-blind via OpenReview. Theme: 'Interdisciplinary Recontextualization of NLP'. Mandatory peer reviewing."
     },
     {
@@ -1573,7 +1222,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://colmweb.org/cfp",
-        "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
         "notes": "Abstract submission deadline. Max 9 pages main text. Rebuttal May 22-June 8. Notification July 8. Max 25 submissions per person. Double-blind via OpenReview."
     },
     {
@@ -1588,7 +1236,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://colmweb.org/cfp",
-        "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
         "notes": "Full paper deadline. At Hilton Union Square. LLM usage disclosure required. Per-submission reciprocal reviewing. Dual submission with other archival venues prohibited during review."
     },
     {
@@ -1603,7 +1250,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-papers/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Abstract registration deadline. Full paper due August 14. Double-blind review via EasyChair. Notification October 23, 2025. Published in ACM Digital Library."
     },
     {
@@ -1618,7 +1264,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-papers/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Full paper deadline. Abstract due August 7. Double-blind review via EasyChair. Notification October 23, 2025. Published in ACM Digital Library."
     },
     {
@@ -1633,7 +1278,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-short-papers/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Abstract deadline for short papers track (new in 2026). Short paper due September 25. Concise format for research findings, new methodologies, or novel applications. Published in ACM Digital Library."
     },
     {
@@ -1648,7 +1292,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-short-papers/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Short paper deadline. Abstract due September 18. New track introduced at WSDM 2026. Covers search algorithms, recommender systems, social network analysis, privacy/fairness in web systems. Published in ACM Digital Library."
     },
     {
@@ -1662,7 +1305,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-tutorials/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Tutorial proposals: 1-page cover sheet + 3-page extended abstract (PDF, ACM sigconf). Half-day (~3 hrs) or full-day (~6 hrs). Tutorial day is February 22. Notification November 5, 2025. Submit via EasyChair (Tutorial track)."
     },
     {
@@ -1676,7 +1318,6 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-workshops/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Workshop proposals: 5-page max (PDF, ACM sigconf). Half or full day. Workshop day is February 26. Notification October 19, 2025. 2-page summary for proceedings due December 17. At least one organizer must attend in person. Submit via EasyChair (Workshops track)."
     },
     {
@@ -1690,7 +1331,6 @@
         "country": "USA",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2026/index.php/call-for-demonstrations/",
-        "topics": ["information retrieval", "web search", "data mining", "machine learning", "natural language processing", "recommender systems", "social networks", "algorithms"],
         "notes": "Demo papers: 4-page max including references (PDF, ACM format). Single-blind review. Prototypes and functional systems showcasing innovative research. Notification November 22, 2025. Camera-ready December 17. At least one author must attend in person. Submit via EasyChair (Demo Papers track)."
     }
 ]

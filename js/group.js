@@ -13,7 +13,7 @@
  * {
  *   isGroup: true,
  *   name_display, link, venue_type, submission_type,
- *   archival, city, country, event_dates, topics,   // shared from first entry
+ *   archival, city, country, event_dates,            // shared from first entry
  *   entries: [datum1, datum2, ...]                   // sorted by deadline (inherits sort order)
  * }
  *
@@ -51,7 +51,6 @@ export function groupDeadlines(deadlines) {
                 city: datum.city,
                 country: datum.country,
                 event_dates: datum.event_dates,
-                topics: datum.topics,
                 entries: [datum],
             };
             groupMap.set(groupKey, group);

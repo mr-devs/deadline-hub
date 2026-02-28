@@ -7,7 +7,6 @@
 class AppState {
     constructor() {
         this.deadlines = [];
-        this.selectedTopics = [];
         this.selectedSubmissionTypes = [];
         this.selectedVenueTypes = [];
         this.selectedArchivalTypes = [];
@@ -21,10 +20,6 @@ class AppState {
         return this.deadlines;
     }
 
-    getSelectedTopics() {
-        return [...this.selectedTopics];
-    }
-
     getSelectedSubmissionTypes() {
         return [...this.selectedSubmissionTypes];
     }
@@ -35,15 +30,6 @@ class AppState {
 
     getSelectedArchivalTypes() {
         return [...this.selectedArchivalTypes];
-    }
-
-    toggleTopic(topic) {
-        const index = this.selectedTopics.indexOf(topic);
-        if (index > -1) {
-            this.selectedTopics.splice(index, 1);
-        } else {
-            this.selectedTopics.push(topic);
-        }
     }
 
     toggleSubmissionType(type) {
@@ -74,7 +60,6 @@ class AppState {
     }
 
     clearAllFilters() {
-        this.selectedTopics = [];
         this.selectedSubmissionTypes = [];
         this.selectedVenueTypes = [];
         this.selectedArchivalTypes = [];

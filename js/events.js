@@ -28,7 +28,6 @@ export function setupGlobalEventListeners() {
         const filterType = checkbox.dataset.filterType;
         const value = checkbox.dataset.filterValue;
         switch (filterType) {
-            case 'topics':          appState.toggleTopic(value);          break;
             case 'submissionTypes': appState.toggleSubmissionType(value); break;
             case 'venueTypes':      appState.toggleVenueType(value);      break;
             case 'archivalTypes':   appState.toggleArchivalType(value);   break;
@@ -57,7 +56,6 @@ export function setupGlobalEventListeners() {
 
 function updateFilterBadge(filterType) {
     const counts = {
-        topics:          appState.getSelectedTopics().length,
         submissionTypes: appState.getSelectedSubmissionTypes().length,
         venueTypes:      appState.getSelectedVenueTypes().length,
         archivalTypes:   appState.getSelectedArchivalTypes().length,
@@ -70,7 +68,7 @@ function updateFilterBadge(filterType) {
 }
 
 function updateAllFilterBadges() {
-    ['topics', 'submissionTypes', 'venueTypes', 'archivalTypes'].forEach(updateFilterBadge);
+    ['submissionTypes', 'venueTypes', 'archivalTypes'].forEach(updateFilterBadge);
 }
 
 function clearFilters() {

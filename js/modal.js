@@ -89,9 +89,6 @@ function createGroupedModal(group) {
                             <p><i class="bi bi-calendar-check me-1"></i><strong>Submission Stages</strong></p>
                             ${stagesHtml}
                         </div>
-                        <div class="d-flex flex-wrap gap-2 mt-3">
-                            ${group.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
-                        </div>
                     </div>
                     <div class="modal-footer">
                         <a href="${group.link}" target="_blank" class="btn btn-secondary btn-sm">Visit Website</a>
@@ -156,9 +153,6 @@ function createSingleModal(datum) {
                                     ? "<span class='text-danger'><i class='bi bi-alarm'></i> Deadline Not Available</span>"
                                     : `<span id="${countdownId}"></span>`}
                             </p>
-                        </div>
-                        <div class="d-flex flex-wrap gap-2">
-                            ${datum.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
                         </div>
                     </div>
                     <div class="modal-footer">

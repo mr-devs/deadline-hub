@@ -75,9 +75,6 @@ function createGroupedCard(group) {
                     </p>
                     ${stagesHtml}
                     <hr class="my-2">
-                    <div class="d-flex flex-wrap gap-2">
-                        ${group.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
-                    </div>
                     <div class="mt-3">
                         <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#${groupModalId}">
                             More Info
@@ -117,9 +114,6 @@ function createSingleCard(datum) {
                         </span>
                         <br>
                     </p>
-                    <div class="d-flex flex-wrap gap-2">
-                        ${datum.topics.map(topic => `<span class="badge bg-dark">${topic}</span>`).join(" ")}
-                    </div>
                     <div class="mt-3 d-flex gap-2">
                         <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#modal-${uniqueId}">
                             More Info

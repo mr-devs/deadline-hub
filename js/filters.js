@@ -9,12 +9,8 @@ import { appState } from './state.js';
 export function createFilterButtons(datums, fieldName, containerName) {
     const counts = {};
     datums.forEach(datum => {
-        if (fieldName === 'topics') {
-            datum.topics.forEach(topic => { counts[topic] = (counts[topic] || 0) + 1; });
-        } else {
-            const key = datum[fieldName];
-            counts[key] = (counts[key] || 0) + 1;
-        }
+        const key = datum[fieldName];
+        counts[key] = (counts[key] || 0) + 1;
     });
     const sorted = Object.keys(counts).sort((a, b) => a.localeCompare(b));
     return sorted.map(key => `
@@ -39,7 +35,6 @@ export function renderFilterButtons(containerName, fieldName) {
 export function filterDeadlines() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
     const showPastConferences = document.getElementById('showPastConferencesSwitch').checked;
-    const selectedTopics = appState.getSelectedTopics();
     const selectedSubmissionTypes = appState.getSelectedSubmissionTypes();
     const selectedVenueTypes = appState.getSelectedVenueTypes();
     const selectedArchivalTypes = appState.getSelectedArchivalTypes();
@@ -53,7 +48,6 @@ export function filterDeadlines() {
         if (searchInput && !Object.values(datum).some(value =>
             (Array.isArray(value) ? value.join(' ') : value.toString()).toLowerCase().includes(searchInput)
         )) return false;
-        if (selectedTopics.length > 0 && !selectedTopics.some(topic => datum.topics.includes(topic))) return false;
         if (selectedSubmissionTypes.length > 0 && !selectedSubmissionTypes.includes(datum.submission_type)) return false;
         if (selectedVenueTypes.length > 0 && !selectedVenueTypes.includes(datum.venue_type)) return false;
         if (selectedArchivalTypes.length > 0 && !selectedArchivalTypes.includes(datum.archival)) return false;
@@ -63,15 +57,11 @@ export function filterDeadlines() {
 }
 
 export function updateFilterCounts(filteredDeadlines) {
-    const topicCounts = {};
     const submissionCounts = {};
     const venueCounts = {};
     const archivalCounts = {};
 
     filteredDeadlines.forEach(datum => {
-        datum.topics.forEach(topic => {
-            topicCounts[topic] = (topicCounts[topic] || 0) + 1;
-        });
         const s = datum.submission_type;
         submissionCounts[s] = (submissionCounts[s] || 0) + 1;
         const v = datum.venue_type;
@@ -81,7 +71,6 @@ export function updateFilterCounts(filteredDeadlines) {
     });
 
     const countMap = {
-        topics:          topicCounts,
         submissionTypes: submissionCounts,
         venueTypes:      venueCounts,
         archivalTypes:   archivalCounts,
