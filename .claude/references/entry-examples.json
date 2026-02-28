@@ -80,6 +80,41 @@
         ]
     },
     {
+        "_comment": "PATTERN: Single-track abstract→paper pipeline. COLM requires authors to submit an abstract first, then the full paper a few days later. These are sequential stages of the SAME submission — not separate tracks. Use submission_stage: 'Abstract' and submission_stage: 'Full paper' on two otherwise-identical entries. The name_display and name_full are the same on both (no parenthetical suffixes). The site automatically groups them into a single card showing both deadlines. DO NOT use this pattern for multi-track conferences like CHI or The Web Conference — use name_full parentheticals for those instead.",
+        "_entries": [
+            {
+                "name_display": "COLM 2026",
+                "name_full": "Conference on Language Modeling",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "submission_stage": "Abstract",
+                "event_dates": "October 6-9, 2026",
+                "deadline": "2026-03-26T23:59:00Z",
+                "city": "San Francisco, CA",
+                "country": "USA",
+                "archival": "Archival",
+                "link": "https://colmweb.org/cfp",
+                "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
+                "notes": "Abstract submission deadline. Max 9 pages main text. Rebuttal May 22-June 8. Notification July 8. Max 25 submissions per person. Double-blind via OpenReview."
+            },
+            {
+                "name_display": "COLM 2026",
+                "name_full": "Conference on Language Modeling",
+                "venue_type": "Conference",
+                "submission_type": "Research Papers",
+                "submission_stage": "Full paper",
+                "event_dates": "October 6-9, 2026",
+                "deadline": "2026-03-31T23:59:00Z",
+                "city": "San Francisco, CA",
+                "country": "USA",
+                "archival": "Archival",
+                "link": "https://colmweb.org/cfp",
+                "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
+                "notes": "Full paper deadline. At Hilton Union Square. LLM usage disclosure required. Per-submission reciprocal reviewing. Dual submission with other archival venues prohibited during review."
+            }
+        ]
+    },
+    {
         "_comment": "PATTERN: Simple conference with tutorials + abstracts. IC2S2 has just two entry types: Tutorials and Abstracts. Both share the same name_display and name_full. They differ only in submission_type, deadline, and notes. This is the simplest multi-entry pattern.",
         "_entries": [
             {

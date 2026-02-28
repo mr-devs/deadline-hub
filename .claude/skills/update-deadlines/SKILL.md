@@ -56,7 +56,9 @@ For each conference+year combination:
 - **Pay attention to**:
   - Round-based deadlines (e.g., ICWSM Round 1, Round 2, Round 3) — each round should be a separate entry
   - Multiple tracks (research track, industry track, workshops, tutorials) — each may be a separate entry
-  - Abstract vs. full paper deadlines — these are often separate entries
+  - Abstract vs. full paper deadlines — use the `submission_stage` field (see below) or separate entries depending on the pattern:
+    - **Single-track abstract→paper pipeline** (e.g., COLM, AIES): the abstract and full paper are sequential stages of the *same* submission. Use `submission_stage: "Abstract"` and `submission_stage: "Full paper"` on two otherwise-identical entries. The site will group these into a single card automatically.
+    - **Multi-track or complex conferences** (e.g., CHI, The Web Conference): each track has its own submission pipeline. Use separate entries with descriptive `name_full` parenthetical suffixes (e.g., `"Research Track: Abstracts Due"`). Do **not** use `submission_stage` for these.
   - **Timezone handling**: Always use the **announced deadline date** as the calendar date in the timestamp, with `T23:59:59Z` as the time. For example, "January 15, 2026 AoE" becomes `"2026-01-15T23:59:59Z"`. Do NOT convert AoE to UTC by adding 12 hours — this shifts the date forward by one day and causes the wrong date to display on the website. The goal is for the displayed date to match what the CFP announces. If a specific non-AoE time is given (e.g., "12:00 noon ET"), convert that to UTC normally.
 
 ## Step 4b: Review Entry Patterns
@@ -96,7 +98,7 @@ After user approval:
 
 After updating `deadlines.json`, verify correctness:
 - Read the file back and confirm it is valid JSON (no trailing commas, proper brackets, etc.)
-- Check that all new/updated entries contain every required field (`name_display`, `name_full`, `venue_type`, `submission_type`, `event_dates`, `deadline`, `city`, `country`, `archival`, `link`, `topics`, `notes`)
+- Check that all new/updated entries contain every required field (`name_display`, `name_full`, `venue_type`, `submission_type`, `event_dates`, `deadline`, `city`, `country`, `archival`, `link`, `topics`, `notes`). If the entry uses the `submission_stage` pattern, also verify that field is present on both the abstract and full paper entries.
 - Verify that topic strings in new/updated entries match the canonical list in `.claude/references/topics.txt`. Flag any new topics that were introduced.
 
 ## Schema Reference
@@ -120,12 +122,48 @@ Every entry in `data/deadlines.json` must follow this structure:
 }
 ```
 
+For conferences with a single-track abstract→paper pipeline, add `submission_stage` to both entries:
+
+```json
+{
+    "name_display": "COLM 2026",
+    "name_full": "Conference on Language Modeling",
+    "venue_type": "Conference",
+    "submission_type": "Research Papers",
+    "submission_stage": "Abstract",
+    "event_dates": "October 6-9, 2026",
+    "deadline": "2026-03-26T23:59:00Z",
+    "city": "San Francisco, CA",
+    "country": "USA",
+    "archival": "Archival",
+    "link": "https://colmweb.org/cfp",
+    "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
+    "notes": "Abstract submission deadline. ..."
+},
+{
+    "name_display": "COLM 2026",
+    "name_full": "Conference on Language Modeling",
+    "venue_type": "Conference",
+    "submission_type": "Research Papers",
+    "submission_stage": "Full paper",
+    "event_dates": "October 6-9, 2026",
+    "deadline": "2026-03-31T23:59:00Z",
+    "city": "San Francisco, CA",
+    "country": "USA",
+    "archival": "Archival",
+    "link": "https://colmweb.org/cfp",
+    "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
+    "notes": "Full paper deadline. ..."
+}
+```
+
 ### Field guidelines:
 
 - **`name_display`**: Abbreviation + year (e.g., `"CHI 2026"`). For conferences with multiple tracks/rounds, keep the display name the same across entries.
 - **`name_full`**: Full conference name + year, with track/round/type info in parentheses (e.g., `"The Web Conference 2026 (Research Track: Papers Due)"`)
 - **`venue_type`**: One of `"Conference"`, `"Workshop"`, `"Journal"`, `"Training"`
 - **`submission_type`**: e.g., `"Full papers"`, `"Research Papers"`, `"Abstracts"`, `"Applications"`, `"Workshops"`, `"Tutorials"`
+- **`submission_stage`** *(optional)*: Only used for single-track abstract→paper pipelines. Set to `"Abstract"` on the abstract deadline entry and `"Full paper"` on the full paper entry. Both entries must have the same `name_display`. Do **not** use this field for multi-track conferences — use `name_full` parentheticals instead. See entry-examples.json for the full pattern.
 - **`event_dates`**: Human-readable date range (e.g., `"April 13-17, 2026"`)
 - **`deadline`**: ISO 8601 UTC timestamp using the **announced deadline date** with `T23:59:59Z` (e.g., a September 30 deadline becomes `"2025-09-30T23:59:59Z"`). Do not shift AoE dates forward. Use `"Rolling"` or `"N/A"` if no fixed deadline.
 - **`city`** and **`country`**: Event location. Use `"Virtual"` / `"N/A"` for online events.
@@ -138,5 +176,6 @@ Every entry in `data/deadlines.json` must follow this structure:
 
 - Match the formatting style of existing entries in `deadlines.json`
 - Use canonical topic strings from `.claude/references/topics.txt` rather than inventing new ones
-- When a conference has multiple deadlines (abstract + paper, multiple rounds), create separate entries for each
+- When a conference has multiple rounds or tracks, create separate entries for each
+- For a single-track abstract→paper pipeline, create two entries with the same `name_display` and `name_full`, differing only in `submission_stage`, `deadline`, and `notes`. Do **not** use `name_full` parentheticals for these — the `submission_stage` field is the signal the site uses to group them into one card
 - Ensure `deadline` timestamps use `T23:59:59Z` unless a specific time is known

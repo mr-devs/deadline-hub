@@ -20,7 +20,7 @@ python3 .claude/skills/check-upcoming-deadlines/scripts/print_upcoming_deadlines
 
 ## Step 2: Read Full Deadline Data
 
-Read `data/deadlines.json` and collect the full entries for every deadline printed in Step 1. You need the `deadline`, `link`, `name_display`, and `submission_type` fields for each.
+Read `data/deadlines.json` and collect the full entries for every deadline printed in Step 1. You need the `deadline`, `link`, `name_display`, `submission_type`, and `submission_stage` (if present) fields for each.
 
 ## Step 3: Fetch Source Pages
 
@@ -66,7 +66,7 @@ Generated: {TODAY}
 
 ## Deadlines
 
-### {name_display} — {submission_type}
+### {name_display} — {submission_stage if present, otherwise submission_type}
 
 - **Deadline:** {human-readable date, e.g. "March 15, 2026"}
 - **Source:** [{link}]({link})
