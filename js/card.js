@@ -39,10 +39,10 @@ function createGroupedCard(group) {
         return `
             <hr class="my-2">
             <div class="d-flex justify-content-between align-items-center">
-                <span class="small fw-semibold">${datum.submission_stage} deadline</span>
+                <span class="fw-semibold">${datum.submission_stage} deadline</span>
                 ${!isSpecial ? `
                 <div class="dropdown">
-                    <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-outline-dark btn-xs dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="bi bi-calendar-plus"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
@@ -55,7 +55,7 @@ function createGroupedCard(group) {
                     </ul>
                 </div>` : ''}
             </div>
-            <div class="small mt-1 d-flex justify-content-between align-items-center">
+            <div class="mt-1 d-flex justify-content-between align-items-center">
                 <span>
                     <i class="bi bi-calendar-x me-1 text-muted"></i>${deadlineFormatted}
                     ${isSpecial
@@ -73,7 +73,7 @@ function createGroupedCard(group) {
                     <h5 class="card-title"><i class="bi bi-building me-1" data-bs-toggle="tooltip" data-bs-placement="left" title="${group.name_full}"></i><a href="${group.link}" target="_blank">${group.name_display}</a></h5>
                     <p class="card-text">${buildVenueMetaHtml(group)}
                     </p>
-                    ${stagesHtml}
+                    <div class="card-text">${stagesHtml}</div>
                     <hr class="my-2">
                     <div class="mt-3">
                         <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#${groupModalId}">

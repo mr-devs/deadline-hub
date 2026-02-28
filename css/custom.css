@@ -65,7 +65,7 @@ body {
 }
 
 .card-title {
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-base);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--space-sm);
 }
@@ -79,6 +79,13 @@ body {
 .card-meta {
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
+}
+
+.btn-xs {
+    padding: 0.1rem 0.3rem;
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+    border-radius: var(--radius-sm);
 }
 
 /* ----------------------------------------------------------
