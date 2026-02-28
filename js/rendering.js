@@ -8,6 +8,7 @@ import { createCard } from './card.js';
 import { createModal } from './modal.js';
 import { createListItem } from './list-item.js';
 import { renderFilterButtons, filterDeadlines, sortDeadlines, updateFilterCounts } from './filters.js';
+import { groupDeadlines } from './group.js';
 
 export function renderDeadlines() {
     try {
@@ -15,11 +16,12 @@ export function renderDeadlines() {
         const isListView = listViewElement ? listViewElement.checked : false;
         const filteredDeadlines = filterDeadlines();
         const sortedDeadlines = sortDeadlines(filteredDeadlines);
+        const renderList = groupDeadlines(sortedDeadlines);
 
         if (isListView) {
-            renderListView(sortedDeadlines);
+            renderListView(renderList);
         } else {
-            renderCardView(sortedDeadlines);
+            renderCardView(renderList);
         }
 
         updateFilterCounts(filteredDeadlines);
