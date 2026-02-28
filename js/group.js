@@ -41,7 +41,7 @@ export function groupDeadlines(deadlines) {
             const group = {
                 isGroup: true,
                 name_display: datum.name_display,
-                name_full: datum.name_full,
+                name_full: datum.name_full.replace(/\s*\([^)]+\)\s*$/, '').trim(),
                 link: datum.link,
                 venue_type: datum.venue_type,
                 submission_type: datum.submission_type,

@@ -66,7 +66,7 @@ function createGroupedModal(group) {
                         <div>
                             <p>
                                 <i class="bi bi-building me-1"></i><strong>Venue</strong><br>
-                                ${group.entries[0].name_full}
+                                ${group.name_full}
                             </p>
                             <p>
                                 <i class="bi bi-layers me-1"></i><strong>Submission Type</strong><br>
@@ -147,7 +147,7 @@ function createSingleModal(datum) {
                                 Conference Dates: ${datum.event_dates}
                             </p>
                             <p>
-                                <i class="bi bi-stickies me-1"></i><strong>Notes</strong><br>
+                                <i class="bi bi-info-circle me-1"></i><strong>Notes</strong><br>
                                 ${datum.notes}
                             </p>
                             <p>
