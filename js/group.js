@@ -6,8 +6,8 @@
 
 /**
  * Takes a filtered+sorted flat array of deadline entries and returns a render list
- * where entries with `submission_stage` that share `name_display` are collapsed into
- * group objects.
+ * where entries with `submission_stage` that share both `name_display` and
+ * `submission_type` are collapsed into group objects.
  *
  * Group object shape:
  * {
@@ -25,7 +25,7 @@
  */
 export function groupDeadlines(deadlines) {
     const renderList = [];
-    const groupMap = new Map(); // name_display -> group object (index in renderList)
+    const groupMap = new Map(); // `${name_display}||${submission_type}` -> group object
 
     for (const datum of deadlines) {
         if (!datum.submission_stage) {
@@ -33,9 +33,11 @@ export function groupDeadlines(deadlines) {
             continue;
         }
 
-        if (groupMap.has(datum.name_display)) {
+        const groupKey = `${datum.name_display}||${datum.submission_type}`;
+
+        if (groupMap.has(groupKey)) {
             // Append to existing group
-            groupMap.get(datum.name_display).entries.push(datum);
+            groupMap.get(groupKey).entries.push(datum);
         } else {
             // Create a new group at this position
             const group = {
@@ -52,7 +54,7 @@ export function groupDeadlines(deadlines) {
                 topics: datum.topics,
                 entries: [datum],
             };
-            groupMap.set(datum.name_display, group);
+            groupMap.set(groupKey, group);
             renderList.push(group);
         }
     }

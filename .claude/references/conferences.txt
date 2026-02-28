@@ -17,3 +17,4 @@ Cambridge Disinformation Summit | Cambridge Disinformation Summit | https://www.
 ACL | Annual Meeting of the Association for Computational Linguistics | https://www.aclweb.org/
 EMNLP | Conference on Empirical Methods in Natural Language Processing | https://www.aclweb.org/
 COLM | Conference on Language Modeling | https://colmweb.org/
+WSDM | ACM International Conference on Web Search and Data Mining | https://www.wsdm-conference.org/
