@@ -1467,7 +1467,7 @@
         "venue_type": "Conference Workshop",
         "submission_type": "Research Papers",
         "event_dates": "May 26, 2026",
-        "deadline": "2026-04-03T23:59:59Z",
+        "deadline": "2026-03-22T23:59:59Z",
         "city": "Los Angeles, CA",
         "country": "USA",
         "archival": "Archival",
@@ -1504,6 +1504,20 @@
         "notes": "Peer-reviewed submissions published in the October 2026 issue of the Journal of Online Trust and Safety, timed with the Trust & Safety Research Conference."
     },
     {
+        "name_display": "Journal of Online Trust and Safety",
+        "name_full": "Journal of Online Trust and Safety",
+        "venue_type": "Journal",
+        "submission_type": "Commentaries",
+        "event_dates": "October 1-2, 2026",
+        "deadline": "2026-06-01T23:59:59Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://tsjournal.org/index.php/jots/index",
+        "topics": ["trust and safety", "social media analysis", "online behavior", "digital communication", "trustworthy ai"],
+        "notes": "Commentaries offer brief insights or perspectives and will be published in the October 2026 issue of the Journal of Online Trust and Safety, timed with the Trust & Safety Research Conference."
+    },
+    {
         "name_display": "Cambridge Disinformation Summit 2026",
         "name_full": "Cambridge Disinformation Summit",
         "venue_type": "Conference",
@@ -1532,20 +1546,6 @@
         "notes": "ARR paper submission deadline. Long papers: 8 pages, short papers: 4 pages. Double-blind via OpenReview. Theme: 'Explainability of NLP Models'. Mandatory peer reviewing for all authors."
     },
     {
-        "name_display": "ACL 2026",
-        "name_full": "Annual Meeting of the Association for Computational Linguistics (Commitment Deadline)",
-        "venue_type": "Conference",
-        "submission_type": "Research Papers",
-        "event_dates": "July 2-7, 2026",
-        "deadline": "2026-03-14T23:59:00Z",
-        "city": "San Diego, CA",
-        "country": "USA",
-        "archival": "Archival",
-        "link": "https://2026.aclweb.org/calls/main_conference_papers/",
-        "topics": ["natural language processing", "machine learning", "text analysis", "sentiment analysis", "ai"],
-        "notes": "Commitment deadline for papers with ARR reviews. Reviews available March 10. Acceptance notification April 4, camera-ready April 19. Rejected papers considered for Findings of ACL."
-    },
-    {
         "name_display": "EMNLP 2026",
         "name_full": "Conference on Empirical Methods in Natural Language Processing (ARR Submission)",
         "venue_type": "Conference",
@@ -1558,20 +1558,6 @@
         "link": "https://2026.emnlp.org/calls/main_conference_papers/",
         "topics": ["natural language processing", "machine learning", "text analysis", "sentiment analysis", "ai"],
         "notes": "ARR paper submission deadline. Long papers: 8 pages, short papers: 4 pages. Double-blind via OpenReview. Theme: 'Interdisciplinary Recontextualization of NLP'. Mandatory peer reviewing."
-    },
-    {
-        "name_display": "EMNLP 2026",
-        "name_full": "Conference on Empirical Methods in Natural Language Processing (Commitment Deadline)",
-        "venue_type": "Conference",
-        "submission_type": "Research Papers",
-        "event_dates": "October 24-29, 2026",
-        "deadline": "2026-08-02T23:59:00Z",
-        "city": "Budapest",
-        "country": "Hungary",
-        "archival": "Archival",
-        "link": "https://2026.emnlp.org/calls/main_conference_papers/",
-        "topics": ["natural language processing", "machine learning", "text analysis", "sentiment analysis", "ai"],
-        "notes": "Commitment deadline for papers with ARR reviews. Rejected papers considered for Findings of EMNLP."
     },
     {
         "name_display": "COLM 2026",

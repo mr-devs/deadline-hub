@@ -51,7 +51,7 @@ For each conference+year combination:
 2. **Fall back to web search.** If the direct URL doesn't work, use `WebSearch` with both the abbreviation and full name plus the year, e.g.:
    `"ICWSM 2026 International AAAI Conference on Web and Social Media call for papers deadline"`
 
-- **What to look for**: official CFP page, submission deadlines, submission types, event dates, location, topics, archival status
+- **What to look for**: official CFP page, submission deadlines, submission types, event dates, location, topics, archival status. Focus on deadlines where researchers actively submit work — paper submissions, abstract submissions, workshop/tutorial proposals, and similar opportunities. **Do not include** commitment deadlines, camera-ready deadlines, registration deadlines, or other administrative deadlines that are not submission opportunities.
 - **Use `WebFetch`** to visit promising results (official conference sites, WikiCFP, etc.) and extract specific details
 - **Pay attention to**:
   - Round-based deadlines (e.g., ICWSM Round 1, Round 2, Round 3) — each round should be a separate entry
