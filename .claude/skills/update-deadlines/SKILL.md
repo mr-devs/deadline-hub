@@ -25,8 +25,6 @@ Arguments are optional and flexible. Examples:
 
 Read `.claude/references/conferences.txt`. Each line has the format `abbreviation | full_name | base_url`. Parse all three fields for each conference. The base URL is the conference's official website root — use it in Step 4 for direct fetching.
 
-Also read `.claude/references/topics.txt` for the canonical list of topic strings. You will need this when assigning topics to entries.
-
 ## Step 2: Determine Scope
 
 **First, parse `$ARGUMENTS`** to extract any conferences and/or year the user already specified:
@@ -51,7 +49,7 @@ For each conference+year combination:
 2. **Fall back to web search.** If the direct URL doesn't work, use `WebSearch` with both the abbreviation and full name plus the year, e.g.:
    `"ICWSM 2026 International AAAI Conference on Web and Social Media call for papers deadline"`
 
-- **What to look for**: official CFP page, submission deadlines, submission types, event dates, location, topics, archival status. Focus on deadlines where researchers actively submit work — paper submissions, abstract submissions, workshop/tutorial proposals, and similar opportunities. **Do not include** commitment deadlines, camera-ready deadlines, registration deadlines, or other administrative deadlines that are not submission opportunities.
+- **What to look for**: official CFP page, submission deadlines, submission types, event dates, location, archival status. Focus on deadlines where researchers actively submit work — paper submissions, abstract submissions, workshop/tutorial proposals, and similar opportunities. **Do not include** commitment deadlines, camera-ready deadlines, registration deadlines, or other administrative deadlines that are not submission opportunities.
 - **Use `WebFetch`** to visit promising results (official conference sites, WikiCFP, etc.) and extract specific details
 - **Pay attention to**:
   - Round-based deadlines (e.g., ICWSM Round 1, Round 2, Round 3) — each round should be a separate entry
@@ -98,8 +96,7 @@ After user approval:
 
 After updating `deadlines.json`, verify correctness:
 - Read the file back and confirm it is valid JSON (no trailing commas, proper brackets, etc.)
-- Check that all new/updated entries contain every required field (`name_display`, `name_full`, `venue_type`, `submission_type`, `event_dates`, `deadline`, `city`, `country`, `archival`, `link`, `topics`, `notes`). If the entry uses the `submission_stage` pattern, also verify that field is present on both the abstract and full paper entries.
-- Verify that topic strings in new/updated entries match the canonical list in `.claude/references/topics.txt`. Flag any new topics that were introduced.
+- Check that all new/updated entries contain every required field (`name_display`, `name_full`, `venue_type`, `submission_type`, `event_dates`, `deadline`, `city`, `country`, `archival`, `link`, `notes`). If the entry uses the `submission_stage` pattern, also verify that field is present on both the abstract and full paper entries.
 
 ## Schema Reference
 
@@ -117,7 +114,6 @@ Every entry in `data/deadlines.json` must follow this structure:
     "country": "United Arab Emirates",
     "archival": "Archival",
     "link": "https://example.com/cfp",
-    "topics": ["human-computer interaction", "social computing"],
     "notes": "Relevant details about the submission process, page limits, review process, etc."
 }
 ```
@@ -137,7 +133,6 @@ For conferences with a single-track abstract→paper pipeline, add `submission_s
     "country": "USA",
     "archival": "Archival",
     "link": "https://colmweb.org/cfp",
-    "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
     "notes": "Abstract submission deadline. ..."
 },
 {
@@ -152,7 +147,6 @@ For conferences with a single-track abstract→paper pipeline, add `submission_s
     "country": "USA",
     "archival": "Archival",
     "link": "https://colmweb.org/cfp",
-    "topics": ["machine learning", "natural language processing", "ai", "generative ai"],
     "notes": "Full paper deadline. ..."
 }
 ```
@@ -169,13 +163,11 @@ For conferences with a single-track abstract→paper pipeline, add `submission_s
 - **`city`** and **`country`**: Event location. Use `"Virtual"` / `"N/A"` for online events.
 - **`archival`**: `"Archival"` or `"Non-archival"`
 - **`link`**: URL to the official CFP or conference page
-- **`topics`**: Array of lowercase topic strings relevant to the conference. Read `.claude/references/topics.txt` for the canonical list. Always prefer existing topics from this list. Only introduce a new topic if none of the existing ones fit, and note the addition in the summary.
 - **`notes`**: Brief description of submission requirements, review process, page limits, notification dates, or other relevant details
 
 ### Consistency rules:
 
 - Match the formatting style of existing entries in `deadlines.json`
-- Use canonical topic strings from `.claude/references/topics.txt` rather than inventing new ones
 - When a conference has multiple rounds or tracks, create separate entries for each
 - For a single-track abstract→paper pipeline, create two entries with the same `name_display` and `name_full`, differing only in `submission_stage`, `deadline`, and `notes`. Do **not** use `name_full` parentheticals for these — the `submission_stage` field is the signal the site uses to group them into one card
 - Ensure `deadline` timestamps use `T23:59:59Z` unless a specific time is known

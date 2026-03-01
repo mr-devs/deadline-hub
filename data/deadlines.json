@@ -1,5 +1,18 @@
 [
     {
+        "name_display": "Communication Horizons 2026",
+        "name_full": "Communication Horizons Conference 2026",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "May 15-17, 2026",
+        "deadline": "2026-03-01T23:59:59Z",
+        "city": "Davis, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://communication.ucdavis.edu/horizonconf2026",
+        "notes": "500-word extended abstracts (excluding references; no figures or tables). Empirical submissions must include completed data collection and preliminary results. Presentation options: in-person research presentations or posters. Decision notification: March 15, 2026. Free registration for UC Davis affiliates."
+    },
+    {
         "name_display": "The Web Conference 2026",
         "name_full": "The Web Conference 2026 (Industry Track: Abstracts Due)",
         "venue_type": "Conference",
