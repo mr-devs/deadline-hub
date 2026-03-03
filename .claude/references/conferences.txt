@@ -9,7 +9,7 @@ ACM CI | ACM Collective Intelligence | https://ci.acm.org/
 CSS | Computational Social Science Society of the Americas Conference | https://computationalsocialscience.org/
 CCS | Conference on Complex Systems | https://ccs2025.org/
 NetSci | International School and Conference on Network Science | https://netsci.net/
-ICSSI | International Conference on the Science of Science and Innovation | https://www.scienceofscience.org/
+ICSSI | International Conference on the Science of Science and Innovation | https://icssi.org/
 CySoc | International Workshop on Cyber Social Threats | https://cy-soc.github.io/
 PolNet-PaCSS | Political Networks and Computational Social Science Conference | https://polnet-pacss.org/
 Trust & Safety Conference | Trust & Safety Research Conference | https://www.tsresearchconference.org/
