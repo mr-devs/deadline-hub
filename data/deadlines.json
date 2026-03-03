@@ -936,6 +936,19 @@
         "notes": "Submissions should be 2-page Extended abstracts in PDF format, including figures, tables, and references. Accepted presentations may be assigned as lightning talks, oral presentations, or posters. At least one author must register by April 14, 2025."
     },
     {
+        "name_display": "ICSSI 2026",
+        "name_full": "International Conference on the Science of Science and Innovation",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "June 29 - July 1, 2026",
+        "deadline": "2026-03-30T23:59:59Z",
+        "city": "Boulder, CO",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://icssi.org/guidelines/",
+        "notes": "2-page extended abstract (PDF). Accepts lightning talks, standard talks, and posters. Notification of acceptance April 20, 2026. Presenter registration deadline May 4, 2026."
+    },
+    {
         "name_display": "CCS 2025",
         "name_full": "Conference on Complex Systems 2025",
         "venue_type": "Conference",
