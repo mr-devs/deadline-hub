@@ -496,7 +496,7 @@
     {
         "name_display": "Summer School on Misinformation, Disinformation and Hate Speech 2025",
         "name_full": "Summer School on Misinformation, Disinformation and Hate Speech",
-        "venue_type": "Summer School",
+        "venue_type": "Training Program",
         "submission_type": "Applications",
         "event_dates": "June 30 - July 4, 2025",
         "deadline": "2025-06-16T23:59:59Z",
@@ -518,6 +518,19 @@
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/stanford/",
         "notes": "Focus on computational social science. Requires CV and research statement. Collaborative projects included."
+    },
+    {
+        "name_display": "SICSS-Stanford 2026",
+        "name_full": "Summer Institute in Computational Social Science - Stanford",
+        "venue_type": "Training Program",
+        "submission_type": "Applications",
+        "event_dates": "August 10-21, 2026",
+        "deadline": "2026-04-26T23:59:59Z",
+        "city": "Stanford, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://sicss.io/2026/stanford/",
+        "notes": "Focus on online environments and AI as research topic and tool. Requires CV (max 5 pages) and Statement of Interest (max 2 pages, double-spaced). ~25-30 participants selected. Decision notification May 15, 2026."
     },
     {
         "name_display": "CySoc 2025",
