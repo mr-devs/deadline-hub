@@ -1278,6 +1278,19 @@
         "notes": "Full paper deadline. At Hilton Union Square. LLM usage disclosure required. Per-submission reciprocal reviewing. Dual submission with other archival venues prohibited during review."
     },
     {
+        "name_display": "COLM 2026",
+        "name_full": "Conference on Language Modeling",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "October 9, 2026",
+        "deadline": "2026-04-14T23:59:59Z",
+        "city": "San Francisco, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://colmweb.org/cfw.html",
+        "notes": "Workshop proposal deadline. Up to 2-page proposal + unlimited pages for bios/references. ~18 workshops expected, each 7-9 hours. Proposal decisions: May 12. Workshop contribution deadline: June 23. Accept/reject notification: July 24. Submit via https://forms.gle/8w9JmbrWZzxVWt166."
+    },
+    {
         "name_display": "WSDM 2026",
         "name_full": "ACM International Conference on Web Search and Data Mining (Abstracts Due)",
         "venue_type": "Conference",
