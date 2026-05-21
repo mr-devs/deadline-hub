@@ -1622,5 +1622,18 @@
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2027/",
         "notes": "Full paper deadline. Abstract due August 17. Notification November 2, 2026. Short papers, tutorials, workshops, and demos TBD. Published in ACM Digital Library."
+    },
+    {
+        "name_display": "CODE@MIT 2026",
+        "name_full": "The Conference on Digital Experimentation at MIT 2026",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "November 13-14, 2026",
+        "deadline": "N/A",
+        "city": "Cambridge, MA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://ide.mit.edu/events/2026-conference-on-digital-experimentation-mit-codemit/",
+        "notes": "Call for abstracts to be released summer 2026. Hosted at MIT Samberg Conference Center. Focuses on digital experimentation and causal inference research."
     }
 ]

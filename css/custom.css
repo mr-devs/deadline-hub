@@ -209,3 +209,8 @@ body {
 #listContainer {
     display: none;
 }
+
+#emptyStateAlert {
+    display: none;
+    text-align: center;
+}

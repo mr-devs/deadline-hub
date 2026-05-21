@@ -25,6 +25,7 @@ export function renderDeadlines() {
         }
 
         updateFilterCounts(filteredDeadlines);
+        renderEmptyState(filteredDeadlines.length === 0);
     } catch (error) {
         console.error('Error rendering deadlines:', error);
     }
@@ -53,6 +54,13 @@ function renderListView(deadlines) {
     listTableBody.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
 
     renderModals(deadlines);
+}
+
+function renderEmptyState(isEmpty) {
+    const emptyAlert = document.getElementById('emptyStateAlert');
+    if (emptyAlert) {
+        emptyAlert.style.display = isEmpty ? 'block' : 'none';
+    }
 }
 
 function renderModals(deadlines) {

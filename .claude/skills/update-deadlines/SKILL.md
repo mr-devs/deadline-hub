@@ -23,7 +23,7 @@ Arguments are optional and flexible. Examples:
 
 ## Step 1: Read Reference Files
 
-Read `.claude/references/conferences.txt`. Each line has the format `abbreviation | full_name | base_url`. Parse all three fields for each conference. The base URL is the conference's official website root — use it in Step 4 for direct fetching.
+Read `.claude/references/conferences.txt`. Each line has the format `abbreviation | full_name | base_url` with an optional 4th `| note` field. Parse all fields for each conference. The base URL is the conference's official website root — use it in Step 4 for direct fetching. If a note is present, use it to construct the year-specific URL (e.g. a year-prefixed event-page slug pattern) before falling back to web search.
 
 ## Step 2: Determine Scope
 
