@@ -1635,5 +1635,18 @@
         "archival": "Non-archival",
         "link": "https://ide.mit.edu/events/2026-conference-on-digital-experimentation-mit-codemit/",
         "notes": "Call for abstracts to be released summer 2026. Hosted at MIT Samberg Conference Center. Focuses on digital experimentation and causal inference research."
+    },
+    {
+        "name_display": "PNAS Nexus",
+        "name_full": "PNAS Nexus Call for Papers in Culture and Artificial Intelligence",
+        "venue_type": "Journal",
+        "submission_type": "Research Papers",
+        "event_dates": "N/A",
+        "deadline": "2026-09-01T23:59:59Z",
+        "city": "N/A",
+        "country": "N/A",
+        "archival": "Archival",
+        "link": "https://academic.oup.com/pnasnexus/pages/call-for-papers-in-culture-and-artificial-intelligence",
+        "notes": "Special collection on how AI systems are shaped by and influence cultural practices. Welcomes original research, theoretical integrations/syntheses, and methodological submissions. Topics include AI biases, global human-AI interaction, digital humanities, AI ethics, language diversity, and historical approaches to AI. Publication charges waived. Editors: Mohammad Atari (UMass Amherst), Michele Gelfand (Stanford), Diyi Yang (Stanford). Contact editorial office for submission instructions."
     }
 ]
