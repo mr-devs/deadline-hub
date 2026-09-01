@@ -409,7 +409,7 @@
         "submission_type": "Tutorials",
         "event_dates": "July 21-24, 2025",
         "deadline": "2025-01-17T23:59:59Z",
-        "city": "Norrk\u00f6ping",
+        "city": "Norrköping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
@@ -422,7 +422,7 @@
         "submission_type": "Abstracts",
         "event_dates": "July 21-24, 2025",
         "deadline": "2025-02-26T23:59:59Z",
-        "city": "Norrk\u00f6ping",
+        "city": "Norrköping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://ic2s2-2025.org/",
@@ -721,7 +721,7 @@
         "submission_type": "Applications",
         "event_dates": "June 9-19, 2025",
         "deadline": "2025-03-31T23:59:59Z",
-        "city": "Norrk\u00f6ping",
+        "city": "Norrköping",
         "country": "Sweden",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/ias/",
@@ -803,7 +803,7 @@
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://sicss.io/2025/rochester/",
-        "notes": "Hosted by the Goergen Institute for Data Science at the University of Rochester. Open to advanced undergraduates, Master\u2019s students, Ph.D. students, postdoctoral researchers, and assistant professors within 7 years of their Ph.D. Application requires a CV and a statement of interest."
+        "notes": "Hosted by the Goergen Institute for Data Science at the University of Rochester. Open to advanced undergraduates, Master’s students, Ph.D. students, postdoctoral researchers, and assistant professors within 7 years of their Ph.D. Application requires a CV and a statement of interest."
     },
     {
         "name_display": "SICSS-UCLA 2025",
@@ -1112,7 +1112,7 @@
         "submission_stage": "Abstract",
         "event_dates": "October 12-14, 2026",
         "deadline": "2026-05-14T23:59:00Z",
-        "city": "Malm\u00f6",
+        "city": "Malmö",
         "country": "Sweden",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2026/call-for-papers/",
@@ -1126,7 +1126,7 @@
         "submission_stage": "Full paper",
         "event_dates": "October 12-14, 2026",
         "deadline": "2026-05-21T23:59:00Z",
-        "city": "Malm\u00f6",
+        "city": "Malmö",
         "country": "Sweden",
         "archival": "Optional",
         "link": "https://www.aies-conference.com/2026/call-for-papers/",
@@ -1475,8 +1475,8 @@
         "city": "Edinburgh",
         "country": "United Kingdom",
         "archival": "Archival",
-        "link": "https://www.icwsm.org/2026/submit.html",
-        "notes": "New submissions and R&Rs from January 2026 round. Full submission guidelines for ICWSM 2027 will be announced; expected to follow 2026 format (AAAI two-column, 8-11 pp, double-blind, ethics checklist required)."
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "New submissions and R&Rs from January 2026 round, plus resubmissions of September 2025 rejections. Notification July 15, 2026. AAAI two-column format, double-blind, paper checklist required."
     },
     {
         "name_display": "ICWSM 2027 (Round 2)",
@@ -1488,8 +1488,8 @@
         "city": "Edinburgh",
         "country": "United Kingdom",
         "archival": "Archival",
-        "link": "https://www.icwsm.org/2026/submit.html",
-        "notes": "New submissions and R&Rs from May 2026 round. Full submission guidelines will be announced in due course."
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "New submissions and R&Rs from May 2026 round, plus resubmissions of January 2026 rejections. Notification November 15, 2026. AAAI two-column format, double-blind, paper checklist required."
     },
     {
         "name_display": "ICWSM 2027 (Round 3)",
@@ -1501,8 +1501,8 @@
         "city": "Edinburgh",
         "country": "United Kingdom",
         "archival": "Archival",
-        "link": "https://www.icwsm.org/2026/submit.html",
-        "notes": "New submissions and R&Rs from September 2026 round. Accepted papers will appear at ICWSM 2027."
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "New submissions and R&Rs from September 2026 round, plus resubmissions of May 2026 rejections. Notification March 15, 2027. Papers receiving an R&R in this round cannot be presented at ICWSM 2027. Posters, demos, dataset papers, workshops, and tutorials may only be submitted in this round."
     },
     {
         "name_display": "CHI 2027",
@@ -1681,12 +1681,12 @@
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "May 10-14, 2027",
-        "deadline": "2026-10-11T23:59:59Z",
+        "deadline": "2026-10-18T23:59:59Z",
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://acmweb2027.org/important-dates/",
-        "notes": "Full paper abstracts (Research & Industry Track). Papers due October 18. Notification December 10, 2026; rebuttal December 12-19. Published in ACM proceedings. Calls for short papers, workshops, and tutorials not yet announced."
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Full paper abstracts (Research & Industry Track). Papers due October 25. Results released December 21, 2026; rebuttal December 21-31; notification January 4, 2027; final versions due January 31, 2027. Submitted via OpenReview. Published in ACM proceedings."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1694,12 +1694,12 @@
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "May 10-14, 2027",
-        "deadline": "2026-10-18T23:59:59Z",
+        "deadline": "2026-10-25T23:59:59Z",
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://acmweb2027.org/important-dates/",
-        "notes": "Full papers (Research & Industry Track). Abstracts due October 11. Notification December 10, 2026; rebuttal December 12-19. Published in ACM proceedings. Calls for short papers, workshops, and tutorials not yet announced."
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Full papers (Research & Industry Track). Abstracts due October 18. Results released December 21, 2026; rebuttal December 21-31; notification January 4, 2027; final versions due January 31, 2027. Submitted via OpenReview. Published in ACM proceedings."
     },
     {
         "name_display": "WSDM 2027",
@@ -1759,12 +1759,12 @@
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "June 3-7, 2027",
-        "deadline": "N/A",
+        "deadline": "2026-11-02T17:00:00Z",
         "city": "Glasgow",
         "country": "United Kingdom",
         "archival": "Non-archival",
-        "link": "https://www.icahdq.org/",
-        "notes": "77th annual conference at the Scottish Event Campus. Theme: 'Communication and Inequalities in Context'. Call for papers expected around September 2026 with a deadline around November 1, 2026."
+        "link": "https://www.icahdq.org/mpage/ICA27",
+        "notes": "77th annual conference at the Scottish Event Campus. Theme: 'Centering the Human: Communication in an Age of Uncertainty'. Submission system (ScholarOne) opens September 1, 2026; deadline November 2, 2026 at 12:00 noon ET. Completed papers up to 8,000 words, or panel and roundtable proposals. No duplicate submissions across ICA divisions. English only."
     },
     {
         "name_display": "ACL 2027",
@@ -1791,5 +1791,161 @@
         "archival": "Non-archival",
         "link": "https://sites.google.com/view/confpolinetworks/",
         "notes": "19th Annual Political Networks Conference at Oddfellows Hall, University of Manchester - first edition held in Europe. Formerly branded PolNet-PaCSS (2025); the 2026 edition reverted to plain PolNet. Abstract submission window closed in spring 2026 (exact deadline not published). Partnership with APSA Political Networks Section, ECPR, and INSNA."
+    },
+    {
+        "name_display": "ACL 2027",
+        "name_full": "Joint Call for Workshop Proposals 2027 (ACL, EMNLP, EACL, NAACL, COLING)",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "August 17-22, 2027",
+        "deadline": "2026-09-04T23:59:59Z",
+        "city": "Kyoto",
+        "country": "Japan",
+        "archival": "Archival",
+        "link": "https://2027.eacl.org/calls/workshops/",
+        "notes": "Single joint call covering workshops at EACL 2027 (Athens, Mar 9-14), COLING 2027 (Macau, May 9-14), NAACL 2027 (San Francisco, Jun 1-5), ACL 2027 (Kyoto, Aug 17-22), and EMNLP 2027 (Mexico/Central America, early Nov). There will NOT be a second call for workshops this cycle. Max 4 pages (2 main proposal + 2 organizer/committee info), LaTeX template. Notification October 2, 2026."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Workshops)",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-09-21T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Workshop proposals. Proposal notification September 28, 2026. Workshops held May 10-11, 2027. Workshop paper submission January 4, 2027; notification February 1, 2027; final versions February 16, 2027."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Tutorials)",
+        "venue_type": "Conference",
+        "submission_type": "Tutorials",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-09-21T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Tutorial proposals. Notification September 28, 2026. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Short Papers: Abstracts Due)",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-11-09T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Short paper abstracts. Papers due November 16, 2026. Notification January 4, 2027; final versions January 31, 2027. The Web4Good track follows the same timeline."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Short Papers: Papers Due)",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-11-16T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Short papers. Abstracts due November 9, 2026. Notification January 4, 2027; final versions January 31, 2027. The Web4Good track follows the same timeline."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Demonstrations)",
+        "venue_type": "Conference",
+        "submission_type": "Demonstrations",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-11-16T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/important-dates/",
+        "notes": "Demo submissions. Notification January 4, 2027; final versions January 31, 2027."
+    },
+    {
+        "name_display": "CSCW 2027",
+        "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "Rolling",
+        "city": "TBD",
+        "country": "TBD",
+        "archival": "Archival",
+        "link": "https://cscw.acm.org/rolling.html",
+        "notes": "CSCW has moved to a rolling, journal-style submission model for 2027 and beyond - there are no fixed submission deadlines. Papers are reviewed on an ongoing basis and may go through different numbers of review rounds. To be presented, a paper must be accepted at PACM HCI/CSCW or ToCHI (if within CSCW scope). Papers accepted after the current program closes receive a slot at the following year's conference; authors may also request to defer to the following year. Questions: cscw-rolling@acm.org."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027",
+        "venue_type": "Conference",
+        "submission_type": "Posters",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Poster submissions. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. AAAI format, double-blind, paper checklist required."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027",
+        "venue_type": "Conference",
+        "submission_type": "Demonstrations",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Demo and dataset paper submissions. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. AAAI format, paper checklist required."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Workshop proposals. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. Workshop papers appear in the ICWSM Workshop Proceedings."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027",
+        "venue_type": "Conference",
+        "submission_type": "Tutorials",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Tutorial proposals. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027."
+    },
+    {
+        "name_display": "Cambridge Disinformation Summit 2027",
+        "name_full": "Cambridge Disinformation Summit",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "March 23-25, 2027",
+        "deadline": "N/A",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.mctd.ac.uk/",
+        "notes": "Theme: 'Incentives and Power Infrastructures' - papers examining the non-mutually-exclusive incentives and power infrastructures that enable corrupt practices. An interdisciplinary scientific committee reviews submissions. The call for papers has not yet opened; the 2026 edition's deadline was November 15, 2025, so expect a similar window around November 2026."
     }
 ]
