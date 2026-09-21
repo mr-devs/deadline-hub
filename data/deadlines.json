@@ -1811,12 +1811,12 @@
         "venue_type": "Conference",
         "submission_type": "Workshops",
         "event_dates": "May 10-14, 2027",
-        "deadline": "2026-09-21T23:59:59Z",
+        "deadline": "2026-09-28T23:59:59Z",
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
         "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Workshop proposals. Proposal notification September 28, 2026. Workshops held May 10-11, 2027. Workshop paper submission January 4, 2027; notification February 1, 2027; final versions February 16, 2027."
+        "notes": "Workshop proposals. Proposal notification October 12, 2026. Workshops held May 10-11, 2027. Workshop paper submission January 4, 2027; notification February 1, 2027; final versions February 16, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1824,12 +1824,12 @@
         "venue_type": "Conference",
         "submission_type": "Tutorials",
         "event_dates": "May 10-14, 2027",
-        "deadline": "2026-09-21T23:59:59Z",
+        "deadline": "2026-10-19T23:59:59Z",
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
         "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Tutorial proposals. Notification September 28, 2026. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
+        "notes": "Tutorial proposals. Notification November 2, 2026. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1947,5 +1947,31 @@
         "archival": "Non-archival",
         "link": "https://www.mctd.ac.uk/",
         "notes": "Theme: 'Incentives and Power Infrastructures' - papers examining the non-mutually-exclusive incentives and power infrastructures that enable corrupt practices. An interdisciplinary scientific committee reviews submissions. The call for papers has not yet opened; the 2026 edition's deadline was November 15, 2025, so expect a similar window around November 2026."
+    },
+    {
+        "name_display": "NetSci 2027",
+        "name_full": "International School and Conference on Network Science 2027",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "May 17-21, 2027",
+        "deadline": "N/A",
+        "city": "Dresden",
+        "country": "Germany",
+        "archival": "Non-archival",
+        "link": "https://netsci2027.github.io/",
+        "notes": "Hosted at TU Dresden. Conference site is live with dates and venue confirmed, but the call for abstracts and satellite proposals has not yet opened. Recent editions have opened abstract submission in the winter preceding the conference."
+    },
+    {
+        "name_display": "CHI 2027",
+        "name_full": "CHI 2027 Digital Experience Competition",
+        "venue_type": "Conference",
+        "submission_type": "Competitions",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-12-04T23:59:59Z",
+        "city": "Pittsburgh, PA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://chi2027.acm.org/",
+        "notes": "Submissions due December 4, 2026 (AoE). Notifications end of January 2027. Held at the David L. Lawrence Convention Center."
     }
 ]
