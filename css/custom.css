@@ -214,3 +214,27 @@ body {
     display: none;
     text-align: center;
 }
+
+/* Floating "Support" call-to-action, bottom-right on every page */
+.support-float {
+    position: fixed;
+    right: var(--space-md);
+    bottom: var(--space-md);
+    z-index: 1030;
+    display: inline-flex;
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 2rem;
+    background-color: #323842;
+    color: #fff;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.support-float:hover,
+.support-float:focus {
+    color: #fff;
+    opacity: 0.9;
+}
