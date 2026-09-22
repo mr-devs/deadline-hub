@@ -3,18 +3,27 @@ Hub for academic deadlines.
 
 ## Submitting New Deadlines
 
-To submit new deadlines, please follow these instructions:
+Spotted a deadline that isn't listed? Please
+[open an issue](https://github.com/mr-devs/deadline-hub/issues/new) and include:
 
-1. **Edit the [`data/deadlines.json`](https://github.com/mr-devs/deadline-hub/blob/main/data/deadlines.json) file only**: All new deadlines should be added to the `data/deadlines.json` file. Any other edits, unless explicitly addressing an issue, will be denied.
+- **The name of the venue** — and its abbreviation, if it has one
+- **A link** to the venue's website or call for papers
+- **Anything else that would help** — the submission deadline, event dates and
+  location, the kind of submission (papers, abstracts, workshops, tutorials,
+  posters, demos), whether it's archival, and any notes on page limits, review
+  process, or notification dates
 
-2. **Use the OpenAI GPT for formatting**: To ensure consistency in formatting, use the OpenAI GPT that we have created. You can access it [here](https://chatgpt.com/g/g-67c62a6497d081918a7d0de2d1267137-deadline-hub-data-extractor).
+You don't need to format anything or open a pull request. Share whatever you have
+— even just a name and a link — and we'll take it from there.
 
-3. **Submit a Pull Request**: Once you have made your changes to the `data/deadlines.json` file, submit a pull request for review. Please make sure to explain your changes.
+One-off deadlines are welcome too, not just recurring venues: journal special
+issues and special collections, one-time workshops, summer schools, training
+programs, and anything else with a deadline worth knowing about. All are welcome.
 
 ### Events tracked
 
-Deadline Hub currently tracks the venues below. Don't see one you care about?
-[Open an issue](https://github.com/mr-devs/deadline-hub/issues) to request it.
+These venues are checked for new deadlines on a recurring basis, alongside the
+one-off deadlines described above.
 
 | Venue | Full name |
 | --- | --- |
