@@ -33,7 +33,7 @@ To submit new deadlines, please follow these instructions:
 
 
 ---
-> This project is managed soley by [Matt DeVerna](https://www.matthewdeverna.com).
-> If you use DeadlineHub, please consider buying him a coffee.
+> This project is managed solely by [Matt DeVerna](https://www.matthewdeverna.com).
+> If you use Deadline Hub, please consider supporting its upkeep.
 >
 > [![Support the project](https://img.shields.io/badge/Support%20the%20project-Donate-635bff?logo=stripe&logoColor=white)](https://donate.stripe.com/28EfZieutacn9AKdGI2go00)
