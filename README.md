@@ -23,8 +23,8 @@ Deadline Hub currently tracks the venues below. Don't see one you care about?
 | AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society |
 | — | Cambridge Disinformation Summit |
 | CCS | Conference on Complex Systems |
-| CHI | The ACM Conference on Human Factors in Computing Systems |
-| CODE@MIT | The Conference on Digital Experimentation at MIT |
+| CHI | ACM Conference on Human Factors in Computing Systems |
+| CODE@MIT | Conference on Digital Experimentation at MIT |
 | COLM | Conference on Language Modeling |
 | — | Communication Horizons Conference |
 | CSCW | ACM Conference on Computer-Supported Cooperative Work and Social Computing |
