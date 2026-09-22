@@ -11,26 +11,53 @@ To submit new deadlines, please follow these instructions:
 
 3. **Submit a Pull Request**: Once you have made your changes to the `data/deadlines.json` file, submit a pull request for review. Please make sure to explain your changes.
 
-### Types of events typically tracked
+### Events tracked
 
-- International AAAI Conference on Web and Social Media (ICWSM)
-- International Conference on Computational Social Science (IC2S2)
-- Conference on Human Factors in Computing Systems (CHI)
-- Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)
-- International Communication Association Conference (ICA)
-- Trust & Safety Research Conference
+Deadline Hub currently tracks the venues below. Don't see one you care about?
+[Open an issue](https://github.com/mr-devs/deadline-hub/issues) to request it.
+
+#### Conferences and workshops
+
+| Venue | Full name |
+| --- | --- |
+| ACL | Annual Meeting of the Association for Computational Linguistics |
+| ACM CI | ACM Collective Intelligence |
+| AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society |
+| CCS | Conference on Complex Systems |
+| CHI | ACM Conference on Human Factors in Computing Systems |
+| CODE@MIT | The Conference on Digital Experimentation at MIT |
+| COLM | Conference on Language Modeling |
+| CSCW | ACM Conference on Computer-Supported Cooperative Work and Social Computing |
+| CSSSA | Computational Social Science Society of the Americas Conference |
+| CySoc | International Workshop on Cyber Social Threats |
+| EMNLP | Conference on Empirical Methods in Natural Language Processing |
+| IC2S2 | International Conference on Computational Social Science |
+| ICA | International Communication Association Conference |
+| ICSSI | International Conference on the Science of Science and Innovation |
+| ICWSM | International AAAI Conference on Web and Social Media |
+| NetSci | International School and Conference on Network Science |
+| PolNet-PaCSS | Political Networks and Computational Social Science Conference |
+| TADA | New Directions in Analyzing Text as Data |
+| The Web Conference | The Web Conference (WWW) |
+| WSDM | ACM International Conference on Web Search and Data Mining |
+| — | Cambridge Disinformation Summit |
+| — | Communication Horizons Conference |
+| — | Trust & Safety Research Conference |
+| — | Directions of Polarization, Social Norms & Trust in Societies: Perspectives from the Behavioral Sciences |
+
+#### Journals and special collections
+
 - Journal of Online Trust and Safety
-- International School and Conference on Network Science (NetSci)
-- Cambridge Disinformation Summit
-- Computational Social Science Society of the Americas Conference (CSSSA)
-- Collective Intelligence (CI)
-- Conference on Complex Systems (CCS)
-- Political Networks and Computational Social Science Conference (PolNet)
-- Directions of Polarization, Social Norms & Trust in Societies: Perspectives from the Behavioral Sciences
-- AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES)
-- International Conference on the Science of Science and Innovation (SciSci)
-- Summer Institute on Computational Social Science
+- *EPJ Data Science* — Navigating Information Integrity in the Age of Misinformation
+- *PNAS Nexus* — Culture and Artificial Intelligence
+- *ACM TIST* — Special Issue on Risks and Unintended Harms of Generative AI Systems
 
+#### Training programs
+
+- **SICSS** — Summer Institute in Computational Social Science, tracked across 11 sites:
+  Carnegie Mellon, Institute for Analytical Sociology, Lake Como, Lingnan, ODISSEI,
+  Paris, Penn, Rochester, National University of Singapore, Stanford, and UCLA
+- Summer School on Misinformation, Disinformation and Hate Speech
 
 ---
 > This project is managed solely by [Matt DeVerna](https://www.matthewdeverna.com).
