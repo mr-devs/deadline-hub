@@ -1973,5 +1973,44 @@
         "archival": "Non-archival",
         "link": "https://chi2027.acm.org/",
         "notes": "Submissions due December 4, 2026 (AoE). Notifications end of January 2027. Held at the David L. Lawrence Convention Center."
+    },
+    {
+        "name_display": "C+J 2026",
+        "name_full": "Computation + Journalism Symposium 2026",
+        "venue_type": "Conference",
+        "submission_type": "Short papers",
+        "event_dates": "October 2-3, 2026",
+        "deadline": "2026-07-06T23:59:59Z",
+        "city": "Evanston, IL",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://www.cj2026.northwestern.edu/cfp/",
+        "notes": "Up to 5 pages excluding references, 2-column ACM template, not anonymized; short abstract, keywords, and a ~100-word generative AI disclosure required. Proceedings are posted online but non-archival. Theme: 'News Beyond the Newsroom' (news influencers and creators, evolving audiences, AI agents and journalism, synthetic media). Submit via EasyChair; decisions August 10, 2026. Hosted by Northwestern University."
+    },
+    {
+        "name_display": "C+J 2026",
+        "name_full": "Computation + Journalism Symposium 2026",
+        "venue_type": "Conference",
+        "submission_type": "Presentations",
+        "event_dates": "October 2-3, 2026",
+        "deadline": "2026-07-06T23:59:59Z",
+        "city": "Evanston, IL",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://www.cj2026.northwestern.edu/cfp/",
+        "notes": "Contributed talks: abstract of 250 words or fewer with name, affiliation, email, title, and description; any reasonable file format. The committee assigns the presentation format (talk or poster). Theme: 'News Beyond the Newsroom' (news influencers and creators, evolving audiences, AI agents and journalism, synthetic media). Submit via EasyChair; decisions August 10, 2026. Hosted by Northwestern University."
+    },
+    {
+        "name_display": "C+J 2026",
+        "name_full": "Computation + Journalism Symposium 2026",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "October 2-3, 2026",
+        "deadline": "2026-07-06T23:59:59Z",
+        "city": "Evanston, IL",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://www.cj2026.northwestern.edu/cfp/",
+        "notes": "Workshop proposals: abstract of 250 words or fewer covering impact, previous iterations, space/technical needs, and organizers (organizers not counted). Theme: 'News Beyond the Newsroom' (news influencers and creators, evolving audiences, AI agents and journalism, synthetic media). Submit via EasyChair; decisions August 10, 2026. Hosted by Northwestern University."
     }
 ]

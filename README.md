@@ -30,6 +30,7 @@ one-off deadlines described above.
 | ACL | Annual Meeting of the Association for Computational Linguistics |
 | ACM CI | ACM Collective Intelligence |
 | AIES | AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society |
+| C+J | Computation + Journalism Symposium |
 | — | Cambridge Disinformation Summit |
 | CCS | Conference on Complex Systems |
 | CHI | ACM Conference on Human Factors in Computing Systems |

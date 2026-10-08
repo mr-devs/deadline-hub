@@ -21,3 +21,4 @@ WSDM | ACM International Conference on Web Search and Data Mining | https://www.
 Communication Horizons Conference | Communication Horizons Conference | https://communication.ucdavis.edu/horizonconf2026
 CODE@MIT | Conference on Digital Experimentation at MIT | https://ide.mit.edu/ | Year-prefixed event page under /events/, e.g. https://ide.mit.edu/events/2026-conference-on-digital-experimentation-mit-codemit/
 TADA | New Directions in Analyzing Text as Data | https://tada2026.org/ | Year-specific domain, e.g. https://tada{year}.org/
+C+J | Computation + Journalism Symposium | https://www.cj2026.northwestern.edu/ | Host university rotates each year; site lives at a year-specific subdomain of the host, e.g. https://cj2026.northwestern.edu/ (2026), https://cj2020.northeastern.edu/. Search "Computation + Journalism {year}" to find the host.
