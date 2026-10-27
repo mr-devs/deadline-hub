@@ -105,7 +105,7 @@ Every entry in `data/deadlines.json` must follow this structure:
 ```json
 {
     "name_display": "CHI 2026",
-    "name_full": "The ACM Conference on Human Factors in Computing Systems (Research Track: Papers Due)",
+    "name_full": "ACM Conference on Human Factors in Computing Systems (Research Track: Papers Due)",
     "venue_type": "Conference",
     "submission_type": "Full papers",
     "event_dates": "April 13-17, 2026",

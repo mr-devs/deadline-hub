@@ -46,7 +46,7 @@ one-off deadlines described above.
 | ICSSI | International Conference on the Science of Science and Innovation |
 | ICWSM | International AAAI Conference on Web and Social Media |
 | NetSci | International School and Conference on Network Science |
-| PolNet-PaCSS | Political Networks and Computational Social Science Conference |
+| PolNet | Political Networks Conference |
 | TADA | New Directions in Analyzing Text as Data |
 | — | The Web Conference |
 | Trust & Safety Conference | Trust & Safety Research Conference |
