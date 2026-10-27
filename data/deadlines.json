@@ -118,7 +118,7 @@
     },
     {
         "name_display": "CHI 2026",
-        "name_full": "The ACM Conference on Human Factors in Computing Systems",
+        "name_full": "ACM Conference on Human Factors in Computing Systems",
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "April 13-17, 2026",
@@ -1181,7 +1181,7 @@
         "city": "Stanford, CA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://cyber.fsi.stanford.edu/trust-and-safety-research-conference",
+        "link": "https://tip.fsi.stanford.edu/trust-and-safety-research-conference",
         "notes": "5th annual conference at Frances C. Arrillaga Alumni Center. Accepts research presentations, lightning talks, poster presentations, and workshop proposals. Presentation application deadline may differ from JOTS deadline."
     },
     {
@@ -1506,7 +1506,7 @@
     },
     {
         "name_display": "CHI 2027",
-        "name_full": "The ACM Conference on Human Factors in Computing Systems 2027",
+        "name_full": "ACM Conference on Human Factors in Computing Systems 2027",
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "May 10-14, 2027",
@@ -1527,8 +1527,8 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Workshop organizer proposal deadline. Organizer notifications November 19, 2026."
+        "link": "https://chi2027.acm.org/authors/workshops/",
+        "notes": "Workshop organizer proposal deadline. Organizer notifications November 19, 2026. Proposals up to 6 pages (single-column ACM template). In-person only."
     },
     {
         "name_display": "CHI 2027",
@@ -1540,8 +1540,8 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Short community discussion proposals. Notifications November 19, 2026."
+        "link": "https://chi2027.acm.org/authors/meet-ups/",
+        "notes": "Short community discussion proposals. Notifications November 19, 2026. Max 3-page proposal plus mandatory 2-page supplementary material."
     },
     {
         "name_display": "CHI 2027",
@@ -1553,8 +1553,8 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Panel proposals. Notifications January 14, 2027."
+        "link": "https://chi2027.acm.org/authors/panels/",
+        "notes": "Panel proposals. Notifications January 14, 2027. Up to 6 pages single-column, not anonymous."
     },
     {
         "name_display": "CHI 2027",
@@ -1566,8 +1566,8 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Notifications February 18, 2027."
+        "link": "https://chi2027.acm.org/authors/posters/",
+        "notes": "Notifications February 18, 2027. Up to 4 pages (single-column, excl. references). Light-feedback review."
     },
     {
         "name_display": "CHI 2027",
@@ -1579,8 +1579,8 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Notifications February 18, 2027."
+        "link": "https://chi2027.acm.org/authors/interactive-demos/",
+        "notes": "Notifications February 18, 2027. 6-page initial submission plus a walkthrough video of up to 5 minutes."
     },
     {
         "name_display": "CHI 2027",
@@ -1592,12 +1592,12 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
-        "notes": "Notifications February 18, 2027."
+        "link": "https://chi2027.acm.org/authors/student-research-competition/",
+        "notes": "Notifications February 18, 2027. Up to 5 pages. Single-author for graduate students; undergraduates may submit as teams. Presenter needs ACM student membership."
     },
     {
         "name_display": "WSDM 2027",
-        "name_full": "ACM International Conference on Web Search and Data Mining (Abstracts Due)",
+        "name_full": "ACM International Conference on Web Search and Data Mining",
         "venue_type": "Conference",
         "submission_type": "Full papers",
         "submission_stage": "Abstract",
@@ -1606,12 +1606,12 @@
         "city": "Hong Kong",
         "country": "China",
         "archival": "Archival",
-        "link": "https://wsdm-conference.org/2027/",
+        "link": "https://wsdm-conference.org/2027/cffp.html",
         "notes": "Abstract registration deadline. Full paper due August 24. Double-blind review. Notification November 2, 2026. Published in ACM Digital Library."
     },
     {
         "name_display": "WSDM 2027",
-        "name_full": "ACM International Conference on Web Search and Data Mining (Papers Due)",
+        "name_full": "ACM International Conference on Web Search and Data Mining",
         "venue_type": "Conference",
         "submission_type": "Full papers",
         "submission_stage": "Full paper",
@@ -1620,8 +1620,8 @@
         "city": "Hong Kong",
         "country": "China",
         "archival": "Archival",
-        "link": "https://wsdm-conference.org/2027/",
-        "notes": "Full paper deadline. Abstract due August 17. Notification November 2, 2026. Short papers, tutorials, workshops, and demos TBD. Published in ACM Digital Library."
+        "link": "https://wsdm-conference.org/2027/cffp.html",
+        "notes": "Full paper deadline. Abstract due August 17. Up to 9 pages excl. references and ethics section. Notification November 2, 2026. Published in ACM Digital Library."
     },
     {
         "name_display": "CODE@MIT 2026",
@@ -1655,7 +1655,7 @@
         "venue_type": "Conference",
         "submission_type": "Abstracts",
         "event_dates": "October 5, 2026",
-        "deadline": "2026-08-01T23:59:59Z",
+        "deadline": "2026-08-03T23:59:59Z",
         "city": "Berkeley, CA",
         "country": "USA",
         "archival": "Non-archival",
@@ -1685,8 +1685,8 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Full paper abstracts (Research & Industry Track). Papers due October 25. Results released December 21, 2026; rebuttal December 21-31; notification January 4, 2027; final versions due January 31, 2027. Submitted via OpenReview. Published in ACM proceedings."
+        "link": "https://www2027.thewebconf.org/research-track-papers/",
+        "notes": "Full paper abstracts (Research Track). Papers due October 25. Results released December 15, 2026; rebuttal December 15-20; notification January 4, 2027; final versions due January 31, 2027. Long papers 8 pages + refs/appendix, max 12 pages total; double-blind via OpenReview. Published in ACM proceedings."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1698,8 +1698,8 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Full papers (Research & Industry Track). Abstracts due October 18. Results released December 21, 2026; rebuttal December 21-31; notification January 4, 2027; final versions due January 31, 2027. Submitted via OpenReview. Published in ACM proceedings."
+        "link": "https://www2027.thewebconf.org/research-track-papers/",
+        "notes": "Full papers (Research Track). Abstracts due October 18. Results released December 15, 2026; rebuttal December 15-20; notification January 4, 2027; final versions due January 31, 2027. Long papers 8 pages + refs/appendix, max 12 pages total; double-blind via OpenReview. Published in ACM proceedings."
     },
     {
         "name_display": "WSDM 2027",
@@ -1764,7 +1764,7 @@
         "country": "United Kingdom",
         "archival": "Non-archival",
         "link": "https://www.icahdq.org/mpage/ICA27",
-        "notes": "77th annual conference at the Scottish Event Campus. Theme: 'Centering the Human: Communication in an Age of Uncertainty'. Submission system (ScholarOne) opens September 1, 2026; deadline November 2, 2026 at 12:00 noon ET. Completed papers up to 8,000 words, or panel and roundtable proposals. No duplicate submissions across ICA divisions. English only."
+        "notes": "77th annual conference at the Scottish Event Campus. Theme: 'Centering the Human: Communication in an Age of Uncertainty'. Submission system (ScholarOne) opens September 1, 2026; deadline November 2, 2026 at 12:00 noon ET. Completed papers up to 8,000 words, or panel and roundtable proposals. No duplicate submissions across ICA divisions. English only. Acceptance notices January 13, 2027."
     },
     {
         "name_display": "ACL 2027",
@@ -1772,12 +1772,12 @@
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "August 17-22, 2027",
-        "deadline": "N/A",
+        "deadline": "2027-01-04T23:59:59Z",
         "city": "Kyoto",
         "country": "Japan",
         "archival": "Archival",
-        "link": "https://2027.aclweb.org/",
-        "notes": "Submissions via ACL Rolling Review (ARR). The ARR cycle feeding ACL 2027 and its deadline have not yet been announced. Deadlines will use Anywhere on Earth (UTC-12) when finalized."
+        "link": "https://2027.aclweb.org/calls/main/",
+        "notes": "ARR paper submission deadline (January 2027 ARR cycle). Long papers: 8 pages, short papers: 4 pages (+1 page for camera-ready). Double-blind via OpenReview; commit to ACL after ARR review (commitment deadline TBA). Theme track: 'Homogenization and Knowledge Collapse in LLMs'. Papers not accepted to the main conference are considered for Findings. Tutorials Aug 17, workshops Aug 18-19, main conference Aug 20-22."
     },
     {
         "name_display": "PolNet 2026",
@@ -1815,7 +1815,7 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
+        "link": "https://www2027.thewebconf.org/workshops/",
         "notes": "Workshop proposals. Proposal notification October 12, 2026. Workshops held May 10-11, 2027. Workshop paper submission January 4, 2027; notification February 1, 2027; final versions February 16, 2027."
     },
     {
@@ -1824,12 +1824,12 @@
         "venue_type": "Conference",
         "submission_type": "Tutorials",
         "event_dates": "May 10-14, 2027",
-        "deadline": "2026-10-19T23:59:59Z",
+        "deadline": "2027-01-04T23:59:59Z",
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Tutorial proposals. Notification November 2, 2026. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
+        "link": "https://www2027.thewebconf.org/tutorials/",
+        "notes": "Tutorial proposals (deadline extended). Half-day (up to 3 hours), lecture-style or hands-on; proposal up to 4 pages incl. references. Notification January 25, 2027. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1841,8 +1841,8 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Short paper abstracts. Papers due November 16, 2026. Notification January 4, 2027; final versions January 31, 2027. The Web4Good track follows the same timeline."
+        "link": "https://www2027.thewebconf.org/research-track-papers/",
+        "notes": "Short paper abstracts. Papers due November 16, 2026. 4 pages including references and appendix. Notification January 4, 2027; final versions January 31, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1854,8 +1854,8 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Short papers. Abstracts due November 9, 2026. Notification January 4, 2027; final versions January 31, 2027. The Web4Good track follows the same timeline."
+        "link": "https://www2027.thewebconf.org/research-track-papers/",
+        "notes": "Short papers. Abstracts due November 9, 2026. 4 pages including references and appendix. Notification January 4, 2027; final versions January 31, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -1867,18 +1867,18 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/important-dates/",
-        "notes": "Demo submissions. Notification January 4, 2027; final versions January 31, 2027."
+        "link": "https://www2027.thewebconf.org/demos/",
+        "notes": "Demo submissions. Max 4 pages incl. references; single-blind; Companion Proceedings; in-person presentation required. Notification January 4, 2027; final versions January 31, 2027."
     },
     {
         "name_display": "CSCW 2027",
         "name_full": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
         "venue_type": "Conference",
         "submission_type": "Research Papers",
-        "event_dates": "TBD, 2027",
+        "event_dates": "October 16-20, 2027",
         "deadline": "Rolling",
-        "city": "TBD",
-        "country": "TBD",
+        "city": "Philadelphia, PA",
+        "country": "USA",
         "archival": "Archival",
         "link": "https://cscw.acm.org/rolling.html",
         "notes": "CSCW has moved to a rolling, journal-style submission model for 2027 and beyond - there are no fixed submission deadlines. Papers are reviewed on an ongoing basis and may go through different numbers of review rounds. To be presented, a paper must be accepted at PACM HCI/CSCW or ToCHI (if within CSCW scope). Papers accepted after the current program closes receive a slot at the following year's conference; authors may also request to defer to the following year. Questions: cscw-rolling@acm.org."
@@ -1907,7 +1907,7 @@
         "country": "United Kingdom",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "Demo and dataset paper submissions. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. AAAI format, paper checklist required."
+        "notes": "Demo submissions (interactive demonstrations of tools, systems, or applications). Only accepted in the January 2027 (Round 3) submission window. Up to 3 pages excluding checklist; single-blind review. Notification March 15, 2027."
     },
     {
         "name_display": "ICWSM 2027",
@@ -1941,25 +1941,25 @@
         "venue_type": "Conference",
         "submission_type": "Research Papers",
         "event_dates": "March 23-25, 2027",
-        "deadline": "N/A",
+        "deadline": "2026-10-31T23:59:00Z",
         "city": "Cambridge",
         "country": "United Kingdom",
         "archival": "Non-archival",
-        "link": "https://www.mctd.ac.uk/",
-        "notes": "Theme: 'Incentives and Power Infrastructures' - papers examining the non-mutually-exclusive incentives and power infrastructures that enable corrupt practices. An interdisciplinary scientific committee reviews submissions. The call for papers has not yet opened; the 2026 edition's deadline was November 15, 2025, so expect a similar window around November 2026."
+        "link": "https://www.jbs.cam.ac.uk/events/cambridge-disinformation-summit-2027/",
+        "notes": "Theme: 'Incentives and power infrastructure that support or amplify malign cognitive influence and disinformation campaigns.' Full papers only (no abstracts or proposals); English or with full English translation; no format or length requirements. Priority for newer working papers; any discipline or method. Reviewed by an interdisciplinary scientific committee. £35 submission fee (need-based waivers via CFRA@jbs.cam.ac.uk). Deadline 23:59 GMT; notification by end of December 2026. Hosted by Cambridge Judge Business School."
     },
     {
         "name_display": "NetSci 2027",
-        "name_full": "International School and Conference on Network Science 2027",
+        "name_full": "International School and Conference on Network Science",
         "venue_type": "Conference",
         "submission_type": "Abstracts",
         "event_dates": "May 17-21, 2027",
-        "deadline": "N/A",
+        "deadline": "2026-12-01T23:59:59Z",
         "city": "Dresden",
         "country": "Germany",
         "archival": "Non-archival",
-        "link": "https://netsci2027.github.io/",
-        "notes": "Hosted at TU Dresden. Conference site is live with dates and venue confirmed, but the call for abstracts and satellite proposals has not yet opened. Recent editions have opened abstract submission in the winter preceding the conference."
+        "link": "https://netsci2027.github.io/calls/abstracts",
+        "notes": "Hosted by SynoSys at TU Dresden. One-page abstract (text, one mandatory figure with caption, references) using the official NetSci 2027 LaTeX template, submitted as PDF via eventclass. Contributed talks (12 min + 3 min Q&A) or posters (A0 portrait); PC makes the final assignment. Must be presented in person; one abstract per presenting author. Notification January 15, 2027. Satellites/School May 17-18; main conference May 18-21."
     },
     {
         "name_display": "CHI 2027",
@@ -1971,7 +1971,7 @@
         "city": "Pittsburgh, PA",
         "country": "USA",
         "archival": "Non-archival",
-        "link": "https://chi2027.acm.org/",
+        "link": "https://chi2027.acm.org/digital-experience-competition/",
         "notes": "Submissions due December 4, 2026 (AoE). Notifications end of January 2027. Held at the David L. Lawrence Convention Center."
     },
     {
@@ -2012,5 +2012,252 @@
         "archival": "Non-archival",
         "link": "https://www.cj2026.northwestern.edu/cfp/",
         "notes": "Workshop proposals: abstract of 250 words or fewer covering impact, previous iterations, space/technical needs, and organizers (organizers not counted). Theme: 'News Beyond the Newsroom' (news influencers and creators, evolving audiences, AI agents and journalism, synthetic media). Submit via EasyChair; decisions August 10, 2026. Hosted by Northwestern University."
+    },
+    {
+        "name_display": "CHI 2027",
+        "name_full": "CHI 2027 Journals Track",
+        "venue_type": "Journal",
+        "submission_type": "Presentations",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2027-01-14T23:59:59Z",
+        "city": "Pittsburgh, PA",
+        "country": "USA",
+        "archival": "Archival",
+        "link": "https://chi2027.acm.org/authors/journals/",
+        "notes": "For authors of articles accepted to ACM TOCHI or ACM TSC (normally accepted between November 2025 and October 2026); other HCI journals may be accommodated by contacting tpc@chi2027.acm.org. No further review. Notification January 28, 2027."
+    },
+    {
+        "name_display": "CHI 2027",
+        "name_full": "CHI 2027 Student Mentoring Program: Dissertation Research Roundtable",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2027-01-21T23:59:59Z",
+        "city": "Pittsburgh, PA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://chi2027.acm.org/authors/student-mentoring-program-dissertation-research-roundtable/",
+        "notes": "Preference for mid-stage PhD students. Single-author (no advisors as co-authors), non-anonymized. Up to 4-page research description (single-column extended abstract, excl. references) plus benefits statement. Notification February 18, 2027. Accepted work published as an Extended Abstract in the ACM DL. Part of the restructured doctoral consortium."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027 - Dataset Papers",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Dataset papers presenting novel datasets that benefit the research community. Only accepted in the January 2027 (Round 3) submission window. 2-10 pages excluding checklist; single-blind review; a DOI indexing the dataset is required. Notification March 15, 2027."
+    },
+    {
+        "name_display": "ICWSM 2027",
+        "name_full": "International AAAI Conference on Web and Social Media 2027 - Social Science and Sociophysics Track",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "TBD, 2027",
+        "deadline": "2027-01-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Same deadlines and requirements as full papers (also accepted in the May and September 2026 rounds); this is the final window for ICWSM 2027. Papers are not included in the proceedings, though abstracts are published. Notification March 15, 2027."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Industry Track: Abstracts Due)",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-10-18T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/call-for-industry-submissions/",
+        "notes": "Industry paper abstracts, submitted via the same OpenReview portal as research papers (select Long/Short Paper and set \"Industry Paper\" to Yes). Papers due October 25. Double-blind. Results December 15, 2026; rebuttal December 15-20; notification January 4, 2027; final versions January 31, 2027. Published in the main proceedings."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Industry Track: Papers Due)",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-10-25T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/call-for-industry-submissions/",
+        "notes": "Industry papers. 8 pages main text plus references/appendix, max 12 pages total. Double-blind via OpenReview. Abstracts due October 18. Notification January 4, 2027; final versions January 31, 2027. Published in the main proceedings."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Industry Showcase)",
+        "venue_type": "Conference",
+        "submission_type": "Demonstrations",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-12-07T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Non-archival",
+        "link": "https://www2027.thewebconf.org/industry-showcase/",
+        "notes": "Interactive showcases of systems developed in industrial environments. Submit a ~500-word abstract plus a one-minute showcase video and on-site presenter details. Notification January 4, 2027."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Resource Track)",
+        "venue_type": "Conference",
+        "submission_type": "Short papers",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-12-17T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/resource-submissions/",
+        "notes": "Resource contributions (creation and usage of resources). Max 4 pages including references. Single-blind review by the Resource Committee. Notification January 20, 2027; camera-ready February 17, 2027. Included in the Companion Proceedings."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (PhD Symposium)",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2027-01-06T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www2027.thewebconf.org/phd-symposium/",
+        "notes": "PhD students at any stage. Single-author, non-anonymous, max 4 pages incl. references (ACM double-column) via OpenReview. Notification February 1, 2027; final version February 14, 2027. Accepted papers can be included in the Companion Proceedings (opt-out available)."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (Tutorial Proposals)",
+        "venue_type": "Conference",
+        "submission_type": "Tutorials",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-10-06T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cftutorial.html",
+        "notes": "Tutorial proposals: up to 1-page cover sheet + 3-page extended abstract. Notification November 5, 2026. Tutorial day February 15, 2027 (tentative)."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (Workshop Proposals)",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-10-10T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cfworkshops.html",
+        "notes": "Workshop proposals. Notification October 15, 2026. Workshop day February 19, 2027. Workshop paper submissions due by November 30, 2026 (organizers set exact dates); accepted workshop papers appear in the Companion Proceedings unless organizers opt out."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (Demonstrations)",
+        "venue_type": "Conference",
+        "submission_type": "Demonstrations",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-10-15T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Archival",
+        "link": "https://wsdm-conference.org/2027/cfdemo.html",
+        "notes": "Demo papers, max 4 pages including references and appendices. Single-blind review. Notification November 21, 2026; camera-ready December 16, 2026. Archival in the WSDM 2027 proceedings; in-person presentation required."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (WSDM Cup Proposals)",
+        "venue_type": "Conference",
+        "submission_type": "Competitions",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-10-20T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cfwc.html",
+        "notes": "Proposals to organize a WSDM Cup challenge (problem, data, metrics, timeline) via CMT. Notification October 27, 2026 (tentative). Cup runs November 16, 2026-February 5, 2027."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (Industry Day Talks)",
+        "venue_type": "Conference",
+        "submission_type": "Presentations",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-10-30T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cfidt.html",
+        "notes": "Talk proposals from industry teams and academia-industry collaborations with deployment experience. Max 2 pages incl. references (ACM sigconf). Notification November 27, 2026. Accepted authors may submit a camera-ready abstract for the proceedings; in-person presentation required."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (Doctoral Consortium)",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-11-12T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cfdc.html",
+        "notes": "For PhD students who have completed (or are close to) a thesis proposal. 3-page research statement incl. references, plus benefits statement and CV appendices. Notification December 2, 2026. Consortium held February 15, 2027. Accepted students may publish a 3-page extended abstract in the proceedings; travel support available via sponsors such as ACM SIGIR."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (WSDM Day Presentations)",
+        "venue_type": "Conference",
+        "submission_type": "Extended abstracts",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-11-30T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm-conference.org/2027/cfp.html",
+        "notes": "WSDM Day on \"State of Data Mining & Web Search in the Agentic AI Era\" (February 19, 2027). 2-page extended abstract (ACM sigconf), single-blind via CMT; ongoing/unpublished work and papers under review welcome. Oral or poster presentation. Notification December 21, 2026; camera-ready December 31, 2026."
+    },
+    {
+        "name_display": "ICA 2027",
+        "name_full": "International Communication Association Conference (Pre-/Postconference Proposals)",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "June 3-7, 2027",
+        "deadline": "2026-08-28T16:00:00Z",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://cdn.ymaws.com/www.icahdq.org/resource/resmgr/conference/2027/ica27_prepostconference_guid.pdf",
+        "notes": "Proposals to organize a pre- or postconference at the 77th annual conference, submitted via the online form (proposals sent by email are not accepted). Submission period August 7-28, 2026; deadline 12:00 noon EDT. Up to 30 preconferences (on-site preconferences only on Thursday, June 3) and 10 postconferences accepted. Acceptance letters early September 2026; accepted events must enter details into ScholarOne by November 2, 2026."
+    },
+    {
+        "name_display": "NetSci 2027",
+        "name_full": "International School and Conference on Network Science",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "May 17-21, 2027",
+        "deadline": "2026-11-15T23:59:59Z",
+        "city": "Dresden",
+        "country": "Germany",
+        "archival": "Non-archival",
+        "link": "https://netsci2027.github.io/calls/satellites",
+        "notes": "Call for satellite proposals. Satellites run May 17-18, 2027 (until midday May 18). Full-day satellites only on Monday May 17; half-day otherwise. Submit a single PDF (title, summary of topic/aims, organisers with affiliations, half/full-day format and structure, preliminary speaker list) by email to satellites.netsci@tu-dresden.de. Notification December 15, 2026."
+    },
+    {
+        "name_display": "CCS 2027",
+        "name_full": "Conference on Complex Systems",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "September 17-24, 2027",
+        "deadline": "N/A",
+        "city": "Wrocław",
+        "country": "Poland",
+        "archival": "Non-archival",
+        "link": "https://cssociety.org/ccs/",
+        "notes": "Location and dates confirmed by the Complex Systems Society. Conference website and call for abstracts not yet published; the 2026 abstract deadline was in May, so expect a call in spring 2027."
     }
 ]
