@@ -954,12 +954,12 @@
         "venue_type": "Conference",
         "submission_type": "Abstracts",
         "event_dates": "June 29 - July 1, 2026",
-        "deadline": "2026-03-30T23:59:59Z",
+        "deadline": "2026-04-06T23:59:59Z",
         "city": "Boulder, CO",
         "country": "USA",
         "archival": "Non-archival",
         "link": "https://icssi.org/guidelines/",
-        "notes": "2-page extended abstract (PDF). Accepts lightning talks, standard talks, and posters. Notification of acceptance April 20, 2026. Presenter registration deadline May 4, 2026."
+        "notes": "2-page extended abstract (PDF, 12pt, 1-inch margins, via EasyChair). Accepts lightning talks, standard talks, and posters. Deadline extended from March 30 to April 6, 2026 (AoE). Notification of acceptance April 20, 2026. Presenter registration deadline May 4, 2026. Hosted by CU Boulder; pre-conference Open Data Hackathon June 28."
     },
     {
         "name_display": "CCS 2025",
@@ -1502,7 +1502,7 @@
         "country": "United Kingdom",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "New submissions and R&Rs from September 2026 round, plus resubmissions of May 2026 rejections. Notification March 15, 2027. Papers receiving an R&R in this round cannot be presented at ICWSM 2027. Posters, demos, dataset papers, workshops, and tutorials may only be submitted in this round."
+        "notes": "New submissions and R&Rs from September 2026 round, plus resubmissions of May 2026 rejections. Notification March 15, 2027. Up to 11 pages (8 recommended) inclusive of references; 12 pages for R&R. AAAI two-column format, double-blind, mandatory paper checklist. Papers receiving an R&R in this round cannot be presented at ICWSM 2027. Posters, demos, dataset papers, workshops, and tutorials may only be submitted in this round. Conference expected in May 2027 (exact dates not yet announced)."
     },
     {
         "name_display": "CHI 2027",
@@ -1712,7 +1712,7 @@
         "country": "China",
         "archival": "Archival",
         "link": "https://wsdm-conference.org/2027/cfsp.html",
-        "notes": "Short paper deadline (no separate abstract deadline). All deadlines 23:59 AoE. Notification December 18, 2026. Published in ACM Digital Library. Held at Cordis Hotel, Mong Kok."
+        "notes": "Short paper deadline (no separate abstract deadline). Up to 4 pages excluding references and ethical considerations section; anonymized PDF in ACM sigconf format via Microsoft CMT. Max 10 short papers per author. All deadlines 23:59 AoE. Notification December 18, 2026. Published in ACM Digital Library. Held at Cordis Hotel, Mong Kok."
     },
     {
         "name_display": "ACM CI 2026",
@@ -1785,12 +1785,12 @@
         "venue_type": "Conference",
         "submission_type": "Abstracts",
         "event_dates": "August 4-7, 2026",
-        "deadline": "N/A",
+        "deadline": "2026-04-22T22:59:59Z",
         "city": "Manchester",
         "country": "United Kingdom",
         "archival": "Non-archival",
-        "link": "https://sites.google.com/view/confpolinetworks/",
-        "notes": "19th Annual Political Networks Conference at Oddfellows Hall, University of Manchester - first edition held in Europe. Formerly branded PolNet-PaCSS (2025); the 2026 edition reverted to plain PolNet. Abstract submission window closed in spring 2026 (exact deadline not published). Partnership with APSA Political Networks Section, ECPR, and INSNA."
+        "link": "https://sites.google.com/view/confpolinetworks/past-conferences/2026/proposal-submission",
+        "notes": "19th Annual Political Networks Conference at Oddfellows Hall, University of Manchester - first edition held in Europe. Formerly branded PolNet-PaCSS (2025); the 2026 edition reverted to plain PolNet. Abstract submissions closed April 22, 2026 at 11:59 pm BST; decisions May 9, 2026. Partnership with APSA Political Networks Section, ECPR, and INSNA."
     },
     {
         "name_display": "ACL 2027",
@@ -1880,8 +1880,8 @@
         "city": "Philadelphia, PA",
         "country": "USA",
         "archival": "Archival",
-        "link": "https://cscw.acm.org/rolling.html",
-        "notes": "CSCW has moved to a rolling, journal-style submission model for 2027 and beyond - there are no fixed submission deadlines. Papers are reviewed on an ongoing basis and may go through different numbers of review rounds. To be presented, a paper must be accepted at PACM HCI/CSCW or ToCHI (if within CSCW scope). Papers accepted after the current program closes receive a slot at the following year's conference; authors may also request to defer to the following year. Questions: cscw-rolling@acm.org."
+        "link": "https://cscw.acm.org/2027/submit/",
+        "notes": "CSCW uses a rolling, journal-style submission model with no fixed deadlines. To present, a paper must be accepted at PACM HCI/CSCW or ToCHI (if within CSCW scope) before the program is set; later acceptances receive a slot at CSCW 2028, and authors may also request to defer. Five paper tracks: Design/Theory, Mixed Methods, Qualitative, Quantitative, Systems. Held at the Loews Philadelphia Hotel. Other participation tracks (workshops, posters, doctoral consortium) to be posted. Questions: chairs2027@cscw.acm.org."
     },
     {
         "name_display": "ICWSM 2027",
@@ -1894,7 +1894,7 @@
         "country": "United Kingdom",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "Poster submissions. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. AAAI format, double-blind, paper checklist required."
+        "notes": "Poster submissions (work-in-progress, preliminary findings). Only accepted in the January 2027 (Round 3) submission window. Up to 5 pages excluding checklist; page 5 may contain only references. AAAI two-column format, double-blind, no revise-and-resubmit. Notification March 15, 2027. Published in the ICWSM proceedings."
     },
     {
         "name_display": "ICWSM 2027",
@@ -1920,7 +1920,7 @@
         "country": "United Kingdom",
         "archival": "Archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "Workshop proposals. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027. Workshop papers appear in the ICWSM Workshop Proceedings."
+        "notes": "Workshop proposals, submitted via email (not PCS). Only accepted in the January 2027 (Round 3) submission window. Binary accept/reject decision; notification March 15, 2027. Workshop papers appear in the separate ICWSM Workshop Proceedings."
     },
     {
         "name_display": "ICWSM 2027",
@@ -1931,9 +1931,9 @@
         "deadline": "2027-01-15T23:59:00Z",
         "city": "Edinburgh",
         "country": "United Kingdom",
-        "archival": "Archival",
+        "archival": "Non-archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "Tutorial proposals. Only accepted in the January 2027 (Round 3) submission window. Notification March 15, 2027."
+        "notes": "Tutorial proposals, submitted via email (not PCS). Only accepted in the January 2027 (Round 3) submission window. Binary accept/reject decision; notification March 15, 2027. Tutorials are not published in any proceedings."
     },
     {
         "name_display": "Cambridge Disinformation Summit 2027",
@@ -2257,7 +2257,189 @@
         "city": "Wrocław",
         "country": "Poland",
         "archival": "Non-archival",
-        "link": "https://cssociety.org/ccs/",
-        "notes": "Location and dates confirmed by the Complex Systems Society. Conference website and call for abstracts not yet published; the 2026 abstract deadline was in May, so expect a call in spring 2027."
+        "link": "https://ccs27.pwr.edu.pl/",
+        "notes": "Hosted by Wrocław University of Science and Technology (Congress Center, building D-20). yrCSS warm-up for young scientists September 17-18. Official website is live but no call for abstracts or satellites has been published yet; the 2026 abstract deadline was in May, so expect a call in spring 2027."
+    },
+    {
+        "name_display": "Communication Horizons 2027",
+        "name_full": "Communication Horizons Conference 2027",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "May 14-16, 2027",
+        "deadline": "2027-03-01T23:59:59Z",
+        "city": "Davis, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://communication.ucdavis.edu/horizonconf2027",
+        "notes": "Theme: The Future of Influence: People, Platforms, and Artificial Intelligence. 500-word extended abstracts (excluding title page, references, tables, figures). Empirical submissions must have completed data collection and include preliminary results. Accepted work is invited as a research presentation or poster. Decisions March 15, 2027. Submission site TBA; held at the UC Davis Student Community Center."
+    },
+    {
+        "name_display": "SEASON 2027",
+        "name_full": "Search Engines and Society Annual Conference 2027 (Presentations)",
+        "venue_type": "Conference",
+        "submission_type": "Extended abstracts",
+        "event_dates": "September 15-17, 2027",
+        "deadline": "2027-04-30T23:59:59Z",
+        "city": "Lund",
+        "country": "Sweden",
+        "archival": "Non-archival",
+        "link": "https://searchenginesandsociety.net/season-2027/cfp/",
+        "notes": "Extended abstract, max 800 words (excluding references), APA style, PDF via EasyChair. Ongoing and work-in-progress research welcome. Accepted abstracts are made freely available in a Book of Abstracts after the conference. Hosted at Lund University; organized by the Search Engines and Society Network (SEASON). Notification date not yet announced."
+    },
+    {
+        "name_display": "SEASON 2027",
+        "name_full": "Search Engines and Society Annual Conference 2027 (Interactive Sessions)",
+        "venue_type": "Conference",
+        "submission_type": "Panels",
+        "event_dates": "September 15-17, 2027",
+        "deadline": "2027-04-30T23:59:59Z",
+        "city": "Lund",
+        "country": "Sweden",
+        "archival": "Non-archival",
+        "link": "https://searchenginesandsociety.net/season-2027/cfp/",
+        "notes": "Panels, workshops, and experimental formats of 60-180 minutes. Proposal max 1000 words (excluding references) covering purpose, abstract, and format; APA style, PDF via EasyChair. Notification date not yet announced."
+    },
+    {
+        "name_display": "SEASON 2027",
+        "name_full": "Search Engines and Society Annual Conference 2027 (Posters)",
+        "venue_type": "Conference",
+        "submission_type": "Posters",
+        "event_dates": "September 15-17, 2027",
+        "deadline": "2027-04-30T23:59:59Z",
+        "city": "Lund",
+        "country": "Sweden",
+        "archival": "Non-archival",
+        "link": "https://searchenginesandsociety.net/season-2027/cfp/",
+        "notes": "Poster abstract max 500 words (excluding references), APA style, PDF via EasyChair. Notification date not yet announced."
+    },
+    {
+        "name_display": "ICA 2027",
+        "name_full": "International Communication Association Conference (Blue Sky Workshops)",
+        "venue_type": "Conference",
+        "submission_type": "Workshops",
+        "event_dates": "June 3-7, 2027",
+        "deadline": "2026-11-02T17:00:00Z",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.icahdq.org/page/ICA27-bluesky",
+        "notes": "Proposals for 75-minute Blue Sky Workshops (interactive, discussion-based sessions; not panels or lectures), submitted via the online proposal form. Same timeline as conference papers: September 1 to November 2, 2026 at 12:00 noon ET."
+    },
+    {
+        "name_display": "ICA 2027",
+        "name_full": "International Communication Association Conference (Journalism Studies Division PhD Colloquium)",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "June 2, 2027",
+        "deadline": "2027-02-12T23:59:59Z",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.ica-phd-colloquium.news/call/",
+        "notes": "In-person preconference for PhD students in journalism studies, held at the University of Strathclyde the day before ICA 2027. Submit a 500-word abstract (excluding references) as PDF; deadline 11:59 pm AoE. Notification February 28, 2027; accepted participants submit a full or working paper (up to 8,000 words) by May 1, 2027."
+    },
+    {
+        "name_display": "IC2S2 2027",
+        "name_full": "International Conference on Computational Social Science",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Milan",
+        "country": "Italy",
+        "archival": "Non-archival",
+        "link": "https://iscss.org/",
+        "notes": "13th IC2S2, announced for Milan, Italy. Dates and call for abstracts not yet published; the 2026 edition's 2-page anonymized extended abstracts were due in early March (AoE), so expect a call around January 2027."
+    },
+    {
+        "name_display": "IC2S2 2027",
+        "name_full": "International Conference on Computational Social Science",
+        "venue_type": "Conference",
+        "submission_type": "Tutorials",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Milan",
+        "country": "Italy",
+        "archival": "Non-archival",
+        "link": "https://iscss.org/",
+        "notes": "13th IC2S2, announced for Milan, Italy. Tutorial call not yet published; the 2026 edition's tutorial proposals were due in early February."
+    },
+    {
+        "name_display": "PolNet 2027",
+        "name_full": "Political Networks Conference 2027",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Nashville, TN",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://sites.google.com/view/confpolinetworks/2027",
+        "notes": "20th Annual Political Networks Conference, hosted by Vanderbilt University. Dates and call for abstracts not yet announced (official site says 'date tba, details will follow'). APSA Political Networks Section conference. The 2026 abstract deadline was April 22, so expect a spring 2027 deadline."
+    },
+    {
+        "name_display": "Trust & Safety Conference 2027",
+        "name_full": "Trust & Safety Research Conference 2027",
+        "venue_type": "Conference",
+        "submission_type": "Presentations",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Stanford, CA",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://tip.fsi.stanford.edu/evergreen-trust-and-safety-research-conference",
+        "notes": "6th annual conference, Stanford Tech Impact and Policy Center. Organizers say 2027 dates will be announced in spring 2027. Accepts research presentations, lightning talks, posters, and workshop proposals. 2026 cycle: call opened February 2, proposals due April 30, conference October 1-2."
+    },
+    {
+        "name_display": "CySoc 2027",
+        "name_full": "International Workshop on Cyber Social Threats",
+        "venue_type": "Conference Workshop",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Archival",
+        "link": "https://cy-soc.github.io/",
+        "notes": "Expected to be co-located with ICWSM 2027 in Edinburgh (May 2027). ICWSM 2027 workshop proposals are due January 15, 2027 with notification March 15, 2027, so the CySoc 2027 call is not expected before mid-March 2027. Past editions accepted research (8-11 pp), position, short, and demo papers in AAAI format with a late-March deadline."
+    },
+    {
+        "name_display": "CSS 2027",
+        "name_full": "Computational Social Science Society of the Americas Conference",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Santa Fe, NM",
+        "country": "USA",
+        "archival": "Archival",
+        "link": "https://computationalsocialscience.org/conferences/",
+        "notes": "CSS 2027 call not yet released. Location assumed Santa Fe (host every year since 2011 except virtual 2021). 2026 papers (3,000-5,000 words) were due July 22 after an extension from June 30; expect a call around March-April 2027."
+    },
+    {
+        "name_display": "CSS 2027",
+        "name_full": "Computational Social Science Society of the Americas Conference",
+        "venue_type": "Conference",
+        "submission_type": "Extended abstracts",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Santa Fe, NM",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://computationalsocialscience.org/conferences/",
+        "notes": "CSS 2027 call not yet released. Location assumed Santa Fe. 2026 extended abstracts were 1,000-2,000 words, due July 22."
+    },
+    {
+        "name_display": "CSS 2027",
+        "name_full": "Computational Social Science Society of the Americas Conference",
+        "venue_type": "Conference",
+        "submission_type": "Posters",
+        "event_dates": "TBD, 2027",
+        "deadline": "N/A",
+        "city": "Santa Fe, NM",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://computationalsocialscience.org/conferences/",
+        "notes": "CSS 2027 call not yet released. Location assumed Santa Fe. 2026 posters required an ~800-word abstract, due July 22."
     }
 ]
