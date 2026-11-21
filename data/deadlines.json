@@ -1777,7 +1777,7 @@
         "country": "Japan",
         "archival": "Archival",
         "link": "https://2027.aclweb.org/calls/main/",
-        "notes": "ARR paper submission deadline (January 2027 ARR cycle). Long papers: 8 pages, short papers: 4 pages (+1 page for camera-ready). Double-blind via OpenReview; commit to ACL after ARR review (commitment deadline TBA). Theme track: 'Homogenization and Knowledge Collapse in LLMs'. Papers not accepted to the main conference are considered for Findings. Tutorials Aug 17, workshops Aug 18-19, main conference Aug 20-22."
+        "notes": "ARR paper submission deadline (January 2027 ARR cycle). Long papers: 8 pages, short papers: 4 pages (+1 page for camera-ready). Double-blind via OpenReview; commit to ACL after ARR review (commitment deadline TBA). Theme track: 'Homogenization and Knowledge Collapse in LLMs'. Papers not accepted to the main conference are considered for Findings. Tutorials Aug 17, workshops Aug 18-19, main conference Aug 20-22. Venue: Kyoto International Conference Center."
     },
     {
         "name_display": "PolNet 2026",
@@ -1815,7 +1815,7 @@
         "city": "Dublin",
         "country": "Ireland",
         "archival": "Archival",
-        "link": "https://www2027.thewebconf.org/workshops/",
+        "link": "https://www2027.thewebconf.org/call-for-workshops/",
         "notes": "Workshop proposals. Proposal notification October 12, 2026. Workshops held May 10-11, 2027. Workshop paper submission January 4, 2027; notification February 1, 2027; final versions February 16, 2027."
     },
     {
@@ -1829,7 +1829,7 @@
         "country": "Ireland",
         "archival": "Archival",
         "link": "https://www2027.thewebconf.org/tutorials/",
-        "notes": "Tutorial proposals (deadline extended). Half-day (up to 3 hours), lecture-style or hands-on; proposal up to 4 pages incl. references. Notification January 25, 2027. Tutorials held May 10-11, 2027. Final versions due February 16, 2027."
+        "notes": "Tutorial proposals (deadline extended). Half-day (up to 3 hours), lecture-style or hands-on; proposal up to 4 pages incl. references. Notification January 25, 2027. Tutorials held May 10-11, 2027. Final versions due February 16, 2027. Proposals require a video teaser of up to 3 minutes; single-blind review via OpenReview."
     },
     {
         "name_display": "The Web Conference 2027",
@@ -2467,5 +2467,83 @@
         "archival": "Non-archival",
         "link": "https://computationalsocialscience.org/conferences/",
         "notes": "CSS 2027 call not yet released. Location assumed Santa Fe. 2026 posters required an ~800-word abstract, due July 22."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Industry Innovation Forum)",
+        "venue_type": "Conference",
+        "submission_type": "Panels",
+        "event_dates": "May 10-14, 2027",
+        "deadline": "2026-12-07T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Non-archival",
+        "link": "https://www2027.thewebconf.org/industry-innovation-forum/",
+        "notes": "Proposals for Industry Innovation Forums (Industry Track): one moderator plus 4-5 industry panelists, each giving a 15-20 minute talk, followed by a 30-minute panel. Submit title, moderator/panelist details and bios, and a ~500-word abstract with outline and time allocation via Microsoft CMT (Industry instance). Should be led by companies or industrial research groups; all presenters must attend in person. Notification January 4, 2027."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Web4All: Technical and Communication Papers)",
+        "venue_type": "Conference",
+        "submission_type": "Full papers",
+        "event_dates": "May 10-11, 2027",
+        "deadline": "2027-02-12T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www.w4a.info/2027/technical-and-communication-papers/",
+        "notes": "Web4All 2027 (International Web for All Conference), co-located with The Web Conference with separate proceedings. Technical papers up to 10 pages, communication papers up to 4 pages, both excluding references; not anonymized. No separate abstract deadline. Decisions March 12, 2027; camera-ready April 9, 2027. Published in the ACM Digital Library."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Web4All: Accessibility Challenge)",
+        "venue_type": "Conference",
+        "submission_type": "Demonstrations",
+        "event_dates": "May 10-11, 2027",
+        "deadline": "2027-03-19T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Non-archival",
+        "link": "https://www.w4a.info/2027/accessibility-challenge/",
+        "notes": "Web4All 2027 Accessibility Challenge: two-page extended abstract plus an accessible demo video of up to 5 minutes, submitted by email. Decisions March 26, 2027. At least one author must attend and present."
+    },
+    {
+        "name_display": "The Web Conference 2027",
+        "name_full": "The Web Conference 2027 (Web4All: Doctoral Consortium)",
+        "venue_type": "Conference",
+        "submission_type": "Student Event",
+        "event_dates": "May 9, 2027",
+        "deadline": "2027-03-19T23:59:59Z",
+        "city": "Dublin",
+        "country": "Ireland",
+        "archival": "Archival",
+        "link": "https://www.w4a.info/2027/doctoral-consortium/",
+        "notes": "Web4All 2027 Doctoral Consortium (held May 9, 2027). Two-page extended abstract, supervisor letter of support, and application form, submitted by email. Decisions March 26, 2027; camera-ready April 9, 2027. Accepted abstracts published in the Web4All proceedings (ACM Digital Library). Note: the call page body lists March 17 while the Web4All and Web Conference important dates list March 19; confirm before submitting."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (WSDM Cup: Agentic Search over Instruction Trajectories)",
+        "venue_type": "Conference",
+        "submission_type": "Competitions",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2027-02-05T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdm2027-cup.github.io/agenticsearch/",
+        "notes": "WSDM Cup challenge organized by Huawei and openJiuwen: retrieve and adapt past agent trajectories to guide a fixed agent across ALFWorld, WebShop, and HotpotQA. Registration opened November 18, 2026; submission portal opens December 4; mid-term results January 5, 2027; final submission deadline and registration close February 5, 2027 (dates provisional). Max 5 submissions per team. $10,000 in prizes; presentations at WSDM 2027."
+    },
+    {
+        "name_display": "WSDM 2027",
+        "name_full": "ACM International Conference on Web Search and Data Mining (WSDM Cup: Writing Agents for Community Notes)",
+        "venue_type": "Conference",
+        "submission_type": "Competitions",
+        "event_dates": "February 15-19, 2027",
+        "deadline": "2026-12-08T23:59:59Z",
+        "city": "Hong Kong",
+        "country": "China",
+        "archival": "Non-archival",
+        "link": "https://wsdmcup2027.github.io",
+        "notes": "WSDM Cup challenge: build autonomous AI agents that write Community Notes on X. Deadline shown is the end of the qualifying round (November 18-December 8, 2026); no explicit registration cutoff is stated. Registration opened November 11, 2026; official scoring December 12, 2026-February 5, 2027, when system descriptions are due (dates tentative). One agent per team; fully automated pipeline; prize winners must open-source their writer. Prizes $4,000/$2,000/$1,000 plus open-weight bonuses."
     }
 ]
