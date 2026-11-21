@@ -2040,7 +2040,7 @@
         "notes": "Preference for mid-stage PhD students. Single-author (no advisors as co-authors), non-anonymized. Up to 4-page research description (single-column extended abstract, excl. references) plus benefits statement. Notification February 18, 2027. Accepted work published as an Extended Abstract in the ACM DL. Part of the restructured doctoral consortium."
     },
     {
-        "name_display": "ICWSM 2027",
+        "name_display": "ICWSM 2027 (Dataset Papers)",
         "name_full": "International AAAI Conference on Web and Social Media 2027 - Dataset Papers",
         "venue_type": "Conference",
         "submission_type": "Research Papers",
@@ -2053,17 +2053,43 @@
         "notes": "Dataset papers presenting novel datasets that benefit the research community. Only accepted in the January 2027 (Round 3) submission window. 2-10 pages excluding checklist; single-blind review; a DOI indexing the dataset is required. Notification March 15, 2027."
     },
     {
-        "name_display": "ICWSM 2027",
+        "name_display": "ICWSM 2027 (Social Science Track, Round 1)",
         "name_full": "International AAAI Conference on Web and Social Media 2027 - Social Science and Sociophysics Track",
         "venue_type": "Conference",
-        "submission_type": "Abstracts",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "2026-05-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Same deadlines and requirements as full papers. Papers are not included in the proceedings, though abstracts are published. Notification July 15, 2026."
+    },
+    {
+        "name_display": "ICWSM 2027 (Social Science Track, Round 2)",
+        "name_full": "International AAAI Conference on Web and Social Media 2027 - Social Science and Sociophysics Track",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
+        "event_dates": "TBD, 2027",
+        "deadline": "2026-09-15T23:59:00Z",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "archival": "Non-archival",
+        "link": "https://www.icwsm.org/2027/submit/",
+        "notes": "Same deadlines and requirements as full papers. Papers are not included in the proceedings, though abstracts are published. Notification November 15, 2026."
+    },
+    {
+        "name_display": "ICWSM 2027 (Social Science Track, Round 3)",
+        "name_full": "International AAAI Conference on Web and Social Media 2027 - Social Science and Sociophysics Track",
+        "venue_type": "Conference",
+        "submission_type": "Research Papers",
         "event_dates": "TBD, 2027",
         "deadline": "2027-01-15T23:59:00Z",
         "city": "Edinburgh",
         "country": "United Kingdom",
         "archival": "Non-archival",
         "link": "https://www.icwsm.org/2027/submit/",
-        "notes": "Same deadlines and requirements as full papers (also accepted in the May and September 2026 rounds); this is the final window for ICWSM 2027. Papers are not included in the proceedings, though abstracts are published. Notification March 15, 2027."
+        "notes": "Same deadlines and requirements as full papers; this is the final window for ICWSM 2027. Papers are not included in the proceedings, though abstracts are published. Notification March 15, 2027."
     },
     {
         "name_display": "The Web Conference 2027",
