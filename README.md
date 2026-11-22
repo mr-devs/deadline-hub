@@ -47,6 +47,8 @@ one-off deadlines described above.
 | ICWSM | International AAAI Conference on Web and Social Media |
 | NetSci | International School and Conference on Network Science |
 | PolNet | Political Networks Conference |
+| SCAI | Conference on Society-Centered AI |
+| SEASON | Search Engines and Society Annual Conference |
 | TADA | New Directions in Analyzing Text as Data |
 | — | The Web Conference |
 | Trust & Safety Conference | Trust & Safety Research Conference |

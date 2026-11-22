@@ -2545,5 +2545,18 @@
         "archival": "Non-archival",
         "link": "https://wsdmcup2027.github.io",
         "notes": "WSDM Cup challenge: build autonomous AI agents that write Community Notes on X. Deadline shown is the end of the qualifying round (November 18-December 8, 2026); no explicit registration cutoff is stated. Registration opened November 11, 2026; official scoring December 12, 2026-February 5, 2027, when system descriptions are due (dates tentative). One agent per team; fully automated pipeline; prize winners must open-source their writer. Prizes $4,000/$2,000/$1,000 plus open-weight bonuses."
+    },
+    {
+        "name_display": "SCAI 2027",
+        "name_full": "Conference on Society-Centered AI",
+        "venue_type": "Conference",
+        "submission_type": "Abstracts",
+        "event_dates": "March 4-5, 2027",
+        "deadline": "2026-12-15T23:59:59Z",
+        "city": "Durham, NC",
+        "country": "USA",
+        "archival": "Non-archival",
+        "link": "https://sites.duke.edu/scai/submissions/",
+        "notes": "Call for research abstracts and art. Abstracts of 150-300 words plus 3-5 keywords. Presentation formats: poster presentations, art demos, spotlight talks (15 min), and rapid fire talks (5 min). Notification of acceptance January 15, 2027. Accepted abstracts and artist statements are archived on the conference website (authors may opt out); no proceedings. Held at Duke University's Fuqua School of Business. No deadline time zone is stated."
     }
 ]
